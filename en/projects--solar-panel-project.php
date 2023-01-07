@@ -85,7 +85,7 @@
 			<div class="col-md-12">
 				<div class="section-container align-center">
 					<h3 class="section-title">Our Solar Energy Projects</h3>
-					<iframe src="https://drive.google.com/file/d/1i01tUDROe3CeHIz6T73OoEj7xiAL6QcQ/preview" width="100%" height="680" allow="autoplay"></iframe>
+					<iframe src="https://drive.google.com/file/d/1uIZYZGkfWVeCbbmctBOxmqUnDR-r12_W/preview" width="100%" height="680" allow="autoplay"></iframe>
 				</div>
 			</div>
 		</div>

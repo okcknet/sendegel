@@ -23,25 +23,15 @@
 
 
 <section class="section section5">
-
 	<h1 class="page-title">Su Kuyusu Projesi</h1>
-
 	<div class="img-wrapper">
-
 		<img src="/assets/images/content/projects/bg-su-kuyusu-projesi.jpg" alt="" class="img-responsive">
-
 	</div>
-
 </section>
 
-
-
 <section class="subpage">
-
 	<div class="container">
-
 		<div class="row">
-
 			<div class="col-md-8 col-md-offset-2">
 
 				<h2 class="page-description">Sen De Gel olarak Afrika’nın en uzak bölgelerine temiz su kaynakları açıyoruz, insanları en temel yaşam ihtiyacımız su ile buluşturuyoruz.</h2>
@@ -83,84 +73,52 @@
 
 
 <section class="section section11">
-
 	<div class="container">
-
 		<div class="row">
-
 			<div class="col-md-12">
-
 				<div class="section-container">
 
 					<h3 class="section-title">Fotoğraflar</h3>
 
 					<div class="card5">
-
 						<div class="row">
 
 							<div class="col-md-3 col-sm-6 col-xs-12 card5-item">
-
 								<a data-fancybox="images" href="../assets/images/content/projects/su-kuyusu-projesi-l1.jpg" title="Fotoğraf">
-
 									<div class="mask"><i class="icon icon-zoom"></i></div>
-
 									<img src="../assets/images/content/projects/su-kuyusu-projesi-s1.jpg" alt="Proje" width="255" height="255" class="img-responsive">
-
 								</a>
-
 							</div>
 
 							<div class="col-md-3 col-sm-6 col-xs-12 card5-item">
-
 								<a data-fancybox="images" href="../assets/images/content/projects/su-kuyusu-projesi-l2.jpg" title="Fotoğraf">
-
 									<div class="mask"><i class="icon icon-zoom"></i></div>
-
 									<img src="../assets/images/content/projects/su-kuyusu-projesi-s2.jpg" alt="Proje" width="255" height="255" class="img-responsive">
-
 								</a>
-
 							</div>
 
 							<div class="col-md-3 col-sm-6 col-xs-12 card5-item">
-
 								<a data-fancybox="images" href="../assets/images/content/projects/su-kuyusu-projesi-l3.jpg" title="Fotoğraf">
-
 									<div class="mask"><i class="icon icon-zoom"></i></div>
-
 									<img src="../assets/images/content/projects/su-kuyusu-projesi-s3.jpg" alt="Proje" width="255" height="255" class="img-responsive">
-
 								</a>
-
 							</div>
 
 							<div class="col-md-3 col-sm-6 col-xs-12 card5-item">
-
 								<a data-fancybox="images" href="../assets/images/content/projects/su-kuyusu-projesi-l4.jpg" title="Fotoğraf">
-
 									<div class="mask"><i class="icon icon-zoom"></i></div>
-
 									<img src="../assets/images/content/projects/su-kuyusu-projesi-s4.jpg" alt="Proje" width="255" height="255" class="img-responsive">
-
 								</a>
-
 							</div>
 
 						</div>
-
 					</div>
-
+					
 				</div>
-
 			</div>
-
 		</div>
-
 	</div>
-
 </section>
-
-
 
 <section class="section">
 	<div class="container">
@@ -168,46 +126,26 @@
 			<div class="col-md-12">
 				<div class="section-container align-center">
 					<h3 class="section-title">Su Kuyusu Projelerimiz</h3>
-					<iframe src="https://drive.google.com/file/d/1nBEklsosrZkTQ1UFTilv9tQPLuaS1J1t/preview" width="100%" height="680" allow="autoplay"></iframe>
+					<iframe src="https://drive.google.com/file/d/1nM017FIZTacARUS2G9bamqtAUH9kXKRZ/preview" width="100%" height="680" allow="autoplay"></iframe>
 				</div>
 			</div>
 		</div>
 	</div>
 </section>
-
-
 
 <section class="section section3">
-
 	<div class="container">
-
 		<div class="row">
-
 			<div class="col-md-12">
-
 				<div class="section-container align-center">
-
 					<h3 class="section-title wo-section-description">Projelerimiz</h3>
-
 					<?php include 'include/modules/card--projelerimiz.php' ?>
-
 				</div>
-
 			</div>
-
 		</div>
-
 	</div>
-
 </section>
 
-
-
-<!-- Footer -->
-
-<?php include 'include/footer.php' ?>
-
-</body>
-
+		<?php include 'include/footer.php' ?>
+	</body>
 </html>
-

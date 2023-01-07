@@ -559,7 +559,7 @@
 			<div class="col-md-12">
 				<div class="section-container align-center">
 					<h3 class="section-title">Diğer Projelerimiz</h3>
-					<iframe src="https://drive.google.com/file/d/1VXO9zhq0XqKCCc0SCiNAwmJ3Mv3yx6q-/preview" width="100%" height="680" allow="autoplay"></iframe>
+					<iframe src="https://drive.google.com/file/d/1wL0ReJCqlJz1fL87zFYMCV56jQNjfKrZ/preview" width="100%" height="680" allow="autoplay"></iframe>
 				</div>
 			</div>
 		</div>

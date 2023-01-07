@@ -159,7 +159,7 @@
 			<div class="col-md-12">
 				<div class="section-container align-center">
 					<h3 class="section-title">Güneş Enerjisi Projelerimiz</h3>
-					<iframe src="https://drive.google.com/file/d/1BpEyKoLoeQM3fVzc_Hp9Q0KBRRCA93Pr/preview" width="100%" height="680" allow="autoplay"></iframe>
+					<iframe src="https://drive.google.com/file/d/1xvR-ZYb4Xn07Z3owsG6IpUn66eIArlOS/preview" width="100%" height="680" allow="autoplay"></iframe>
 				</div>
 			</div>
 		</div>

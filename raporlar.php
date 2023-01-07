@@ -15,6 +15,7 @@
 			</div>
 		</section>
 		<div class="tab tab1">
+			
 			<ul class="nav nav-tabs" role="tablist">
 				<li class="active"><a href="#bagimsiz-denetim-raporlari" data-toggle="tab">Bağımsız Denetim Raporları</a></li>
 				<li><a href="#faaliyet-raporlari" data-toggle="tab">Faaliyet Raporları</a></li>
@@ -22,304 +23,296 @@
 				<li><a href="#beyannameler" data-toggle="tab">Beyannameler</a></li>
 			</ul>
 
+			<section class="section">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-12">
 
+							<div class="tab-content">
 
-				<section class="section">
+								<div role="tabpanel" class="tab-pane fade in active" id="bagimsiz-denetim-raporlari">
 
-					<div class="container">
+									<div class="text-center">
+										<a class="btn btn-primary sdg-folder-button" href="https://drive.google.com/drive/folders/1lpxQAiSKGkMCMrTChjvxctL1B92ux7u5" title="Tüm Bağımsız Denetim Raporları" target="_blank">
+											<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-folder2-open" viewBox="0 0 16 16">
+												<path d="M1 3.5A1.5 1.5 0 0 1 2.5 2h2.764c.958 0 1.76.56 2.311 1.184C7.985 3.648 8.48 4 9 4h4.5A1.5 1.5 0 0 1 15 5.5v.64c.57.265.94.876.856 1.546l-.64 5.124A2.5 2.5 0 0 1 12.733 15H3.266a2.5 2.5 0 0 1-2.481-2.19l-.64-5.124A1.5 1.5 0 0 1 1 6.14V3.5zM2 6h12v-.5a.5.5 0 0 0-.5-.5H9c-.964 0-1.71-.629-2.174-1.154C6.374 3.334 5.82 3 5.264 3H2.5a.5.5 0 0 0-.5.5V6zm-.367 1a.5.5 0 0 0-.496.562l.64 5.124A1.5 1.5 0 0 0 3.266 14h9.468a1.5 1.5 0 0 0 1.489-1.314l.64-5.124A.5.5 0 0 0 14.367 7H1.633z"/>
+											</svg>
+											<span>Tüm Bağımsız Denetim Raporları</span>
+										</a>
+									</div>
 
-						<div class="row">
+									<div class="accordion accordion2">
+										<div class="panel-group" id="accordion1">
 
-							<div class="col-md-12">
+											<div class="panel">
+												<div class="panel-heading">
+													<h4 class="panel-title">
+														<a href="https://drive.google.com/file/d/17FQbrhc39Wpkp3iyszAwWbviu5I65ofE/view" target="_blank" title="2021 Yılı Bağımsız Denetim Raporu">
+															<span>2021 Yılı Bağımsız Denetim Raporu</span>
+															<i class="icon icon-zoom"></i>
+														</a>
+													</h4>
+												</div>
+											</div>
 
-								<div class="tab-content">
+											<div class="panel">
+												<div class="panel-heading">
+													<h4 class="panel-title">
+														<a href="https://drive.google.com/file/d/1iUSS5JI-ZSZQWH5j6GSYYJ8aAZS1VGlu/view" target="_blank" title="2020 Yılı Bağımsız Denetim Raporu">
+															<span>2020 Yılı Bağımsız Denetim Raporu</span>
+															<i class="icon icon-zoom"></i>
+														</a>
+													</h4>
+												</div>
+											</div>
 
+											<div class="panel">
+												<div class="panel-heading">
+													<h4 class="panel-title">
+														<a href="https://drive.google.com/file/d/1jdGkYolQL4SY7Zj4yQ9-ielLcpOD1fgC/view" target="_blank" title="2019 Yılı Bağımsız Denetim Raporu">
+															<span>2019 Yılı Bağımsız Denetim Raporu</span>
+															<i class="icon icon-zoom"></i>
+														</a>
+													</h4>
+												</div>
+											</div>
 
-									<div role="tabpanel" class="tab-pane fade in active" id="bagimsiz-denetim-raporlari">
+											<div class="panel">
+												<div class="panel-heading">
+													<h4 class="panel-title">
+														<a href="https://drive.google.com/file/d/1yGGAB4nbjmytcVrr4s6HDW46A3bSa227/view" target="_blank" title="2018 Yılı Bağımsız Denetim Raporu">
+															<span>2018 Yılı Bağımsız Denetim Raporu</span>
+															<i class="icon icon-zoom"></i>
+														</a>
+													</h4>
+												</div>
+											</div>
 
-										<div class="text-center">
-											<a class="btn btn-primary sdg-folder-button" href="https://drive.google.com/drive/folders/1lpxQAiSKGkMCMrTChjvxctL1B92ux7u5" title="Tüm Bağımsız Denetim Raporları" target="_blank">
-												<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-folder2-open" viewBox="0 0 16 16">
-													<path d="M1 3.5A1.5 1.5 0 0 1 2.5 2h2.764c.958 0 1.76.56 2.311 1.184C7.985 3.648 8.48 4 9 4h4.5A1.5 1.5 0 0 1 15 5.5v.64c.57.265.94.876.856 1.546l-.64 5.124A2.5 2.5 0 0 1 12.733 15H3.266a2.5 2.5 0 0 1-2.481-2.19l-.64-5.124A1.5 1.5 0 0 1 1 6.14V3.5zM2 6h12v-.5a.5.5 0 0 0-.5-.5H9c-.964 0-1.71-.629-2.174-1.154C6.374 3.334 5.82 3 5.264 3H2.5a.5.5 0 0 0-.5.5V6zm-.367 1a.5.5 0 0 0-.496.562l.64 5.124A1.5 1.5 0 0 0 3.266 14h9.468a1.5 1.5 0 0 0 1.489-1.314l.64-5.124A.5.5 0 0 0 14.367 7H1.633z"/>
-												</svg>
-												<span>Tüm Bağımsız Denetim Raporları</span>
-											</a>
+											<div class="panel">
+												<div class="panel-heading">
+													<h4 class="panel-title">
+														<a href="https://drive.google.com/file/d/1m4YSD8vWK3BjnwGoK6CqFuiPlCLMtrtR/view" target="_blank" title="2017 Yılı Bağımsız Denetim Raporu">
+															<span>2017 Yılı Bağımsız Denetim Raporu</span>
+															<i class="icon icon-zoom"></i>
+														</a>
+													</h4>
+												</div>
+											</div>
+
+											<div class="panel">
+												<div class="panel-heading">
+													<h4 class="panel-title">
+														<a href="https://drive.google.com/file/d/1DgjowjgTVAqMdRcWUVKzGUW6AJykKK7u/view" target="_blank" title="2016 Yılı Bağımsız Denetim Raporu">
+															<span>2016 Yılı Bağımsız Denetim Raporu </span>
+															<i class="icon icon-zoom"></i>
+														</a>
+													</h4>
+												</div>
+											</div>
+
+											<div class="panel">
+												<div class="panel-heading">
+													<h4 class="panel-title">
+														<a href="https://drive.google.com/file/d/11U5m2g2prD11fc3p-cKg9fsY2hvCQixH/view" target="_blank" title="2015 Yılı Bağımsız Denetim Raporu">
+															<span>2015 Yılı Bağımsız Denetim Raporu</span>
+															<i class="icon icon-zoom"></i>
+														</a>
+													</h4>
+												</div>
+											</div>
+
+											<div class="panel">
+												<div class="panel-heading">
+													<h4 class="panel-title">
+														<a href="https://drive.google.com/file/d/1Ai2B7fwDQZrVw5YaIMkoHa1ntP6CbU0A/view" target="_blank" title="2014 Yılı Bağımsız Denetim Raporu">
+															<span>2014 Yılı Bağımsız Denetim Raporu</span>
+															<i class="icon icon-zoom"></i>
+														</a>
+													</h4>
+												</div>
+											</div>
+
+											<div class="panel">
+												<div class="panel-heading">
+													<h4 class="panel-title">
+														<a href="https://drive.google.com/file/d/1XCT4XFb8UXkDHRKGq8vWl4xuh0DaIsAe/view" target="_blank" title="2013 Yılı Bağımsız Denetim Raporu">
+															<span>2013 Yılı Bağımsız Denetim Raporu</span>
+															<i class="icon icon-zoom"></i>
+														</a>
+													</h4>
+												</div>
+											</div>
+
+											<div class="panel">
+												<div class="panel-heading">
+													<h4 class="panel-title">
+														<a href="https://drive.google.com/file/d/1YPDPA2dY-OoRKOCvLlipA77OedgdEWdn/view" target="_blank" title="2012 Yılı Bağımsız Denetim Raporu">
+															<span>2012 Yılı Bağımsız Denetim Raporu</span>
+															<i class="icon icon-zoom"></i>
+														</a>
+													</h4>
+												</div>
+											</div>
+
 										</div>
+									</div>
 
-										<div class="accordion accordion2">
-											<div class="panel-group" id="accordion1">
+								</div>
 
-												<div class="panel">
-													<div class="panel-heading">
-														<h4 class="panel-title">
-															<a href="https://drive.google.com/file/d/17FQbrhc39Wpkp3iyszAwWbviu5I65ofE/view" target="_blank" title="2021 Yılı Bağımsız Denetim Raporu">
-																<span>2021 Yılı Bağımsız Denetim Raporu</span>
-																<i class="icon icon-zoom"></i>
-															</a>
-														</h4>
-													</div>
+								<div role="tabpanel" class="tab-pane fade" id="faaliyet-raporlari">
+									<div class="text-center">
+										<a class="btn btn-primary sdg-folder-button" href="https://drive.google.com/drive/folders/1o8DRoDyn1rfHPbbxA5BfAWVDIT7JW-5i" title="Tüm Faaliyet Raporları" target="_blank">
+											<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-folder2-open" viewBox="0 0 16 16">
+												<path d="M1 3.5A1.5 1.5 0 0 1 2.5 2h2.764c.958 0 1.76.56 2.311 1.184C7.985 3.648 8.48 4 9 4h4.5A1.5 1.5 0 0 1 15 5.5v.64c.57.265.94.876.856 1.546l-.64 5.124A2.5 2.5 0 0 1 12.733 15H3.266a2.5 2.5 0 0 1-2.481-2.19l-.64-5.124A1.5 1.5 0 0 1 1 6.14V3.5zM2 6h12v-.5a.5.5 0 0 0-.5-.5H9c-.964 0-1.71-.629-2.174-1.154C6.374 3.334 5.82 3 5.264 3H2.5a.5.5 0 0 0-.5.5V6zm-.367 1a.5.5 0 0 0-.496.562l.64 5.124A1.5 1.5 0 0 0 3.266 14h9.468a1.5 1.5 0 0 0 1.489-1.314l.64-5.124A.5.5 0 0 0 14.367 7H1.633z"/>
+											</svg>
+											<span>Tüm Faaliyet Raporları</span>
+										</a>
+									</div>									
+
+									<div class="accordion accordion2">
+										<div class="panel-group" id="accordion2">
+
+											<div class="panel">
+												<div class="panel-heading">
+													<h4 class="panel-title">
+														<a href="https://drive.google.com/file/d/1BIYB0EnhIH6hYUPUwR5_oM8uaPz8xCdc/view" target="_blank" title="2021 Yılı Faaliyet Raporumuz">
+															<span>2021 Yılı Faaliyet Raporumuz</span>
+															<i class="icon icon-zoom"></i>
+														</a>
+													</h4>
 												</div>
+											</div>
 
-												<div class="panel">
-													<div class="panel-heading">
-														<h4 class="panel-title">
-															<a href="https://drive.google.com/file/d/1iUSS5JI-ZSZQWH5j6GSYYJ8aAZS1VGlu/view" target="_blank" title="2020 Yılı Bağımsız Denetim Raporu">
-																<span>2020 Yılı Bağımsız Denetim Raporu</span>
-																<i class="icon icon-zoom"></i>
-															</a>
-														</h4>
-													</div>
+											<div class="panel">
+												<div class="panel-heading">
+													<h4 class="panel-title">
+														<a href="https://drive.google.com/file/d/1KOEKwM_8cXq2ZspVQUDy4OPxAysUCYjR/view" target="_blank" title="2020 Yılı Faaliyet Raporumuz">
+															<span>2020 Yılı Faaliyet Raporumuz</span>
+															<i class="icon icon-zoom"></i>
+														</a>
+													</h4>
 												</div>
+											</div>
 
-												<div class="panel">
-													<div class="panel-heading">
-														<h4 class="panel-title">
-															<a href="https://drive.google.com/file/d/1jdGkYolQL4SY7Zj4yQ9-ielLcpOD1fgC/view" target="_blank" title="2019 Yılı Bağımsız Denetim Raporu">
-																<span>2019 Yılı Bağımsız Denetim Raporu</span>
-																<i class="icon icon-zoom"></i>
-															</a>
-														</h4>
-													</div>
-												</div>
+											<div class="panel">
 
-												<div class="panel">
-													<div class="panel-heading">
-														<h4 class="panel-title">
-															<a href="https://drive.google.com/file/d/1yGGAB4nbjmytcVrr4s6HDW46A3bSa227/view" target="_blank" title="2018 Yılı Bağımsız Denetim Raporu">
-																<span>2018 Yılı Bağımsız Denetim Raporu</span>
-																<i class="icon icon-zoom"></i>
-															</a>
-														</h4>
-													</div>
-												</div>
+												<div class="panel-heading">
 
-												<div class="panel">
-													<div class="panel-heading">
-														<h4 class="panel-title">
-															<a href="https://drive.google.com/file/d/1m4YSD8vWK3BjnwGoK6CqFuiPlCLMtrtR/view" target="_blank" title="2017 Yılı Bağımsız Denetim Raporu">
-																<span>2017 Yılı Bağımsız Denetim Raporu</span>
-																<i class="icon icon-zoom"></i>
-															</a>
-														</h4>
-													</div>
-												</div>
+													<h4 class="panel-title">
 
-												<div class="panel">
-													<div class="panel-heading">
-														<h4 class="panel-title">
-															<a href="https://drive.google.com/file/d/1DgjowjgTVAqMdRcWUVKzGUW6AJykKK7u/view" target="_blank" title="2016 Yılı Bağımsız Denetim Raporu">
-																<span>2016 Yılı Bağımsız Denetim Raporu </span>
-																<i class="icon icon-zoom"></i>
-															</a>
-														</h4>
-													</div>
-												</div>
+														<a href="https://drive.google.com/file/d/1YYmCYDz2pOGnQ0T-cSkbw3TsQmzHh94Q/view" target="_blank" title="2019 Yılı Faaliyet Raporumuz">
 
-												<div class="panel">
-													<div class="panel-heading">
-														<h4 class="panel-title">
-															<a href="https://drive.google.com/file/d/11U5m2g2prD11fc3p-cKg9fsY2hvCQixH/view" target="_blank" title="2015 Yılı Bağımsız Denetim Raporu">
-																<span>2015 Yılı Bağımsız Denetim Raporu</span>
-																<i class="icon icon-zoom"></i>
-															</a>
-														</h4>
-													</div>
-												</div>
+															<span>2019 Yılı Faaliyet Raporumuz</span>
 
-												<div class="panel">
-													<div class="panel-heading">
-														<h4 class="panel-title">
-															<a href="https://drive.google.com/file/d/1Ai2B7fwDQZrVw5YaIMkoHa1ntP6CbU0A/view" target="_blank" title="2014 Yılı Bağımsız Denetim Raporu">
-																<span>2014 Yılı Bağımsız Denetim Raporu</span>
-																<i class="icon icon-zoom"></i>
-															</a>
-														</h4>
-													</div>
-												</div>
+															<i class="icon icon-zoom"></i>
 
-												<div class="panel">
-													<div class="panel-heading">
-														<h4 class="panel-title">
-															<a href="https://drive.google.com/file/d/1XCT4XFb8UXkDHRKGq8vWl4xuh0DaIsAe/view" target="_blank" title="2013 Yılı Bağımsız Denetim Raporu">
-																<span>2013 Yılı Bağımsız Denetim Raporu</span>
-																<i class="icon icon-zoom"></i>
-															</a>
-														</h4>
-													</div>
-												</div>
+														</a>
 
-												<div class="panel">
-													<div class="panel-heading">
-														<h4 class="panel-title">
-															<a href="https://drive.google.com/file/d/1YPDPA2dY-OoRKOCvLlipA77OedgdEWdn/view" target="_blank" title="2012 Yılı Bağımsız Denetim Raporu">
-																<span>2012 Yılı Bağımsız Denetim Raporu</span>
-																<i class="icon icon-zoom"></i>
-															</a>
-														</h4>
-													</div>
+													</h4>
+
 												</div>
 
 											</div>
-										</div>
 
-									</div>
+											<div class="panel">
 
-									<div role="tabpanel" class="tab-pane fade" id="faaliyet-raporlari">
-										<div class="text-center">
-											<a class="btn btn-primary sdg-folder-button" href="https://drive.google.com/drive/folders/1o8DRoDyn1rfHPbbxA5BfAWVDIT7JW-5i" title="Tüm Faaliyet Raporları" target="_blank">
-												<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-folder2-open" viewBox="0 0 16 16">
-													<path d="M1 3.5A1.5 1.5 0 0 1 2.5 2h2.764c.958 0 1.76.56 2.311 1.184C7.985 3.648 8.48 4 9 4h4.5A1.5 1.5 0 0 1 15 5.5v.64c.57.265.94.876.856 1.546l-.64 5.124A2.5 2.5 0 0 1 12.733 15H3.266a2.5 2.5 0 0 1-2.481-2.19l-.64-5.124A1.5 1.5 0 0 1 1 6.14V3.5zM2 6h12v-.5a.5.5 0 0 0-.5-.5H9c-.964 0-1.71-.629-2.174-1.154C6.374 3.334 5.82 3 5.264 3H2.5a.5.5 0 0 0-.5.5V6zm-.367 1a.5.5 0 0 0-.496.562l.64 5.124A1.5 1.5 0 0 0 3.266 14h9.468a1.5 1.5 0 0 0 1.489-1.314l.64-5.124A.5.5 0 0 0 14.367 7H1.633z"/>
-												</svg>
-												<span>Tüm Faaliyet Raporları</span>
-											</a>
-										</div>									
+												<div class="panel-heading">
 
-										<div class="accordion accordion2">
-											<div class="panel-group" id="accordion2">
+													<h4 class="panel-title">
 
-												<div class="panel">
-													<div class="panel-heading">
-														<h4 class="panel-title">
-															<a href="https://drive.google.com/file/d/1BIYB0EnhIH6hYUPUwR5_oM8uaPz8xCdc/view" target="_blank" title="2021 Yılı Faaliyet Raporumuz">
-																<span>2021 Yılı Faaliyet Raporumuz</span>
-																<i class="icon icon-zoom"></i>
-															</a>
-														</h4>
-													</div>
-												</div>
+														<a href="https://drive.google.com/file/d/1u3-jfLlMh4JDZjqeFJb06ru_i_q16ocG/view" target="_blank" title="2018 Yılı Faaliyet Raporumuz">
 
-												<div class="panel">
-													<div class="panel-heading">
-														<h4 class="panel-title">
-															<a href="https://drive.google.com/file/d/1KOEKwM_8cXq2ZspVQUDy4OPxAysUCYjR/view" target="_blank" title="2020 Yılı Faaliyet Raporumuz">
-																<span>2020 Yılı Faaliyet Raporumuz</span>
-																<i class="icon icon-zoom"></i>
-															</a>
-														</h4>
-													</div>
-												</div>
+															<span>2018 Yılı Faaliyet Raporumuz</span>
 
-												<div class="panel">
+															<i class="icon icon-zoom"></i>
 
-													<div class="panel-heading">
+														</a>
 
-														<h4 class="panel-title">
-
-															<a href="https://drive.google.com/file/d/1YYmCYDz2pOGnQ0T-cSkbw3TsQmzHh94Q/view" target="_blank" title="2019 Yılı Faaliyet Raporumuz">
-
-																<span>2019 Yılı Faaliyet Raporumuz</span>
-
-																<i class="icon icon-zoom"></i>
-
-															</a>
-
-														</h4>
-
-													</div>
+													</h4>
 
 												</div>
 
-												<div class="panel">
+											</div>
 
-													<div class="panel-heading">
+											<div class="panel">
 
-														<h4 class="panel-title">
+												<div class="panel-heading">
 
-															<a href="https://drive.google.com/file/d/1u3-jfLlMh4JDZjqeFJb06ru_i_q16ocG/view" target="_blank" title="2018 Yılı Faaliyet Raporumuz">
+													<h4 class="panel-title">
 
-																<span>2018 Yılı Faaliyet Raporumuz</span>
+														<a href="https://drive.google.com/file/d/1VYrB7luDji0ELrNl2gri-2ZuL2yKYub9/view" target="_blank" title="2017 Yılı Faaliyet Raporumuz">
 
-																<i class="icon icon-zoom"></i>
+															<span>2017 Yılı Faaliyet Raporumuz</span>
 
-															</a>
+															<i class="icon icon-zoom"></i>
 
-														</h4>
+														</a>
 
-													</div>
-
-												</div>
-
-												<div class="panel">
-
-													<div class="panel-heading">
-
-														<h4 class="panel-title">
-
-															<a href="https://drive.google.com/file/d/1VYrB7luDji0ELrNl2gri-2ZuL2yKYub9/view" target="_blank" title="2017 Yılı Faaliyet Raporumuz">
-
-																<span>2017 Yılı Faaliyet Raporumuz</span>
-
-																<i class="icon icon-zoom"></i>
-
-															</a>
-
-														</h4>
-
-													</div>
+													</h4>
 
 												</div>
 
-												<div class="panel">
+											</div>
 
-													<div class="panel-heading">
+											<div class="panel">
 
-														<h4 class="panel-title">
+												<div class="panel-heading">
 
-															<a href="https://drive.google.com/file/d/1YJcoT6R0z9q0bjx3o6Db_M3dZSbyOe5R/view" target="_blank" title="2016 Yılı Faaliyet Raporumuz">
+													<h4 class="panel-title">
 
-																<span>2016 Yılı Faaliyet Raporumuz</span>
+														<a href="https://drive.google.com/file/d/1YJcoT6R0z9q0bjx3o6Db_M3dZSbyOe5R/view" target="_blank" title="2016 Yılı Faaliyet Raporumuz">
 
-																<i class="icon icon-zoom"></i>
+															<span>2016 Yılı Faaliyet Raporumuz</span>
 
-															</a>
+															<i class="icon icon-zoom"></i>
 
-														</h4>
+														</a>
 
-													</div>
-
-												</div>
-
-
-
-												<div class="panel">
-
-													<div class="panel-heading">
-
-														<h4 class="panel-title">
-
-															<a href="https://drive.google.com/file/d/1eTo0BpnKcbayO8x7_w7KTOdpP6FspdYH/view" target="_blank" title="2015 Yılı Faaliyet Raporumuz">
-
-																<span>2015 Yılı Faaliyet Raporumuz</span>
-
-																<i class="icon icon-zoom"></i>
-
-															</a>
-
-														</h4>
-
-													</div>
+													</h4>
 
 												</div>
 
+											</div>
 
 
-												<div class="panel">
 
-													<div class="panel-heading">
+											<div class="panel">
 
-														<h4 class="panel-title">
+												<div class="panel-heading">
 
-															<a href="https://drive.google.com/file/d/1OqCPCkResQhboJRPnMcJwFI1yaifxvHI/view" target="_blank" title="2014 Yılı Faaliyet Raporumuz">
+													<h4 class="panel-title">
 
-																<span>2014 Yılı Faaliyet Raporumuz</span>
+														<a href="https://drive.google.com/file/d/1eTo0BpnKcbayO8x7_w7KTOdpP6FspdYH/view" target="_blank" title="2015 Yılı Faaliyet Raporumuz">
 
-																<i class="icon icon-zoom"></i>
+															<span>2015 Yılı Faaliyet Raporumuz</span>
 
-															</a>
+															<i class="icon icon-zoom"></i>
 
-														</h4>
+														</a>
 
-													</div>
+													</h4>
+
+												</div>
+
+											</div>
+
+
+
+											<div class="panel">
+
+												<div class="panel-heading">
+
+													<h4 class="panel-title">
+
+														<a href="https://drive.google.com/file/d/1OqCPCkResQhboJRPnMcJwFI1yaifxvHI/view" target="_blank" title="2014 Yılı Faaliyet Raporumuz">
+
+															<span>2014 Yılı Faaliyet Raporumuz</span>
+
+															<i class="icon icon-zoom"></i>
+
+														</a>
+
+													</h4>
 
 												</div>
 
@@ -328,6 +321,8 @@
 										</div>
 
 									</div>
+
+								</div>
 
 								<div role="tabpanel" class="tab-pane fade" id="diger-raporlar">
 
@@ -553,7 +548,7 @@
 
 
 
-								<div class="text-center">
+									<div class="text-center">
 
 											<a class="btn btn-primary sdg-folder-button" href="https://drive.google.com/drive/folders/19ULddlpbjPss2i-VVHTkco5eeuctxRix" title="Tüm Beyannameler" target="_blank">
 
@@ -575,146 +570,92 @@
 
 										<div class="panel-group" id="accordion5">
 
-
+										<div class="panel">
+												<div class="panel-heading">
+													<h4 class="panel-title">
+														<a href="https://drive.google.com/file/d/1NlDH4bpS9oBm21Rcp-ZiJemjOSDkQSMY/view" target="_blank" title="SenDeGel 2020 Beyannamesi">
+															<span>SenDeGel 2021 Beyannamesi</span>
+															<i class="icon icon-zoom"></i>
+														</a>
+													</h4>
+												</div>
+											</div>
 
 											<div class="panel">
-
 												<div class="panel-heading">
-
 													<h4 class="panel-title">
-
 														<a href="https://drive.google.com/file/d/1P_qP_SsRi9bNs4JAjYwt-a8XdwpX-FFl/view" target="_blank" title="SenDeGel 2020 Beyannamesi">
-
 															<span>SenDeGel 2020 Beyannamesi</span>
-
 															<i class="icon icon-zoom"></i>
-
 														</a>
-
 													</h4>
-
 												</div>
-
 											</div>
 
 											<div class="panel">
-
 												<div class="panel-heading">
-
 													<h4 class="panel-title">
-
 														<a href="https://drive.google.com/file/d/1PfbH-dfMPlQT7zedqnBp_4opmrIeZlb8/view" target="_blank" title="SenDeGel 2019 Beyannamesi">
-
 															<span>SenDeGel 2019 Beyannamesi</span>
-
 															<i class="icon icon-zoom"></i>
-
 														</a>
-
 													</h4>
-
 												</div>
-
 											</div>
 
 											<div class="panel">
-
 												<div class="panel-heading">
-
 													<h4 class="panel-title">
-
 														<a href="https://drive.google.com/file/d/1Z8ZUIKfZzSQGY7ontQUZGLSrWujVT1zT/view" target="_blank" title="SenDeGel 2018 Beyannamesi">
-
 															<span>SenDeGel 2018 Beyannamesi</span>
-
 															<i class="icon icon-zoom"></i>
-
 														</a>
-
 													</h4>
-
 												</div>
-
 											</div>
 
 											<div class="panel">
-
 												<div class="panel-heading">
-
 													<h4 class="panel-title">
-
 														<a href="https://drive.google.com/file/d/1wk1WlQoy4FeOvA_D-em16byJYjTzLUjC/view" target="_blank" title="SenDeGel 2017 Beyannamesi">
-
 															<span>SenDeGel 2017 Beyannamesi</span>
-
 															<i class="icon icon-zoom"></i>
-
 														</a>
-
 													</h4>
-
 												</div>
-
 											</div>
 
 											<div class="panel">
-
 												<div class="panel-heading">
-
 													<h4 class="panel-title">
-
 														<a href="https://drive.google.com/file/d/1kdRJNZbje5veQ28c_bU7oZ_1bDDJ91l_/view" target="_blank" title="SenDeGel 2016 Beyannamesi">
-
 															<span>SenDeGel 2016 Beyannamesi</span>
-
 															<i class="icon icon-zoom"></i>
-
 														</a>
-
 													</h4>
-
 												</div>
-
 											</div>
 
 											<div class="panel">
-
 												<div class="panel-heading">
-
 													<h4 class="panel-title">
-
 														<a href="https://drive.google.com/file/d/1AhKt2kJifL32Ti0KUl4BTOcv3QoYTB8O/view" target="_blank" title="SenDeGel 2015 Beyannamesi">
-
 															<span>SenDeGel 2015 Beyannamesi</span>
-
 															<i class="icon icon-zoom"></i>
-
 														</a>
-
 													</h4>
-
 												</div>
-
 											</div>
 
 											<div class="panel">
-
 												<div class="panel-heading">
-
 													<h4 class="panel-title">
-
 														<a href="https://drive.google.com/file/d/1oLWXxUpEvrnNiv8tZL6Z4Td26gaoJ8M-/view" target="_blank" title="SenDeGel 2014 Beyannamesi">
-
 															<span>SenDeGel 2014 Beyannamesi</span>
-
 															<i class="icon icon-zoom"></i>
-
 														</a>
-
 													</h4>
-
 												</div>
-
 											</div>
 
 											<div class="panel">
@@ -753,11 +694,13 @@
 										</div>
 									</div>
 								</div>
+
 							</div>
 						</div>
 					</div>
 				</div>
 			</section>
+
 		</div>
 		<?php include 'include/footer.php' ?>
 	</body>

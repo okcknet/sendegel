@@ -1,3 +1,3 @@
 <p class="section-description-alternate align-center">
-  Support for Improvement in Social and Economic Living Association is a non-profit community that works to produce projects to ensure sustainable improvement of quality in social and economic areas nationally and internationally. Since our establishment, we have touched the lives of more than +506.000 people with the support of our donors.
+  Support for Improvement in Social and Economic Living Association is a non-profit community that works to produce projects to ensure sustainable improvement of quality in social and economic areas nationally and internationally. Since our establishment, we have touched the lives of more than +517.000 people with the support of our donors.
 </p>

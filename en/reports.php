@@ -56,7 +56,7 @@
 											<div class="panel">
 												<div class="panel-heading">
 													<h4 class="panel-title">
-														<a href="/https://drive.google.com/file/d/1Y0ACoKUU9MTCwHhDy8MUGcKtxyVQcMw-/view" target="_blank" title="2020 Independent Auditors' Report">
+														<a href="https://drive.google.com/file/d/1Y0ACoKUU9MTCwHhDy8MUGcKtxyVQcMw-/view" target="_blank" title="2020 Independent Auditors' Report">
 															<span>2020 Independent Auditors' Report</span>
 															<i class="icon icon-zoom"></i>
 														</a>
