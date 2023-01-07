@@ -1,0 +1,1 @@
+<p>1975 yılında Ağrı’da doğan Dara Aslan, Aziziye Lisesi’nden mezun olmuştur. 2010 yılından itibaren Türkiye Paraşüt Federasyonu’nda kayıtlı profesyonel paraşütçüdür. Türkiye Omurilik Felçlileri Derneği, Tüm Afrika’nın Dostları Derneği gibi sivil toplum kuruluşları yönetiminde aktif olarak yer almaktadır. Evli ve iki kızı bulunmaktadır.</p>

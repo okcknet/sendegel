@@ -1,0 +1,1 @@
+<p>1967 yılında Sivas’ta doğan Sema Emek, Vefa Poyraz Lisesi’nden mezun olmuştur. Uzun yıllar çeşitli sivil toplum kuruluşlarında aktif olarak yer almış, Haseki Kadın Vakfı, Hanımlar İlim ve Kültür Derneği ve Hazar Eğitim Kültür ve Dayanışma Derneği’nde farklı dönemlerde gönüllü olarak çalışmış ve yönetim kurulu üyeliği de yapmıştır. Üç çocuğu ve iki torunu bulunmaktadır.</p>

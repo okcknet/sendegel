@@ -1,0 +1,38 @@
+//------------------------------------------------------------
+// = VARIABLES
+//------------------------------------------------------------
+$font-primary: 'Roboto', sans-serif;
+$font-secondary: 'Merriweather', serif;
+
+$font-light: 300;
+$font-regular:  400;
+$font-medium: 500;
+$font-bold:  700;
+$font-black: 900;
+
+$color-bg: #fff;
+$color-404-bg: #eeeeee;
+$color-bg-secondary: #f1dab4;
+$color-bg-tertiary: #e8e8e8;
+$color-base:  #212121;
+$color-base-lighter1: #424242;
+$color-base-lighter2: #5c5c5c;
+$color-base-lighter3: #b9b9b9;
+$color-base-lighter4: #d4d4d4;
+$color-base-lighter5: #f5f5f5;
+$color-base-lighter6: #f7f7f7;
+$color-base-inverse: #ffffff;
+$color-secondary: #1489db;
+$color-secondary-darken: darken($color-secondary, 20%);
+$color-secondary-lighten: lighten($color-secondary, 20%);
+$color-tertiary: #8bc34b;
+$color-tertiary-darken: darken($color-tertiary, 20%);
+$color-tertiary-lighten: lighten($color-tertiary, 20%);
+$color-dark: #000;
+$color-quaternary: #FF4500;
+$color-quaternary-darken: darken($color-quaternary, 20%);
+
+$transition: all .3s ease-in-out;
+$border-radius: 5px;
+
+$buffer: 10px;

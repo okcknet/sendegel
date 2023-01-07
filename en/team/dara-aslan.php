@@ -1,0 +1,1 @@
+<p>Born in 1975, Ağrı, Dara Aslan graduated from Aziziye High School. He is a professional parachutist registered in the Turkish Parachute Federation since 2010. He is actively involved in the management of non-governmental organizations such as The Spinal Cord Paralytics Association of Turkey and the Association of Friends of Africa. He is married and has two daughters.</p>

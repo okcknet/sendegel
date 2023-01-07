@@ -1,0 +1,1 @@
+<p>In his 19 years of professional life, he worked in sales and marketing departments of construction, tourism, medicine and chemistry sectors. He founded Hardura Insurance in 2007. He graduated from Anadolu University Department of Management and earned his MA degree from Selçuk University Management and Organization Sciences.</p>

@@ -1,0 +1,1 @@
+<p>He was born in 1968 in Kayseri. He completed his primary and secondary education at TED Kayseri College. Graduated from Hacettepe University, English Linguistics. After working in the field of free trade for many years, he switched to corporate life and has been working as a senior manager at Nef for 10 years. He is also a board member of the Sen De Gel Association.</p>

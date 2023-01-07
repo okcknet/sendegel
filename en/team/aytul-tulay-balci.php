@@ -1,0 +1,1 @@
+<p>She is a Business Administration graduate from Istanbul University. She worked at Deloitte Independent Audit, Garanti Bank, Eksonser Foreign Trade and Teachers Academy Foundation. She is currently working as a certified public accountant at Stantec Engineering Company.</p>

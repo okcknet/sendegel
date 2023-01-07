@@ -1,0 +1,2 @@
+<p>Yugoslavya göçmeni olarak 1959 yılında Türkiye’ye gelmiştir. 2020 yılında Anadolu Üniversitesi açıköğretim bölümünden mezun oldu.
+Mercedes-Benz, MUDO, Pizza House, King Paolo- Ersoysan Ayakkabı, SOHİC-Sezgin Group ve son 8 yıldır da Branditbeyond Prodüksiyon Şirketi’nde muhasebe uzmanı olarak görev yapmaktadır.</p>

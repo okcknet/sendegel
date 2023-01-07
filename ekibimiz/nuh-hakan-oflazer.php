@@ -1,0 +1,1 @@
+<p>1968 yılında Kayseri’de doğan Nuh Hakan Oflazer, ilk ve orta öğrenimini, TED Kayseri Koleji’nde tamamladı. Hacettepe Üniversitesi İngiliz dil bilim mezunudur. Uzun yıllar devam eden serbest ticaret tecrübesinden sonra kurumsal hayata geçiş yapmıştır, on yıldır Nef’te üst düzey yönetici olarak görevine devam etmektedir. Aynı zamanda SenDeGel Derneği yönetim kurulu üyesidir.</p>

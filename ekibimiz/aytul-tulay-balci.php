@@ -1,0 +1,1 @@
+<p>İstanbul Üniversitesi işletme mezunudur. Deloitte Bağımsız Denetim, Garanti Bankası, Eksonser Dış Ticaret ve Öğretmen Akademisi Vakfı’nda çalışmıştır. Hâlen Stantec Mühendislik Şirketi'nde serbest muhasebeci mali müşavir olarak görev yapmaktadır.</p>
