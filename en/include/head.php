@@ -21,11 +21,3 @@
 <script src="/assets/js/lib.min.js"></script>
 <script src="/assets/js/core.min.js"></script>
 <script src="/assets/js/bootstrap.min.js"></script>
-<!--<script type="text/javascript" src="//platform-api.sharethis.com/js/sharethis.js#property=5936c20199fded00128b5e98&product=sticky-share-buttons"></script>-->
-
-<!--<link href="https://anka-cdn-01.azureedge.net/lakatrop/Media/Uploaded/design/icons/favicon.ico" rel="icon" type="image/x-icon"/>-->
-<!--<link href="https://anka-cdn-01.azureedge.net/lakatrop/Media/Uploaded/design/icons/favicon-192x192.png" rel="icon" sizes="192x192" type="image/png"/>-->
-<!--<link href="https://anka-cdn-01.azureedge.net/lakatrop/Media/Uploaded/design/icons/favicon-160x160.png" rel="icon" sizes="160x160" type="image/png"/>-->
-<!--<link href="https://anka-cdn-01.azureedge.net/lakatrop/Media/Uploaded/design/icons/favicon-96x96.png" rel="icon" sizes="96x96" type="image/png"/>-->
-<!--<link href="https://anka-cdn-01.azureedge.net/lakatrop/Media/Uploaded/design/icons/favicon-16x16.png" rel="icon" sizes="16x16" type="image/png"/>-->
-<!--<link href="https://anka-cdn-01.azureedge.net/lakatrop/Media/Uploaded/design/icons/favicon-32x32.png" rel="icon" sizes="32x32" type="image/png"/>-->

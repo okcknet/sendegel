@@ -22,7 +22,6 @@
                                 <ul class="dropdown-menu">
                                     <li><a href="/en/news.php" title="News">NEWS</a></li>
                                     <li><a href="/en/videos.php" title="Videos">VIDEOS</a></li>
-                                    <li><a href="/en/our-pending-projects.php">Our Pending Projects</a></li>
                                 </ul>
                             </li>
                             <li><a href="/en/become-a-member.php" title="Become a Member">JOIN US</a></li>

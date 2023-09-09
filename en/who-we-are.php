@@ -91,11 +91,11 @@
 							<a class="link-underline" href="our-supporters.php" title="Our Supporters">Detailed Information</a>
 						</div>
 						<div class="card1-item">
-							<a href="../assets/images/content/files/our-bylaws.pdf" title="Our Bylaws">
+							<a href="https://drive.google.com/file/d/1dEoBdPEmqsoEyt5Wse1rudZe4nyKxHcU/view" title="Our Bylaws">
 								<i class="icon icon-paper"></i>
 								<h4 class="card1-title">Our Bylaws</h4>
 							</a>
-							<a class="link-underline" href="../assets/images/content/files/our-bylaws.pdf" title="Our Bylaws">Detailed Information</a>
+							<a class="link-underline" href="https://drive.google.com/file/d/1dEoBdPEmqsoEyt5Wse1rudZe4nyKxHcU/view" title="Our Bylaws">Detailed Information</a>
 						</div>
 					</div>
 				</div>

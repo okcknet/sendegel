@@ -133,7 +133,6 @@
 <script src="../assets/js/lib.min.js"></script>
 <script src="../assets/js/core.min.js"></script>
 <script src="../assets/js/bootstrap.min.js"></script>
-<script src="../assets/js/sendegel.js"></script>
 <!-- end // sendegel - js -->
 
 <script>

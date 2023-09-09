@@ -10,21 +10,6 @@
 						<div class="project">
 							<p>Detailed Project List</p>
 							<ul class="project-list row">
-<!-- 								<li class="col-md-4"><a href="/assets/images/content/files/projeler/20210107/sendegel-kuyular-en.pdf"
-										target="_blank">Water Well Projects</a></li>
-								<li class="col-md-4"><a
-										href="/assets/images/content/files/projeler/20210107/sendegel-hayvancilik-en.pdf"
-										target="_blank">Livestock Projects</a></li>
-								<li class="col-md-4"><a
-										href="/assets/images/content/files/projeler/20210107/sendegel-gunesenerjisi-en.pdf"
-										target="_blank">Solar Projects</a></li>
-								<li class="col-md-4"><a href="/assets/images/content/files/projeler/20210107/sendegel-degirmen-en.pdf"
-										target="_blank">Mill Projects</a></li>
-								<li class="col-md-4"><a
-										href="/assets/images/content/files/projeler/20210107/sendegel-kadinbahcesi-en.pdf"
-										target="_blank">Women's Garden Projects</a></li>
-								<li class="col-md-4"><a href="/assets/images/content/files/projeler/20210107/sendegel-digerleri-en.pdf"
-										target="_blank">Other Projects</a></li> -->
 								<li class="col-md-12"><a href="/en/projects--all-projects.php" title="Our All Projects">All Projects</a></li>
 								<li class="col-md-12"><a href="/en/projects--waiting-for-support.php" title="Our Projects That Need Support">Our Projects That Need Support</a></li>
 							</ul>
