@@ -215,362 +215,197 @@
 											</div>
 
 											<div class="panel">
-
 												<div class="panel-heading">
-
 													<h4 class="panel-title">
-
 														<a href="https://drive.google.com/file/d/1u3-jfLlMh4JDZjqeFJb06ru_i_q16ocG/view" target="_blank" title="2018 Yılı Faaliyet Raporumuz">
-
 															<span>2018 Yılı Faaliyet Raporumuz</span>
-
 															<i class="icon icon-zoom"></i>
-
 														</a>
-
 													</h4>
-
 												</div>
-
 											</div>
 
 											<div class="panel">
-
 												<div class="panel-heading">
-
 													<h4 class="panel-title">
-
 														<a href="https://drive.google.com/file/d/1VYrB7luDji0ELrNl2gri-2ZuL2yKYub9/view" target="_blank" title="2017 Yılı Faaliyet Raporumuz">
-
 															<span>2017 Yılı Faaliyet Raporumuz</span>
-
 															<i class="icon icon-zoom"></i>
-
 														</a>
-
 													</h4>
-
 												</div>
-
 											</div>
 
 											<div class="panel">
-
 												<div class="panel-heading">
-
 													<h4 class="panel-title">
-
 														<a href="https://drive.google.com/file/d/1YJcoT6R0z9q0bjx3o6Db_M3dZSbyOe5R/view" target="_blank" title="2016 Yılı Faaliyet Raporumuz">
-
 															<span>2016 Yılı Faaliyet Raporumuz</span>
-
 															<i class="icon icon-zoom"></i>
-
 														</a>
-
 													</h4>
-
 												</div>
-
 											</div>
 
-
-
 											<div class="panel">
-
 												<div class="panel-heading">
-
 													<h4 class="panel-title">
-
 														<a href="https://drive.google.com/file/d/1eTo0BpnKcbayO8x7_w7KTOdpP6FspdYH/view" target="_blank" title="2015 Yılı Faaliyet Raporumuz">
-
 															<span>2015 Yılı Faaliyet Raporumuz</span>
-
 															<i class="icon icon-zoom"></i>
-
 														</a>
-
 													</h4>
-
 												</div>
-
 											</div>
 
-
-
 											<div class="panel">
-
 												<div class="panel-heading">
-
 													<h4 class="panel-title">
-
 														<a href="https://drive.google.com/file/d/1OqCPCkResQhboJRPnMcJwFI1yaifxvHI/view" target="_blank" title="2014 Yılı Faaliyet Raporumuz">
-
 															<span>2014 Yılı Faaliyet Raporumuz</span>
-
 															<i class="icon icon-zoom"></i>
-
 														</a>
-
 													</h4>
-
 												</div>
-
 											</div>
 
 										</div>
-
 									</div>
-
 								</div>
 
 								<div role="tabpanel" class="tab-pane fade" id="diger-raporlar">
-
 									<div class="accordion accordion2">
-
 										<div class="panel-group" id="accordion4">
 
-
-
-										<div class="panel">
-
+											<div class="panel">
 												<div class="panel-heading">
-
 													<h4 class="panel-title">
-
 														<a href="https://drive.google.com/file/d/1zEPpwZTxaVkuPsir77TVp-f2GooZ1Ozg/view" target="_blank" title="SenDeGel Mart 2021 - Haziran 2021 Dönemsel Bilgilendirme Raporu">
-
 															<span>SenDeGel Mart 2021 - Haziran 2021 Dönemsel Bilgilendirme Raporu</span>
-
 															<i class="icon icon-zoom"></i>
-
 														</a>
-
 													</h4>
-
 												</div>
-
 											</div>
 
-
-
 											<div class="panel">
-
 												<div class="panel-heading">
-
 													<h4 class="panel-title">
-
 														<a href="https://drive.google.com/file/d/1kHP6tKvJg2PvGenD_mRG5oa-9QR57On7/view" target="_blank" title="SenDeGel Ekim 2020 - Şubat 2021 Dönemsel Bilgilendirme Raporu">
-
 															<span>SenDeGel Ekim 2020 - Şubat 2021 Dönemsel Bilgilendirme Raporu</span>
-
 															<i class="icon icon-zoom"></i>
-
 														</a>
-
 													</h4>
-
 												</div>
-
 											</div>										
 
-
-
 											<div class="panel">
-
 												<div class="panel-heading">
-
 													<h4 class="panel-title">
-
-														<a href="/assets/images/content/files/SDG_Dernegi_Mayıs-Eylül_2020_Dönemsel_Bilgilendirme_Raporu.pdf" target="_blank" title="Rapor">
-
-															<span>SDG Dernegi Mayıs - Eylül 2020 Dönemsel Bilgilendirme Raporu</span>
-
+														<a href="https://drive.google.com/file/d/1LdL0Inf54wgQs4h1Hf1p9dVhZE4ajZWl/view " target="_blank" title="SenDeGel Mayıs 2020 - Eylül 2020 Dönemsel Bilgilendirme Raporu">
+															<span>SendeGel Mayıs 2020 - Eylül 2020 Dönemsel Bilgilendirme Raporu</span>
 															<i class="icon icon-zoom"></i>
-
 														</a>
-
 													</h4>
-
 												</div>
-
-											</div>
-
-										<div class="panel">
-
-												<div class="panel-heading">
-
-													<h4 class="panel-title">
-
-														<a href="/assets/images/content/files/SDG_Dernegi_Ocak-Nisan_2020_Dönemsel_Bilgilendirme_Raporu.pdf" target="_blank" title="Rapor">
-
-															<span>SDG Dernegi Ocak - Nisan 2020 Dönemsel Bilgilendirme Raporu</span>
-
-															<i class="icon icon-zoom"></i>
-
-														</a>
-
-													</h4>
-
-												</div>
-
 											</div>
 
 											<div class="panel">
-
 												<div class="panel-heading">
-
 													<h4 class="panel-title">
-
-														<a href="/assets/images/content/files/sdg-dernegi-agustos-kasim-2019-donemsel-bilgilendirme-raporu.pdf" target="_blank" title="Rapor">
-
-															<span>SDG Dernegi Agustos - Kasım 2019 Dönemsel Bilgilendirme Raporu</span>
-
+														<a href="https://drive.google.com/file/d/1HazvNTqj320x3MGIbOel208SyoqiPfcH/view" target="_blank" title="SenDeGel Ocak 2020 - Nisan 2020 Dönemsel Bilgilendirme Raporu">
+															<span>SenDeGel Ocak 2020 - Nisan 2020 Dönemsel Bilgilendirme Raporu</span>
 															<i class="icon icon-zoom"></i>
-
 														</a>
-
 													</h4>
-
 												</div>
-
 											</div>
 
 											<div class="panel">
-
 												<div class="panel-heading">
-
 													<h4 class="panel-title">
-
-														<a href="/assets/images/content/files/sdg-dernegi-ocak-temmuz-2019-donemsel-bilgilendirme-raporu.doc" target="_blank" title="Rapor">
-
-															<span>SDG Dernegi Ocak - Temmuz 2019 Dönemsel Bilgilendirme Raporu</span>
-
+														<a href="https://drive.google.com/file/d/1J7ge2NThZQQw40WpQoNssEACJeeX4Jot/viev" target="_blank" title="SenDeGel Ağustos 2019 - Kasım 2019 Dönemsel Bilgilendirme Raporu">
+															<span>SenDeGel Ağustos 2019 - Kasım 2019 Dönemsel Bilgilendirme Raporu</span>
 															<i class="icon icon-zoom"></i>
-
 														</a>
-
 													</h4>
-
 												</div>
-
 											</div>
 
 											<div class="panel">
-
 												<div class="panel-heading">
-
 													<h4 class="panel-title">
-
-														<a href="/assets/images/content/files/sdg-dernegi-temmuz-kasim-2018-donemsel-bilgilendirme-raporu.doc" target="_blank" title="Rapor">
-
-															<span>SDG Dernegi Temmuz - Kasım 2018 Dönemsel Bilgilendirme Raporu</span>
-
+														<a href="https://drive.google.com/file/d/17cza548lt2B0dISIO967DCIq0j-SBwwc/view" target="_blank" title="SenDeGel Ocak 2019 - Temmuz 2019 Dönemsel Bilgilendirme Raporu">
+															<span>SenDeGel Ocak 2019 - Temmuz 2019 Dönemsel Bilgilendirme Raporu</span>
 															<i class="icon icon-zoom"></i>
-
 														</a>
-
 													</h4>
-
 												</div>
-
 											</div>
 
 											<div class="panel">
-
 												<div class="panel-heading">
-
 													<h4 class="panel-title">
-
-														<a href="/assets/images/content/files/sdg-dernegi-mart-haziran-2018-donemsel-bilgilendirme-raporu.doc" target="_blank" title="Rapor">
-
-															<span>SDG Derneği Mart - Haziran 2018 Dönemsel Bilgilendirme Raporu</span>
-
+														<a href="https://drive.google.com/file/d/1Oi2QNhyc6u7esWXVer9L5cvoDLEl45IH/view" target="_blank" title="SenDeGel Temmuz 2018 - Kasım 2018 Dönemsel Bilgilendirme Raporu">
+															<span>SenDeGel Temmuz 2018 - Kasım 2018 Dönemsel Bilgilendirme Raporu</span>
 															<i class="icon icon-zoom"></i>
-
 														</a>
-
 													</h4>
-
 												</div>
-
 											</div>
 
 											<div class="panel">
-
 												<div class="panel-heading">
-
 													<h4 class="panel-title">
-
-														<a href="/assets/images/content/files/sdg-dernegi-aralik-2017-mart-2018-donemsel-bilgilendirme-raporu.doc" target="_blank" title="Rapor">
-
-															<span>SDG Derneği Aralık 2017 - Mart 2018 Dönemsel Bilgilendirme Raporu</span>
-
+														<a href="https://drive.google.com/file/d/1OxrkRlfh2cnC_UjJhFLvUrQPFD63LuZl/view" target="_blank" title="SenDeGel Mart 2018 - Haziran 2018 Dönemsel Bilgilendirme Raporu">
+															<span>SenDeGel Mart 2018 - Haziran 2018 Dönemsel Bilgilendirme Raporu</span>
 															<i class="icon icon-zoom"></i>
-
 														</a>
-
 													</h4>
-
 												</div>
-
 											</div>
 
 											<div class="panel">
-
 												<div class="panel-heading">
-
 													<h4 class="panel-title">
-
-														<a href="/assets/images/content/files/sdg-dernegi-haziran-ekim 2016-ara-donem-raporu.pdf" target="_blank" title="Rapor">
-
-															<span>Haziran-Ekim 2016 Ara Dönem Raporu</span>
-
+														<a href="https://drive.google.com/file/d/17CB8fsEOV21dWivdAWcjFCHH5WyiFa5J/view" target="_blank" title="SenDeGel Aralık 2017 - Mart 2018 Dönemsel Bilgilendirme Raporu">
+															<span>SendeGel Aralık 2017 - Mart 2018 Dönemsel Bilgilendirme Raporu</span>
 															<i class="icon icon-zoom"></i>
-
 														</a>
-
 													</h4>
-
 												</div>
-
 											</div>
 
-
+											<div class="panel">
+												<div class="panel-heading">
+													<h4 class="panel-title">
+														<a href="https://drive.google.com/file/d/1QSfmFtPPKNf_fu1VFE13jVJqZVieEC9a/view" target="_blank" title="SenDeGel Haziran 2016 - Ekim 2016 Dönemsel Bilgilendirme Raporu">
+															<span>SenDeGel Haziran 2016 - Ekim 2016 Dönemsel Bilgilendirme Raporu</span>
+															<i class="icon icon-zoom"></i>
+														</a>
+													</h4>
+												</div>
+											</div>
 
 										</div>
-
 									</div>
-
 								</div>
 
 								<div role="tabpanel" class="tab-pane fade" id="beyannameler">
 
-
-
 									<div class="text-center">
-
-											<a class="btn btn-primary sdg-folder-button" href="https://drive.google.com/drive/folders/19ULddlpbjPss2i-VVHTkco5eeuctxRix" title="Tüm Beyannameler" target="_blank">
-
-												<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-folder2-open" viewBox="0 0 16 16">
-
-													<path d="M1 3.5A1.5 1.5 0 0 1 2.5 2h2.764c.958 0 1.76.56 2.311 1.184C7.985 3.648 8.48 4 9 4h4.5A1.5 1.5 0 0 1 15 5.5v.64c.57.265.94.876.856 1.546l-.64 5.124A2.5 2.5 0 0 1 12.733 15H3.266a2.5 2.5 0 0 1-2.481-2.19l-.64-5.124A1.5 1.5 0 0 1 1 6.14V3.5zM2 6h12v-.5a.5.5 0 0 0-.5-.5H9c-.964 0-1.71-.629-2.174-1.154C6.374 3.334 5.82 3 5.264 3H2.5a.5.5 0 0 0-.5.5V6zm-.367 1a.5.5 0 0 0-.496.562l.64 5.124A1.5 1.5 0 0 0 3.266 14h9.468a1.5 1.5 0 0 0 1.489-1.314l.64-5.124A.5.5 0 0 0 14.367 7H1.633z"/>
-
-												</svg>
-
-												<span>Tüm Beyannameler</span>
-
-											</a>
-
-										</div>								
-
-
+										<a class="btn btn-primary sdg-folder-button" href="https://drive.google.com/drive/folders/19ULddlpbjPss2i-VVHTkco5eeuctxRix" title="Tüm Beyannameler" target="_blank">
+											<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-folder2-open" viewBox="0 0 16 16">
+												<path d="M1 3.5A1.5 1.5 0 0 1 2.5 2h2.764c.958 0 1.76.56 2.311 1.184C7.985 3.648 8.48 4 9 4h4.5A1.5 1.5 0 0 1 15 5.5v.64c.57.265.94.876.856 1.546l-.64 5.124A2.5 2.5 0 0 1 12.733 15H3.266a2.5 2.5 0 0 1-2.481-2.19l-.64-5.124A1.5 1.5 0 0 1 1 6.14V3.5zM2 6h12v-.5a.5.5 0 0 0-.5-.5H9c-.964 0-1.71-.629-2.174-1.154C6.374 3.334 5.82 3 5.264 3H2.5a.5.5 0 0 0-.5.5V6zm-.367 1a.5.5 0 0 0-.496.562l.64 5.124A1.5 1.5 0 0 0 3.266 14h9.468a1.5 1.5 0 0 0 1.489-1.314l.64-5.124A.5.5 0 0 0 14.367 7H1.633z"/>
+											</svg>
+											<span>Tüm Beyannameler</span>
+										</a>
+									</div>								
 
 									<div class="accordion accordion2">
-
 										<div class="panel-group" id="accordion5">
 
-										<div class="panel">
+											<div class="panel">
 												<div class="panel-heading">
 													<h4 class="panel-title">
 														<a href="https://drive.google.com/file/d/1NlDH4bpS9oBm21Rcp-ZiJemjOSDkQSMY/view" target="_blank" title="SenDeGel 2020 Beyannamesi">
