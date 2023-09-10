@@ -4,7 +4,6 @@
 		<?php
 			$pageTitle = "Raporlar";
 			include 'include/head.php';
-			include __DIR__ . '/assets/data/site-data.php';
 		?>
 	</head>
 	<body>

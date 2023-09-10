@@ -4,7 +4,6 @@
 		<?php
 			$pageTitle = "Destekçilerimiz";
 			include 'include/head.php';
-			include __DIR__ . '/assets/data/site-supporters.php';
 		?>
 	</head>
 	<body>
