@@ -4,6 +4,7 @@
 		<?php
 			$pageTitle = "Homepage";
 			include 'include/head.php';
+			include __DIR__ . '/include/site-data.php';
 		?>
 	</head>
 	<body>
