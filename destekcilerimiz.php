@@ -61,17 +61,20 @@
 										continue;
 									}
 
+									echo '
+										<div class="row">
+											<div class="col-md-12">
+												<div class="section7-container">
+													<div class="row">
+									';
+
 									if ($supporter_type != "other_supporters") {
 										echo '
-											<div class="row">
 												<div class="col-md-12">
-													<div class="section7-container">
-														<div class="row">
-															<div class="col-md-12">
-																<h4 class="section7-title">' . $supporter_group["title"] . '</h4>
-															</div>
-														</div>
-														<div class="row">
+													<h4 class="section7-title">' . $supporter_group["title"] . '</h4>
+												</div>
+											</div>
+											<div class="row">
 										';
 									}
 
