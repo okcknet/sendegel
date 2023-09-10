@@ -7,104 +7,104 @@
 			"title" => "2022 Yılı Destekçilerimiz",
 			"title-en" => "2022 Supporters",
 			"main_supporters" => array(
-					"title" => "Ana Destekçilerimiz",
-					"title-en" => "Main Supporters",
-					"col-md" => "col-md-4",
-					"supporters" => array(
-							array(
-									"title" => "Global Water Challenge",
-									"image" => "",
-									"link" => "",
-							),
-							array(
-									"title" => "İslam Kalkınma Bankası",
-									"image" => "",
-									"link" => "",
-							),
-							array(
-									"title" => "Mehmet Betil",
-									"image" => "",
-									"link" => "",
-							),
-							array(
-									"title" => "Peter & Eleanor Kuniholm",
-									"image" => "",
-									"link" => "",
-							)
+				"title" => "Ana Destekçilerimiz",
+				"title-en" => "Main Supporters",
+				"col-md" => "col-md-3",
+				"supporters" => array(
+					array(
+						"title" => "Global Water Challenge",
+						"image" => "/assets/images/content/destekcilerimiz/global-water-challenge.png",
+						"link" => "",
+					),
+					array(
+						"title" => "İslam Kalkınma Bankası",
+						"image" => "/assets/images/content/destekcilerimiz/isd-bank.png",
+						"link" => "http://www.isdb.org/",
+					),
+					array(
+						"title" => "Mehmet Betil",
+						"image" => "/assets/images/content/destekcilerimiz/supporter.jpg",
+						"link" => "",
+					),
+					array(
+						"title" => "Peter & Eleanor Kuniholm",
+						"image" => "/assets/images/content/destekcilerimiz/supporter.jpg",
+						"link" => "",
 					)
+				)
 			),
 			"project_supporters" => array(
-					"title" => "Proje Destekçilerimiz",
-					"title-en" => "Project Supporters",
-					"col-md" => "col-md-3",
-					"supporters" => array(
-							array(
-									"title" => "Asım Kadri Soygül",
-									"image" => "",
-									"link" => "",
-							),
-							array(
-									"title" => "Cem Akşehirlioğlu",
-									"image" => "",
-									"link" => "",
-							),
-							array(
-									"title" => "Paribu Teknoloji A.Ş",
-									"image" => "",
-									"link" => "",
-							)
+				"title" => "Proje Destekçilerimiz",
+				"title-en" => "Project Supporters",
+				"col-md" => "col-md-4",
+				"supporters" => array(
+					array(
+						"title" => "Asım Kadri Soygül",
+						"image" => "/assets/images/content/destekcilerimiz/supporter.jpg",
+						"link" => "",
+					),
+					array(
+						"title" => "Cem Akşehirlioğlu",
+						"image" => "/assets/images/content/destekcilerimiz/supporter.jpg",
+						"link" => "",
+					),
+					array(
+						"title" => "Paribu",
+						"image" => "/assets/images/content/destekcilerimiz/paribu.png",
+						"link" => "https://www.paribu.com/",
 					)
+				)
 			),
 			"individual_supporters" => array(
-					"title" => "Bireysel Destekçilerimiz",
-					"title-en" => "Individual Supporters",
-					"col-md" => "col-md-12",
-					"supporters" => array(
-							"İpek Yener",
-							"Turgut Derman"
-					)
+				"title" => "Bireysel Destekçilerimiz",
+				"title-en" => "Individual Supporters",
+				"col-md" => "col-md-12",
+				"supporters" => array(
+					"İpek Yener",
+					"Turgut Derman"
+				)
 			),
 			"corporate_donors" => array(
-					"title" => "Kurumsal Bağışçılarımız",
-					"title-en" => "Corporate Donors",
-					"col-md" => "col-md-6",
-					"supporters" => array(
-							array(
-									"title" => "AGC Gıda Tarım",
-									"image" => "",
-									"link" => "",
-							),
-							array(
-									"title" => "Alcas Metal San. A.Ş.",
-									"image" => "",
-									"link" => "",
-							),
-							array(
-									"title" => "Ali İsmail Korkmaz Vakfı (ALİKEV)",
-									"image" => "",
-									"link" => "",
-							),
-							array(
-									"title" => "ASAŞ Alüminyum Sanayi ve Ticaret A.Ş.",
-									"image" => "",
-									"link" => "",
-							),
-							array(
-									"title" => "Eyüboğlu Eğitim Kurumları",
-									"image" => "",
-									"link" => "",
-							),
-							array(
-									"title" => "NESCE İnşaat Enerji Ticaret A.Ş",
-									"image" => "",
-									"link" => "",
-							),
-							array(
-									"title" => "Wellbees",
-									"image" => "",
-									"link" => "",
-							)
+				"title" => "Kurumsal Bağışçılarımız",
+				"title-en" => "Corporate Donors",
+				"col-md" => "col-md-6",
+				"supporters" => array(
+					array(
+						"title" => "AGC Gıda Tarım",
+						"image" => "",
+						"link" => "",
+					),
+					array(
+						"title" => "Alcas Metal San. A.Ş.",
+						"image" => "",
+						"link" => "",
+					),
+					array(
+						"title" => "Ali İsmail Korkmaz Vakfı (ALİKEV)",
+						"image" => "",
+						"link" => "",
+					),
+					array(
+						"title" => "ASAŞ Alüminyum Sanayi ve Ticaret A.Ş.",
+						"image" => "",
+						"link" => "",
+					),
+					array(
+						"title" => "Eyüboğlu Eğitim Kurumları",
+						"image" => "",
+						"link" => "",
+					),
+					array(
+						"title" => "NESCE İnşaat Enerji Ticaret A.Ş",
+						"image" => "",
+						"link" => "",
+					),
+					array(
+						"title" => "Wellbees",
+						"image" => "",
+						"link" => "",
 					)
+				)
 			),
 			"in_kind_donors" => array(
 					"title" => "Ayni Bağışçılarımız",
@@ -165,7 +165,7 @@
 			)
 		),
 		"2021" =>  array(
-			"active" => true,
+			"active" => false,
 			"title" => "2021 Yılı Destekçilerimiz",
 			"title-en" => "2021 Supporters",
 			"main_supporters" => array(
@@ -185,7 +185,7 @@
 					),
 					array(
 						"title" => "Mehmet Betil",
-						"image" => "/assets/images/content/destekcilerimiz/mehmet-betil.jpg",
+						"image" => "/assets/images/content/destekcilerimiz/supporter.jpg",
 						"link" => "",
 					)
 				)
