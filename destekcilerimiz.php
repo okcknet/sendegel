@@ -104,15 +104,17 @@
 											</div>
 										';
 									} else if ($supporter_type == "individual_supporters") {
+										echo '
+											<div class="' . $supporter_group["col-md"] . '">
+												<div class="section7-item">
+										';
 										foreach ($supporter_group["supporters"] as $supporter) {
-											echo '
-												<div class="' . $supporter_group["col-md"] . '">
-													<div class="section7-item">
-														<p>' . $supporter . '</p>
-													</div>
-												</div>
-											';
+											echo '<p>' . $supporter . '</p>';
 										}
+										echo '
+												</div>
+											</div>
+										';
 									} else if ($supporter_type == "corporate_donors") {
 										echo '
 											<div class="' . $supporter_group["col-md"] . '">
