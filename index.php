@@ -26,8 +26,6 @@
 
 		<!-- Çalışma Alanlarımız -->
 
-		<?php echo __DIR__ ?>
-
 		<section class="section section3">
 
 			<div class="container">

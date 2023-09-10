@@ -17,7 +17,6 @@
 		<!-- Neler Yapıyoruz? -->
 		<?php include 'include/modules/section2.php' ?>
 		<!-- Çalışma Alanlarımız -->
-		<?php echo __DIR__ ?>
 		<section class="section section3">
 			<div class="container">
 				<div class="row">
