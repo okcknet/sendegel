@@ -1,7 +1,11 @@
 <!doctype html>
 <html>
 	<head>
-		<?php $pageTitle = "Üye Ol"; include 'include/head.php'; ?>
+		<?php
+			$pageTitle = "Üye Ol";
+			include 'include/head.php';
+			include __DIR__ . '/assets/data/site-data.php';
+		?>
 	</head>
 	<body>
 		<?php include 'include/header.php' ?>
@@ -42,13 +46,13 @@
 											Başvuru onayınız tarafınıza bildirilene kadar ödeme yapmayınız.
 										</li>
 										<li>
-											Üyeliğe giriş ödentisi 150TL’dır, (Tüzel üyeler için 500TL)
+											Üyeliğe giriş ödentisi <?php echo $membershipFees["entry_fee"]; ?>’dır, (Tüzel üyeler için <?php echo $membershipFees["legal_entity_entry_fee"]; ?>TL)
 										</li>
 										<li>
-											Üyelerin yıllık aidat ödemeleri 100TL olup her yıl Nisan ayında ödenir. (Tüzel üyeler için 1.000TL)
+											Üyelerin yıllık aidat ödemeleri <?php echo $membershipFees["annual_dues"]; ?>TL olup her yıl Nisan ayında ödenir. (Tüzel üyeler için <?php echo $membershipFees["legal_entity_annual_dues"]; ?>TL)
 										</li>
 										<li>
-											25 yaş altı üniversite öğrencilerinin üye giriş aidatı 50TL, yıllık aidatları da 50TL’dir.
+											25 yaş altı üniversite öğrencilerinin üye giriş aidatı <?php echo $membershipFees["student_entry_fee"]; ?>TL, yıllık aidatları da <?php echo $membershipFees["student_annual_dues"]; ?>TL’dir.
 										</li>
 									</ul>
 									<p><br></p>
