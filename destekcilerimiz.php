@@ -443,7 +443,7 @@
 												</div>
 								';
 
-								foreach ($supporter as $supporter_type => $supporter_type_data) {
+								foreach ($supporter as $supporter_type => $supporter_group) {
 									if ($supporter_type == "active" || $supporter_type == "title" || $supporter_type == "title-en") {
 										continue;
 									}
@@ -454,16 +454,61 @@
 												<div class="section7-container">
 													<div class="row">
 														<div class="col-md-12">
-															<h4 class="section7-title">' . $supporter_type_data["title"] . '</h4>
+															<h4 class="section7-title">' . $supporter_group["title"] . '</h4>
 														</div>
 													</div>
 													<div class="row">
 									';
 
-									foreach ($supporter_type_data["supporters"] as $supporter) {
+									if ($supporter_type == "individual_supporters") {
+										foreach ($supporter_group["supporters"] as $supporter) {
+											echo '
+												<div class="' . $supporter_group["col-md"] . '">
+													<div class="section7-item">
+														<p>' . $supporter . '</p>
+													</div>
+												</div>
+											';
+										}
+									} else if ($supporter_type == "secret_supporters") {
+										echo '
+											<div class="' . $supporter_group["col-md"] . '">
+												<div class="section7-item">
+													<p>' . $supporter_group["title"] . '</p>
+													<p>' . $supporter_group["supporters"][0] . '</p>
+												</div>
+											</div>
+										';
+									} else {
+										foreach ($supporter_group["supporters"] as $supporter) {
+											if (isset($supporter["link"])) {
+												echo '
+													<div class="' . $supporter_group["col-md"] . '">
+														<div class="section7-item">
+															<a href="' . $supporter["link"] . '" target="_blank" rel="nofollow">
+																<div class="img-wrapper"><img src="' . $supporter["image"] . '" alt="' . $supporter["title"] . '" class="img-responsive center-block "></div>
+																<p>' . $supporter["title"] . '</p>
+															</a>
+														</div>
+													</div>
+												';
+											} else {
+												echo '
+													<div class="' . $supporter_group["col-md"] . '">
+														<div class="section7-item">
+															<div class="img-wrapper"><img src="' . $supporter["image"] . '" alt="' . $supporter["title"] . '" class="img-responsive center-block "></div>
+															<p>' . $supporter["title"] . '</p>
+														</div>
+													</div>
+												';
+											}
+										}
+									}
+
+									foreach ($supporter_group["supporters"] as $supporter) {
 										if (isset($supporter["link"])) {
 											echo '
-												<div class="' . $supporter_type_data["col-md"] . '">
+												<div class="' . $supporter_group["col-md"] . '">
 													<div class="section7-item">
 														<a href="' . $supporter["link"] . '" target="_blank" rel="nofollow">
 															<div class="img-wrapper"><img src="' . $supporter["image"] . '" alt="' . $supporter["title"] . '" class="img-responsive center-block "></div>
@@ -474,7 +519,7 @@
 											';
 										} else {
 											echo '
-												<div class="' . $supporter_type_data["col-md"] . '">
+												<div class="' . $supporter_group["col-md"] . '">
 													<div class="section7-item">
 														<div class="img-wrapper"><img src="' . $supporter["image"] . '" alt="' . $supporter["title"] . '" class="img-responsive center-block "></div>
 														<p>' . $supporter["title"] . '</p>
