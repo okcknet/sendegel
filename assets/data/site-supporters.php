@@ -76,7 +76,7 @@
 					),
 					array(
 						"title" => "Alcas Metal San. A.Ş.",
-						"image" => "/assets/images/content/destekcilerimiz/alcas-metal.png",
+						"image" => "/assets/images/content/destekcilerimiz/alcas-metal.jpg",
 						"link" => "",
 					),
 					array(
