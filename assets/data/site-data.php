@@ -299,7 +299,7 @@
 			"title-en" => "All Projects",
 			"our-title" => "Projelerimiz",
 			"our-title-en" => "Our Projects",
-			"file" = "https://drive.google.com/file/d/1ITJ2Vpxk2N5UA6IKArUv2o191vkIQXD1/preview"
+			"file" => "https://drive.google.com/file/d/1ITJ2Vpxk2N5UA6IKArUv2o191vkIQXD1/preview"
 		),
 		"livestock_projects" => array(
 			"update_date" => "2023-09-10",
