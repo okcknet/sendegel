@@ -65,7 +65,7 @@
 									<div class="mask"><i class="icon icon-zoom"></i></div>
 									<img src="../../assets/images/content/projects/degirmen-projesi-s4.jpg" alt="Proje" width="255" height="255" class="img-responsive">
 								</a>
-							</div>														
+							</div>
 						</div>
 					</div>
 				</div>
@@ -79,7 +79,7 @@
 		<div class="row">
 			<div class="col-md-12">
 				<div class="section-container align-center">
-					<h3 class="section-title">Our Mill Projects</h3>
+					<h3 class="section-title"><?php echo $projects["mill_projects"]["our-title-en"]; ?></h3>
 					<iframe src="https://drive.google.com/file/d/1KiVlQjbWQ4W9y3UuWoNO12dzVveqIkRE/preview" width="100%" height="680" allow="autoplay"></iframe>
 				</div>
 			</div>

@@ -295,33 +295,60 @@
 	$projects = array(
 		"all_projects" => array(
 			"update_date" => "2023-09-10",
-			"title" => "Projelerimiz",
-			"title-en" => "Our Projects",
+			"title" => "Tüm Projeler",
+			"title-en" => "All Projects",
+			"our-title" => "Projelerimiz",
+			"our-title-en" => "Our Projects",
+			"file" = "https://drive.google.com/file/d/1ITJ2Vpxk2N5UA6IKArUv2o191vkIQXD1/preview"
 		),
 		"livestock_projects" => array(
 			"update_date" => "2023-09-10",
-			"title" => "Hayvancılık Projelerimiz",
+			"title" => "Hayvancılık Projeleri",
 			"title-en" => "Livestock Projects",
-		),
+			"our-title" => "Hayvancılık Projelerimiz",
+			"our-title-en" => "Our Livestock Projects",
+			"file" => "https://drive.google.com/file/d/1qA4mTzCM7JjO9YOTtTBW0OvpedY0Lw-u/preview"
+ 		),
 		"solar_panel_projects" => array(
 			"update_date" => "2023-09-10",
-			"title" => "Güneş Paneli Projelerimiz",
+			"title" => "Güneş Paneli Projeleri",
 			"title-en" => "Solar Panel Projects",
+			"our-title" => "Güneş Paneli Projelerimiz",
+			"our-title-en" => "Our Solar Panel Projects",
+			"file" => "https://drive.google.com/file/d/1_czSsiozPaEHDUB4PN3LPX5EE-kA6hhi/preview"
 		),
 		"water_well_projects" => array(
 			"update_date" => "2023-09-10",
-			"title" => "Su Kuyusu Projelerimiz",
+			"title" => "Su Kuyusu Projeleri",
 			"title-en" => "Water Well Projects",
+			"our-title" => "Su Kuyusu Projelerimiz",
+			"our-title-en" => "Our Water Well Projects",
+			"file" => "https://drive.google.com/file/d/1XZfWg7Q42udMzQthdO80cPypkwmijyPv/preview"
 		),
 		"mill_projects" => array(
 			"update_date" => "2023-01-01",
-			"title" => "Değirmen Projelerimiz",
+			"title" => "Değirmen Projeleri",
 			"title-en" => "Mill Projects",
+			"our-title" => "Değirmen Projelerimiz",
+			"our-title-en" => "Our Mill Projects",
+			"file" => "https://drive.google.com/file/d/1m9K1hec7YM-jdcA01TV4Lo61DWEhUb2G/preview",
+			"file-en" => "https://drive.google.com/file/d/1KiVlQjbWQ4W9y3UuWoNO12dzVveqIkRE/preview"
 		),
 		"women_garden_projects" => array(
 			"update_date" => "2023-09-10",
-			"title" => "Kadın Bahçeleri Projelerimiz",
-			"title-en" => "Women Garden Projects",
+			"title" => "Kadın Bahçeleri Projeleri",
+			"title-en" => "Women's Garden Projects",
+			"our-title" => "Kadın Bahçeleri Projelerimiz",
+			"our-title-en" => "Our Women's Garden Projects",
+			"file" => "https://drive.google.com/file/d/1bo-ohe_qpOymorJwx9kx-AIU_p9NGs71/preview"
+		),
+		"other_projects" => array(
+			"update_date" => "2023-01-01",
+			"title" => "Diğer Projeler",
+			"title-en" => "Other Projects",
+			"our-title" => "Diğer Projelerimiz",
+			"our-title-en" => "Our Other Projects",
+			"file" => "https://drive.google.com/file/d/1wL0ReJCqlJz1fL87zFYMCV56jQNjfKrZ/preview"
 		)
 	);
 

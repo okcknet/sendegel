@@ -113,7 +113,7 @@
 
 						</div>
 					</div>
-					
+
 				</div>
 			</div>
 		</div>
@@ -125,8 +125,8 @@
 		<div class="row">
 			<div class="col-md-12">
 				<div class="section-container align-center">
-					<h3 class="section-title">Su Kuyusu Projelerimiz</h3>
-					<iframe src="https://drive.google.com/file/d/1nM017FIZTacARUS2G9bamqtAUH9kXKRZ/preview" width="100%" height="680" allow="autoplay"></iframe>
+					<h1 class="section-title"><?php echo $projects["water_well_projects"]["our-title"]; ?></h3>
+					<iframe src="<?php echo $projects["water_well_projects"]["file"]; ?>" width="100%" height="1000" allow="autoplay"></iframe>
 				</div>
 			</div>
 		</div>

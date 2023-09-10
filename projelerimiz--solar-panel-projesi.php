@@ -1,26 +1,13 @@
 <!doctype html>
-
 <html>
-
-<head>
-
-<?php
-
-		$pageTitle = "Solar Panel Projesi";
-
-		include 'include/head.php';
-
-	?>
-
-</head>
-
+	<head>
+		<?php
+			$pageTitle = "Solar Panel Projesi";
+			include 'include/head.php';
+		?>
+	</head>
 <body>
-
-<!--Header -->
-
 <?php include 'include/header.php' ?>
-
-
 
 <section class="section section5">
 	<h1 class="page-title">Solar Panel Projesi</h1>
@@ -30,11 +17,8 @@
 </section>
 
 <section class="subpage">
-
 	<div class="container">
-
 		<div class="row">
-
 			<div class="col-md-8 col-md-offset-2">
 
 				<h2 class="page-description">Sen De Gel olarak projelerimizi; bölgeyi ve bölge insanını düşünerek, çevreye en uygun yöntemleri kullanarak gerçekleştiriyoruz.</h2>
@@ -70,8 +54,6 @@
 	</div>
 
 </section>
-
-
 
 <section class="section section11">
 
@@ -135,7 +117,7 @@
 
 								</a>
 
-							</div>							
+							</div>
 
 						</div>
 
@@ -151,15 +133,13 @@
 
 </section>
 
-
-
 <section class="section">
 	<div class="container">
 		<div class="row">
 			<div class="col-md-12">
 				<div class="section-container align-center">
-					<h3 class="section-title">Güneş Enerjisi Projelerimiz</h3>
-					<iframe src="https://drive.google.com/file/d/1xvR-ZYb4Xn07Z3owsG6IpUn66eIArlOS/preview" width="100%" height="680" allow="autoplay"></iframe>
+					<h1 class="section-title"><?php echo $projects["solar_panel_projects"]["our-title"]; ?></h3>
+					<iframe src="<?php echo $projects["solar_panel_projects"]["file"]; ?>" width="100%" height="1000" allow="autoplay"></iframe>
 				</div>
 			</div>
 		</div>
