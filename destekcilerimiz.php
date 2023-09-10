@@ -61,17 +61,19 @@
 										continue;
 									}
 
-									echo '
-										<div class="row">
-											<div class="col-md-12">
-												<div class="section7-container">
-													<div class="row">
-														<div class="col-md-12">
-															<h4 class="section7-title">' . $supporter_group["title"] . '</h4>
+									if ($supporter_type != "other_supporters") {
+										echo '
+											<div class="row">
+												<div class="col-md-12">
+													<div class="section7-container">
+														<div class="row">
+															<div class="col-md-12">
+																<h4 class="section7-title">' . $supporter_group["title"] . '</h4>
+															</div>
 														</div>
-													</div>
-													<div class="row">
-									';
+														<div class="row">
+										';
+									}
 
 									if ($supporter_type == "individual_donors") {
 
@@ -118,7 +120,7 @@
 									} else if ($supporter_type == "other_supporters") {
 										foreach ($supporter_group as $other_supporter) {
 											echo '
-												<div class="' . $supporter_group["col-md"] . '">
+												<div class="col-md-12">
 													<div class="section7-item">
 														<h4 class="section7-title">' . $other_supporter["title"] . '</h4>
 														<p>' . $other_supporter["supporter"] . '</p>

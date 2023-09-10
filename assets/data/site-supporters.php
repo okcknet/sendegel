@@ -107,26 +107,26 @@
 				)
 			),
 			"in_kind_donors" => array(
-					"title" => "Ayni Bağışçılarımız",
-					"title-en" => "In-kind Donors",
-					"col-md" => "col-md-4",
-					"supporters" => array(
-							array(
-									"title" => "Mazars Denge",
-									"image" => "/assets/images/content/destekcilerimiz/mazars-denge.png",
-									"link" => "",
-							),
-							array(
-									"title" => "Nef-Timur Gayrimenkul<br/>Yapı ve Yatırım A. Ş.",
-									"image" => "/assets/images/content/destekcilerimiz/nef-timur-gayrimenkul.png",
-									"link" => "",
-							),
-							array(
-									"title" => "Turkish Philanthropy Fund",
-									"image" => "/assets/images/content/destekcilerimiz/turkish-philanthropy-fund.png",
-									"link" => "",
-							)
+				"title" => "Ayni Bağışçılarımız",
+				"title-en" => "In-kind Donors",
+				"col-md" => "col-md-4",
+				"supporters" => array(
+					array(
+						"title" => "Mazars Denge",
+						"image" => "/assets/images/content/destekcilerimiz/mazars-denge.png",
+						"link" => "",
+					),
+					array(
+						"title" => "Nef-Timur Gayrimenkul<br/>Yapı ve Yatırım A. Ş.",
+						"image" => "/assets/images/content/destekcilerimiz/nef-timur-gayrimenkul.png",
+						"link" => "",
+					),
+					array(
+						"title" => "Turkish Philanthropy Fund",
+						"image" => "/assets/images/content/destekcilerimiz/turkish-philanthropy-fund.png",
+						"link" => "",
 					)
+				)
 			),
 			"individual_donors" => array(
 					"title" => "Bireysel Bağışçılarımız",
@@ -135,21 +135,21 @@
 					"supporters" => array("Ada Beyza Tunç", "Adem Öztürk", "Ahmet Kurtuldu", "Ali Durahim", "Ali Emir Çelik", "Ali Murat Ekin", "Alp Kuş", "Alper Baldöktü", "Arda Altun", "Arda Demir Yılmaz", "Arzu Sare Tatar", "Aslı Derbent", "Asuman Bayrak", "Atilla Can", "Atlas Özbaş", "Ayhan Türkkan", "Aynur Kırımlı", "Ayse Bilginsoy", "Ayşe Akşehirlioğlu", "Ayşe Nur Yılmaz", "Aytül Tülay Balcı", "Banu Saruhan Kırali", "Banu Şen", "Başak Dal", "Bekir cenker illeez", "Berk Turan", "Berrin Yorgun", "Beste Şener Altunkaynak", "Bilge Doğa Yücel", "Bora Eraslan", "Buket Nur Kırmızıgül", "Bulut Yapıcıoğlu", "Burcu Hepgüler", "Seda Çakoğlu", "Burcu Solak", "Can Genç", "Canan Özcan", "Cem Akşehirlioğlu", "Cemal Çavdar-Emir Temelli", "Cenk Cemil Unur", "Cenk Özsoy", "Ceren Kalı", "Çelik Arsel", "Çetin Bayramlı", "Demir Alp Batış", "Demir Alp Çelik", "Demirhan Ocak", "Deniz Can", "Deniz Emin", "Deniz Eraslqn", "Derya Yanmış", "Didem Ünsür", "Dilber Kanşay", "Dobrinka Cidrof", "Dursunali Kara", "Duru Şanlı", "Duygu Yakışkan", "Ebru İnan", "Ebru Kurucan", "Ece Kurtuldu", "Efe Yılmaz", "Elif Birkan", "Emel Çelepçıkay İslam", "Emre Turan", "Engin Selcuk", "Enver Arsoy", "Ertuğrul Aksoy", "Esra Birol", "Evrim Eriş", "Eylül Çil", "Eymen Yalaz", "Fadime Acar Ural", "Fahriye Demirel", "Ferah Paker", "Figen Özkan", "Filiz İyidil", "Furkan Dalkıran", "Gamze Beray", "Gamze Karacam", "Gonca Özel", "Gökalp Aslan", "Göksel Yavuz", "Gülay Günes", "Gülhanım Mengüç", "Günay Ermergen", "Halil İbrahim Düzcan", "Halil Öner", "Hamza Özdemir", "Hasret Akdemir", "Hatice Serpil Bostancı", "Hayat Buğlem Selamet", "Hayrettin Çil", "Hayrettin Kağnıcı", "Hazal Suzan Selçuk", "Hülya Özer", "Hüseyin Baran", "Hüseyin Kaya", "Irene Hulst", "İbrahim Betil", "İman Öner", "İpek Yener", "İskender Savaşlı", "Kavacık Resim Grubu", "Kaya Tan Doğan", "Kayhan Alver", "Kayla Ünal", "Kazim Veysel Dolapçı", "Kemal Güven", "Kemal Ural", "Kerim Altınsoy", "Keriman Kolukısa", "Lara Kadoğlu", "Leyla Arslan", "Lütfi Öztürker", "Mehmet Ali İnan", "Mehmet Ali Şahin", "Mehmet Can Yavuz", "Mehmet Dutar", "Mehmet Tevfik Alkış", "Melek Özgen", "Melike Baladın", "Melis Yalçın", "Merve Gök Bozok", "Mestan Özdemir", "Mesut Kelle", "Mevlüde Kanberoğlu", "Murat Demir", "Mustafa Ballı", "Mustafa Yıldız", "Mutlu Şen", "Mücahit Gök", "Münevver Özel", "Nadide Sema Girgin", "Necati Günal", "Neval Yoldırım", "Nevin Ulusoy", "Oğuz Tutal", "Ömer Salih Çelik", "Öykü Cirit", "Özge Karakale", "Özlem Oruç", "Özlem Sarı", "Özlem Sarıkaya Paşaalioğlu", "Öznur Karakaya", "Pelin Abacılar", "Recep Topçu", "S. Özlem Sökmen", "Saniye Özdemir", "Savaş Kabak", "Seda Aalan", "Seda Batış", "Seda Zulfikaroglu", "Seher Özkurt", "Seher Şimşek", "Selim Deniz", "Selin Ceyhan Becet", "Semih Bayıl", "Semih Dilmen", "Semih Dümdüz", "Semih Eldemir", "Serap Karakaya", "Serkan Bayraktar", "Sezgin Kaçar", "Sia Gürün", "Sinan Abanoz", "Suna Eksen", "Süheyla Camaş", "Süheyla Özyaşar", "Süleybe Öztürk", "Şimal Bostancı", "Şule Yıldırım", "Şüheyda Karayiğit", "Taha Yasir Fasal", "Talu S. Alatlı", "Tuğba Özdamar", "Tuğba Tezer", "Tuğçe Sivri", "Tuna Demirci", "Tuna Ece", "Tuna Kuş", "Tuncay Gunes", "Tuncer Kayacı", "Uğur Atalay", "Umut Şanlı", "Vasıf İnan", "Vildan Demirci", "Yaşar Altun", "Yeşim Hitay", "Yiğit Alp Tezer", "Yunus Emre Atacan", "Yusuf Özdemir", "Yusuf Yalçın", "Zehra Uyar", "Zeynep Betil", "Zeynep Cebeoğlu", "Zeynep Duru Öztürk", "Zeynep Kayaalp", "Zuhal Çetin")
 			),
 			"other_supporters" => array(
-					array(
-							"title" => "Gönüllü Web Geliştirici",
-							"title-en" => "Volunteer Web Developer",
-							"supporter" => "Oğuz Kaan Çağatay Kılınç"
-					),
-					array(
-							"title" => "Gönüllü Çevirmen",
-							"title-en" => "Volunteer Translator",
-							"supporter" => "Deniz Ekin Doğan"
-					),
-					array(
-							"title" => "Gönüllü Faaliyet Raporu Tasarım",
-							"title-en" => "Volunteer Activity Report Design",
-							"supporter" => "B. Murat Toprak<br/>Marjinal Porter Novelli"
-					)
+				array(
+					"title" => "Gönüllü Web Geliştirici",
+					"title-en" => "Volunteer Web Developer",
+					"supporter" => "Oğuz Kaan Çağatay Kılınç"
+				),
+				array(
+					"title" => "Gönüllü Çevirmen",
+					"title-en" => "Volunteer Translator",
+					"supporter" => "Deniz Ekin Doğan"
+				),
+				array(
+					"title" => "Gönüllü Faaliyet Raporu Tasarım",
+					"title-en" => "Volunteer Activity Report Design",
+					"supporter" => "B. Murat Toprak<br/>Marjinal Porter Novelli"
+				)
 			),
 			"secret_supporters" => array(
 				"title" => "Adının Açıklanmasını Tercih Etmeyen Bireysel ve Kurumsal Bağışçılarımız",
