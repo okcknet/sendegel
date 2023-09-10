@@ -71,7 +71,7 @@
 				"supporters" => array(
 					array(
 						"title" => "AGC Gıda Tarım",
-						"image" => "",
+						"image" => "/assets/images/content/destekcilerimiz/agc-gida-tarim.png",
 						"link" => "",
 					),
 					array(
@@ -91,7 +91,7 @@
 					),
 					array(
 						"title" => "Eyüboğlu Eğitim Kurumları",
-						"image" => "",
+						"image" => "/assets/images/content/destekcilerimiz/eyuboglu-egitim-kurumlari.jpg",
 						"link" => "",
 					),
 					array(
@@ -101,8 +101,8 @@
 					),
 					array(
 						"title" => "Wellbees",
-						"image" => "",
-						"link" => "",
+						"image" => "/assets/images/content/destekcilerimiz/wellbees.png",
+						"link" => ""
 					)
 				)
 			),
@@ -113,22 +113,17 @@
 					"supporters" => array(
 							array(
 									"title" => "Mazars Denge",
-									"image" => "",
+									"image" => "/assets/images/content/destekcilerimiz/mazars-denge.png",
 									"link" => "",
 							),
 							array(
-									"title" => "Nef-Timur Gayrimenkul",
-									"image" => "",
+									"title" => "Nef-Timur Gayrimenkul<br/>Yapı ve Yatırım A. Ş.",
+									"image" => "/assets/images/content/destekcilerimiz/nef-timur-gayrimenkul.png",
 									"link" => "",
 							),
 							array(
 									"title" => "Turkish Philanthropy Fund",
-									"image" => "",
-									"link" => "",
-							),
-							array(
-									"title" => "Yapı ve Yatırım A. Ş.",
-									"image" => "",
+									"image" => "/assets/images/content/destekcilerimiz/turkish-philanthropy-fund.png",
 									"link" => "",
 							)
 					)
@@ -154,14 +149,14 @@
 							"title" => "Gönüllü Faaliyet Raporu Tasarım",
 							"title-en" => "Volunteer Activity Report Design",
 							"supporter" => ""
-					),
-					array(
-							"title" => "Adının açıklanmasını tercih etmeyen bireysel ve kurumsal bağışçılarımız",
-							"title-en" => "Donors Preferring not to Disclose Their Names",
-							"col-md" => "col-md-12",
-							"text" => "2022 Yılı Toplam: 944.885 TL",
-							"text-en" => "2022 Year Total: 944.885 TL"
 					)
+			),
+			"secret_supporters" => array(
+				"title" => "Adının Açıklanmasını Tercih Etmeyen Bireysel ve Kurumsal Bağışçılarımız",
+				"title-en" => "Donors Prefferring not to Disclose Their Names",
+				"col-md" => "col-md-12",
+				"text" => "2022 Yılı Toplam: 944.885 TL",
+				"text-en" => "2022 Year Total: 944.885 TL"
 			)
 		),
 		"2021" =>  array(
