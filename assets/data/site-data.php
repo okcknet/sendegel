@@ -291,5 +291,39 @@
 		)
 	);
 
+	#projects
+	$projects = array(
+		"all_projects" => array(
+			"update_date" => "2023-09-10",
+			"title" => "Projelerimiz",
+			"title-en" => "Our Projects",
+		),
+		"livestock_projects" => array(
+			"update_date" => "2023-09-10",
+			"title" => "Hayvancılık Projelerimiz",
+			"title-en" => "Livestock Projects",
+		),
+		"solar_panel_projects" => array(
+			"update_date" => "2023-09-10",
+			"title" => "Güneş Paneli Projelerimiz",
+			"title-en" => "Solar Panel Projects",
+		),
+		"water_well_projects" => array(
+			"update_date" => "2023-09-10",
+			"title" => "Su Kuyusu Projelerimiz",
+			"title-en" => "Water Well Projects",
+		),
+		"mill_projects" => array(
+			"update_date" => "2023-01-01",
+			"title" => "Değirmen Projelerimiz",
+			"title-en" => "Mill Projects",
+		),
+		"women_garden_projects" => array(
+			"update_date" => "2023-09-10",
+			"title" => "Kadın Bahçeleri Projelerimiz",
+			"title-en" => "Women Garden Projects",
+		)
+	);
+
 
 ?>

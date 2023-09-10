@@ -2,10 +2,10 @@
 	<div class="row">
 		<div class="col-md-4 col-sm-4 col-xs-12">
 			<div class="card2-item">
-				<a href="../en/projects--water-well-project.php" title="Water Well Projects">
-					<div class="card2-title">Water Well Projects</div>
+				<a href="../en/projects--water-well-project.php" title="<?php echo $projects["water_well_projects"]["title-en"]; ?>">
+					<div class="card2-title"><?php echo $projects["water_well_projects"]["title-en"]; ?></div>
 					<div class="mask"></div>
-					<img src="/assets/images/content/projects/calisma-alanlarimiz-su-kuyusu.jpg" alt="Water Well Projects"
+					<img src="/assets/images/content/projects/calisma-alanlarimiz-su-kuyusu.jpg" alt="<?php echo $projects["water_well_projects"]["title-en"]; ?>"
 						width="360" height="350" class="img-responsive center-block">
 				</a>
 			</div>
