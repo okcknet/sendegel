@@ -10,4 +10,5 @@
 		"student_entry_fee" => 50,
 		"student_annual_dues" => 50
 	);
->
+
+?>
