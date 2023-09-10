@@ -67,7 +67,7 @@
 			"corporate_donors" => array(
 				"title" => "Kurumsal Bağışçılarımız",
 				"title-en" => "Corporate Donors",
-				"col-md" => "col-md-6",
+				"col-md" => "col-md-3",
 				"supporters" => array(
 					array(
 						"title" => "AGC Gıda Tarım",
@@ -76,7 +76,7 @@
 					),
 					array(
 						"title" => "Alcas Metal San. A.Ş.",
-						"image" => "",
+						"image" => "/assets/images/content/destekcilerimiz/alcas-metal.png",
 						"link" => "",
 					),
 					array(
