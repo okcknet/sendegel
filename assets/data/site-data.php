@@ -194,7 +194,225 @@
 					"file" => "https://drive.google.com/file/d/1Fi7-8vH5-uXSOy93anI8P6wxo3uhNEkH/view"
 				)
 			)
+		),
+		/* other reports - diger raporlar */
+		"other_reports" => array(
+			"tr" => array(
+				array(
+					"title" => "SenDeGel Mart 2021 - Haziran 2021 Dönemsel Bilgilendirme Raporu",
+					"file" => "https://drive.google.com/file/d/1zEPpwZTxaVkuPsir77TVp-f2GooZ1Ozg/view"
+				),
+				array(
+					"title" => "SenDeGel Ekim 2020 - Şubat 2021 Dönemsel Bilgilendirme Raporu",
+					"file" => "https://drive.google.com/file/d/1kHP6tKvJg2PvGenD_mRG5oa-9QR57On7/view"
+				),
+				array(
+					"title" => "SenDeGel Mayıs 2020 - Eylül 2020 Dönemsel Bilgilendirme Raporu",
+					"file" => "https://drive.google.com/file/d/1LdL0Inf54wgQs4h1Hf1p9dVhZE4ajZWl/view"
+				),
+				array(
+					"title" => "SenDeGel Ocak 2020 - Nisan 2020 Dönemsel Bilgilendirme Raporu",
+					"file" => "https://drive.google.com/file/d/1HazvNTqj320x3MGIbOel208SyoqiPfcH/view"
+				),
+				array(
+					"title" => "SenDeGel Ağustos 2019 - Kasım 2019 Dönemsel Bilgilendirme Raporu",
+					"file" => "https://drive.google.com/file/d/1J7ge2NThZQQw40WpQoNssEACJeeX4Jot/viev"
+				),
+				array(
+					"title" => "SenDeGel Ocak 2019 - Temmuz 2019 Dönemsel Bilgilendirme Raporu",
+					"file" => "https://drive.google.com/file/d/17cza548lt2B0dISIO967DCIq0j-SBwwc/view"
+				),
+				array(
+					"title" => "SenDeGel Temmuz 2018 - Kasım 2018 Dönemsel Bilgilendirme Raporu",
+					"file" => "https://drive.google.com/file/d/1Oi2QNhyc6u7esWXVer9L5cvoDLEl45IH/view"
+				),
+				array(
+					"title" => "SenDeGel Mart 2018 - Haziran 2018 Dönemsel Bilgilendirme Raporu",
+					"file" => "https://drive.google.com/file/d/1OxrkRlfh2cnC_UjJhFLvUrQPFD63LuZl/view"
+				),
+				array(
+					"title" => "SenDeGel Aralık 2017 - Mart 2018 Dönemsel Bilgilendirme Raporu",
+					"file" => "https://drive.google.com/file/d/17CB8fsEOV21dWivdAWcjFCHH5WyiFa5J/view"
+				),
+				array(
+					"title" => "SenDeGel Haziran 2016 - Ekim 2016 Dönemsel Bilgilendirme Raporu",
+					"file" => "https://drive.google.com/file/d/1QSfmFtPPKNf_fu1VFE13jVJqZVieEC9a/view"
+				)
+			)
 		)
 	);
+	/* statements - beyannameler */
+
+	/*
+	<div class="panel">
+												<div class="panel-heading">
+													<h4 class="panel-title">
+														<a href="https://drive.google.com/file/d/1NlDH4bpS9oBm21Rcp-ZiJemjOSDkQSMY/view" target="_blank" title="SenDeGel 2020 Beyannamesi">
+															<span>SenDeGel 2021 Beyannamesi</span>
+															<i class="icon icon-zoom"></i>
+														</a>
+													</h4>
+												</div>
+											</div>
+
+											<div class="panel">
+												<div class="panel-heading">
+													<h4 class="panel-title">
+														<a href="https://drive.google.com/file/d/1P_qP_SsRi9bNs4JAjYwt-a8XdwpX-FFl/view" target="_blank" title="SenDeGel 2020 Beyannamesi">
+															<span>SenDeGel 2020 Beyannamesi</span>
+															<i class="icon icon-zoom"></i>
+														</a>
+													</h4>
+												</div>
+											</div>
+
+											<div class="panel">
+												<div class="panel-heading">
+													<h4 class="panel-title">
+														<a href="https://drive.google.com/file/d/1PfbH-dfMPlQT7zedqnBp_4opmrIeZlb8/view" target="_blank" title="SenDeGel 2019 Beyannamesi">
+															<span>SenDeGel 2019 Beyannamesi</span>
+															<i class="icon icon-zoom"></i>
+														</a>
+													</h4>
+												</div>
+											</div>
+
+											<div class="panel">
+												<div class="panel-heading">
+													<h4 class="panel-title">
+														<a href="https://drive.google.com/file/d/1Z8ZUIKfZzSQGY7ontQUZGLSrWujVT1zT/view" target="_blank" title="SenDeGel 2018 Beyannamesi">
+															<span>SenDeGel 2018 Beyannamesi</span>
+															<i class="icon icon-zoom"></i>
+														</a>
+													</h4>
+												</div>
+											</div>
+
+											<div class="panel">
+												<div class="panel-heading">
+													<h4 class="panel-title">
+														<a href="https://drive.google.com/file/d/1wk1WlQoy4FeOvA_D-em16byJYjTzLUjC/view" target="_blank" title="SenDeGel 2017 Beyannamesi">
+															<span>SenDeGel 2017 Beyannamesi</span>
+															<i class="icon icon-zoom"></i>
+														</a>
+													</h4>
+												</div>
+											</div>
+
+											<div class="panel">
+												<div class="panel-heading">
+													<h4 class="panel-title">
+														<a href="https://drive.google.com/file/d/1kdRJNZbje5veQ28c_bU7oZ_1bDDJ91l_/view" target="_blank" title="SenDeGel 2016 Beyannamesi">
+															<span>SenDeGel 2016 Beyannamesi</span>
+															<i class="icon icon-zoom"></i>
+														</a>
+													</h4>
+												</div>
+											</div>
+
+											<div class="panel">
+												<div class="panel-heading">
+													<h4 class="panel-title">
+														<a href="https://drive.google.com/file/d/1AhKt2kJifL32Ti0KUl4BTOcv3QoYTB8O/view" target="_blank" title="SenDeGel 2015 Beyannamesi">
+															<span>SenDeGel 2015 Beyannamesi</span>
+															<i class="icon icon-zoom"></i>
+														</a>
+													</h4>
+												</div>
+											</div>
+
+											<div class="panel">
+												<div class="panel-heading">
+													<h4 class="panel-title">
+														<a href="https://drive.google.com/file/d/1oLWXxUpEvrnNiv8tZL6Z4Td26gaoJ8M-/view" target="_blank" title="SenDeGel 2014 Beyannamesi">
+															<span>SenDeGel 2014 Beyannamesi</span>
+															<i class="icon icon-zoom"></i>
+														</a>
+													</h4>
+												</div>
+											</div>
+
+											<div class="panel">
+												<div class="panel-heading">
+													<h4 class="panel-title">
+														<a href="https://drive.google.com/file/d/1Z_uI-dS6dHD7936jAXhi_0XrKJWjUcIp/view" target="_blank" title="SenDeGel 2013 Beyannamesi">
+															<span>SenDeGel 2013 Beyannamesi</span>
+															<i class="icon icon-zoom"></i>
+														</a>
+													</h4>
+												</div>
+											</div>
+
+											<div class="panel">
+												<div class="panel-heading">
+													<h4 class="panel-title">
+														<a href="https://drive.google.com/file/d/1dnBeFaeH-8eG7o_ksMb6Z99SU4l_jVeE/view" target="_blank" title="SenDeGel 2012 Beyannamesi">
+															<span>SenDeGel 2012 Beyannamesi</span>
+															<i class="icon icon-zoom"></i>
+														</a>
+													</h4>
+												</div>
+											</div>
+
+											<div class="panel">
+												<div class="panel-heading">
+													<h4 class="panel-title">
+														<a href="https://drive.google.com/file/d/1YiXlaGUHEnW9uUuNSD2YDW9Uk8F6ggMI/view" target="_blank" title="Bağışçı Hakları Beyannamesi">
+															<span>Bağışçı Hakları Beyannamesi</span>
+															<i class="icon icon-zoom"></i>
+														</a>
+													</h4>
+												</div>
+											</div>
+	*/
+
+	"statements" => array(
+		"tr" => array(
+			array(
+				"title" => "SenDeGel 2021 Beyannamesi",
+				"file" => "https://drive.google.com/file/d/1NlDH4bpS9oBm21Rcp-ZiJemjOSDkQSMY/view"
+			),
+			array(
+				"title" => "SenDeGel 2020 Beyannamesi",
+				"file" => "https://drive.google.com/file/d/1P_qP_SsRi9bNs4JAjYwt-a8XdwpX-FFl/view"
+			),
+			array(
+				"title" => "SenDeGel 2019 Beyannamesi",
+				"file" => "https://drive.google.com/file/d/1PfbH-dfMPlQT7zedqnBp_4opmrIeZlb8/view"
+			),
+			array(
+				"title" => "SenDeGel 2018 Beyannamesi",
+				"file" => "https://drive.google.com/file/d/1Z8ZUIKfZzSQGY7ontQUZGLSrWujVT1zT/view"
+			),
+			array(
+				"title" => "SenDeGel 2017 Beyannamesi",
+				"file" => "https://drive.google.com/file/d/1wk1WlQoy4FeOvA_D-em16byJYjTzLUjC/view"
+			),
+			array(
+				"title" => "SenDeGel 2016 Beyannamesi",
+				"file" => "https://drive.google.com/file/d/1kdRJNZbje5veQ28c_bU7oZ_1bDDJ91l_/view"
+			),
+			array(
+				"title" => "SenDeGel 2015 Beyannamesi",
+				"file" => "https://drive.google.com/file/d/1AhKt2kJifL32Ti0KUl4BTOcv3QoYTB8O/view"
+			),
+			array(
+				"title" => "SenDeGel 2014 Beyannamesi",
+				"file" => "https://drive.google.com/file/d/1oLWXxUpEvrnNiv8tZL6Z4Td26gaoJ8M-/view"
+			),
+			array(
+				"title" => "SenDeGel 2013 Beyannamesi",
+				"file" => "https://drive.google.com/file/d/1Z_uI-dS6dHD7936jAXhi_0XrKJWjUcIp/view"
+			),
+			array(
+				"title" => "SenDeGel 2012 Beyannamesi",
+				"file" => "https://drive.google.com/file/d/1dnBeFaeH-8eG7o_ksMb6Z99SU4l_jVeE/view"
+			),
+			array(
+				"title" => "Bağışçı Hakları Beyannamesi",
+				"file" => "https://drive.google.com/file/d/1YiXlaGUHEnW9uUuNSD2YDW9Uk8F6ggMI/view"
+			)
+		)
+	)
 
 ?>
