@@ -44,6 +44,24 @@
 									<div class="accordion accordion2">
 										<div class="panel-group" id="accordion1">
 
+											<?php
+												foreach ($reports["independent_audit_reports"] as $year => $report) {
+													$report = $report["tr"];
+													echo '
+														<div class="panel">
+															<div class="panel-heading">
+																<h4 class="panel-title">
+																	<a href="' . $report["file"] . '" target="_blank" title="' . $report["title"] . '">
+																		<span>' . $report["title"] . '</span>
+																		<i class="icon icon-zoom"></i>
+																	</a>
+																</h4>
+															</div>
+														</div>
+													';
+												}
+											?>
+
 											<div class="panel">
 												<div class="panel-heading">
 													<h4 class="panel-title">
