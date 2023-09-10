@@ -81,12 +81,12 @@
 					),
 					array(
 						"title" => "Ali İsmail Korkmaz Vakfı (ALİKEV)",
-						"image" => "",
+						"image" => "/assets/images/content/destekcilerimiz/alikev.png",
 						"link" => "",
 					),
 					array(
 						"title" => "ASAŞ Alüminyum Sanayi ve Ticaret A.Ş.",
-						"image" => "",
+						"image" => "/assets/images/content/destekcilerimiz/asas.png",
 						"link" => "",
 					),
 					array(
@@ -96,7 +96,7 @@
 					),
 					array(
 						"title" => "NESCE İnşaat Enerji Ticaret A.Ş",
-						"image" => "",
+						"image" => "/assets/images/content/destekcilerimiz/nesce.png",
 						"link" => "",
 					),
 					array(
