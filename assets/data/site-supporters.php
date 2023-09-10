@@ -148,7 +148,7 @@
 					array(
 							"title" => "Gönüllü Faaliyet Raporu Tasarım",
 							"title-en" => "Volunteer Activity Report Design",
-							"supporter" => ""
+							"supporter" => "B. Murat Toprak<br/>Marjinal Porter Novelli"
 					)
 			),
 			"secret_supporters" => array(
