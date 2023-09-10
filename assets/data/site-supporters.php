@@ -66,6 +66,7 @@
 					"Nesim Çelik",
 					"Sema Emek",
 					"Serkan İzci"
+				)
 			),
 			"corporate_donors" => array(
 				"title" => "Kurumsal Bağışçılarımız",
