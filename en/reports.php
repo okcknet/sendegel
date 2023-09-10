@@ -45,6 +45,11 @@
 
 										<?php
 												foreach ($reports["independent_audit_reports"] as $year => $report) {
+													// check if english report exists
+													if (!isset($report["en"])) {
+														continue;
+													}
+													
 													$report = $report["en"];
 													echo '
 														<div class="panel">
