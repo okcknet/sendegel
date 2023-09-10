@@ -97,8 +97,8 @@
 		<div class="row">
 			<div class="col-md-12">
 				<div class="section-container align-center">
-					<h3 class="section-title">Our Water Well Projects</h3>
-					<iframe src="https://drive.google.com/file/d/1aSyg_PaOEt0UKoT871Kk9_yrP333Iyac/preview" width="100%" height="680" allow="autoplay"></iframe>
+					<h1 class="section-title"><?php echo $projects["water_well_projects"]["our-title-en"]; ?></h3>
+					<iframe src="<?php echo $projects["water_well_projects"]["file-en"]; ?>" width="100%" height="1000" allow="autoplay"></iframe>
 				</div>
 			</div>
 		</div>

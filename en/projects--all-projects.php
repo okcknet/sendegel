@@ -15,8 +15,8 @@
 		<div class="row">
 			<div class="col-md-12">
 				<div class="section-container align-center">
-					<h1 class="section-title">Our All Projects</h3>
-					<iframe src="https://drive.google.com/file/d/1lLKHuUydtp32xxcx8EOOUMi__ZLho4Qi/preview" width="100%" height="1000" allow="autoplay"></iframe>
+					<h1 class="section-title"><?php echo $projects["all_projects"]["our-title-en"]; ?></h3>
+					<iframe src="<?php echo $projects["all_projects"]["file-en"]; ?>" width="100%" height="1000" allow="autoplay"></iframe>
 				</div>
 			</div>
 		</div>

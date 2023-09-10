@@ -282,8 +282,8 @@
 		<div class="row">
 			<div class="col-md-12">
 				<div class="section-container align-center">
-					<h3 class="section-title">Our Other Projects</h3>
-					<iframe src="https://drive.google.com/file/d/1NqwwxTWtS1ck6M-3n4Lyf7ceKbqlVgP3/preview" width="100%" height="680" allow="autoplay"></iframe>
+					<h1 class="section-title"><?php echo $projects["other_projects"]["our-title-en"]; ?></h3>
+					<iframe src="<?php echo $projects["other_projects"]["file-en"]; ?>" width="100%" height="1000" allow="autoplay"></iframe>
 				</div>
 			</div>
 		</div>

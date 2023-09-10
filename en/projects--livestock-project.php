@@ -81,8 +81,8 @@
 		<div class="row">
 			<div class="col-md-12">
 				<div class="section-container align-center">
-					<h3 class="section-title">Our Livestock Projects</h3>
-					<iframe src="https://drive.google.com/file/d/1ox15iE8Yr9rGVYCeu_bm_srwrByfbGol/preview" width="100%" height="680" allow="autoplay"></iframe>
+					<h1 class="section-title"><?php echo $projects["livestock_projects"]["our-title-en"]; ?></h3>
+					<iframe src="<?php echo $projects["livestock_projects"]["file-en"]; ?>" width="100%" height="1000" allow="autoplay"></iframe>
 				</div>
 			</div>
 		</div>

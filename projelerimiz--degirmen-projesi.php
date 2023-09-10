@@ -97,8 +97,8 @@
 		<div class="row">
 			<div class="col-md-12">
 				<div class="section-container align-center">
-					<h3 class="section-title"><?php echo $projects["mill_projects"]["our-title"]; ?></h3>
-					<iframe src="https://drive.google.com/file/d/1m9K1hec7YM-jdcA01TV4Lo61DWEhUb2G/preview" width="100%" height="680" allow="autoplay"></iframe>
+					<h1 class="section-title"><?php echo $projects["mill_projects"]["our-title"]; ?></h3>
+					<iframe src="<?php echo $projects["mill_projects"]["file"]; ?>" width="100%" height="1000" allow="autoplay"></iframe>
 				</div>
 			</div>
 		</div>

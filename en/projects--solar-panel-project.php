@@ -70,7 +70,7 @@
 									<div class="mask"><i class="icon icon-zoom"></i></div>
 									<img src="../../assets/images/content/projects/solar-panel-projesi-s4.jpg" alt="Proje" width="255" height="255" class="img-responsive">
 								</a>
-							</div>							
+							</div>
 						</div>
 					</div>
 				</div>
@@ -84,8 +84,8 @@
 		<div class="row">
 			<div class="col-md-12">
 				<div class="section-container align-center">
-					<h3 class="section-title">Our Solar Energy Projects</h3>
-					<iframe src="https://drive.google.com/file/d/1uIZYZGkfWVeCbbmctBOxmqUnDR-r12_W/preview" width="100%" height="680" allow="autoplay"></iframe>
+					<h1 class="section-title"><?php echo $projects["solar_panel_projects"]["our-title-en"]; ?></h3>
+					<iframe src="<?php echo $projects["solar_panel_projects"]["file-en"]; ?>" width="100%" height="1000" allow="autoplay"></iframe>
 				</div>
 			</div>
 		</div>

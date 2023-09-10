@@ -298,8 +298,9 @@
 			"title" => "Tüm Projeler",
 			"title-en" => "All Projects",
 			"our-title" => "Projelerimiz",
-			"our-title-en" => "Our Projects",
-			"file" => "https://drive.google.com/file/d/1ITJ2Vpxk2N5UA6IKArUv2o191vkIQXD1/preview"
+			"our-title-en" => "Our All Projects",
+			"file" => "https://drive.google.com/file/d/1ITJ2Vpxk2N5UA6IKArUv2o191vkIQXD1/preview",
+			"file-en" => "https://drive.google.com/file/d/1Wm5mEguZ3JLkzWpHtgSKhXYvCPw94HnA/preview"
 		),
 		"livestock_projects" => array(
 			"update_date" => "2023-09-10",
@@ -307,15 +308,17 @@
 			"title-en" => "Livestock Projects",
 			"our-title" => "Hayvancılık Projelerimiz",
 			"our-title-en" => "Our Livestock Projects",
-			"file" => "https://drive.google.com/file/d/1qA4mTzCM7JjO9YOTtTBW0OvpedY0Lw-u/preview"
+			"file" => "https://drive.google.com/file/d/1qA4mTzCM7JjO9YOTtTBW0OvpedY0Lw-u/preview",
+			"file-en" => "https://drive.google.com/file/d/1JtVS8ZCa56nYfAUofAlWf-yvrU_8FxXB/preview"
  		),
 		"solar_panel_projects" => array(
 			"update_date" => "2023-09-10",
-			"title" => "Güneş Paneli Projeleri",
-			"title-en" => "Solar Panel Projects",
-			"our-title" => "Güneş Paneli Projelerimiz",
-			"our-title-en" => "Our Solar Panel Projects",
-			"file" => "https://drive.google.com/file/d/1_czSsiozPaEHDUB4PN3LPX5EE-kA6hhi/preview"
+			"title" => "Güneş Enerjisi Projeleri",
+			"title-en" => "Solar Energy Projects",
+			"our-title" => "Güneş Enerjisi Projelerimiz",
+			"our-title-en" => "Our Solar Energy Projects",
+			"file" => "https://drive.google.com/file/d/1_czSsiozPaEHDUB4PN3LPX5EE-kA6hhi/preview",
+			"file-en" => "https://drive.google.com/file/d/1bG0Nje4pBpWL_1dhwRM3B0KtYPxNVASu/preview"
 		),
 		"water_well_projects" => array(
 			"update_date" => "2023-09-10",
@@ -323,7 +326,8 @@
 			"title-en" => "Water Well Projects",
 			"our-title" => "Su Kuyusu Projelerimiz",
 			"our-title-en" => "Our Water Well Projects",
-			"file" => "https://drive.google.com/file/d/1XZfWg7Q42udMzQthdO80cPypkwmijyPv/preview"
+			"file" => "https://drive.google.com/file/d/1XZfWg7Q42udMzQthdO80cPypkwmijyPv/preview",
+			"file-en" => "https://drive.google.com/file/d/1TW4BSY4eBycl2HjyTTeDVrxrFGSSF0u3/preview"
 		),
 		"mill_projects" => array(
 			"update_date" => "2023-01-01",
@@ -340,7 +344,8 @@
 			"title-en" => "Women's Garden Projects",
 			"our-title" => "Kadın Bahçeleri Projelerimiz",
 			"our-title-en" => "Our Women's Garden Projects",
-			"file" => "https://drive.google.com/file/d/1bo-ohe_qpOymorJwx9kx-AIU_p9NGs71/preview"
+			"file" => "https://drive.google.com/file/d/1bo-ohe_qpOymorJwx9kx-AIU_p9NGs71/preview",
+			"file-en" => "https://drive.google.com/file/d/1CmlP0KjgHheZqeog70t_-hA4fwlubQZZ/preview"
 		),
 		"other_projects" => array(
 			"update_date" => "2023-01-01",
@@ -348,7 +353,17 @@
 			"title-en" => "Other Projects",
 			"our-title" => "Diğer Projelerimiz",
 			"our-title-en" => "Our Other Projects",
-			"file" => "https://drive.google.com/file/d/1wL0ReJCqlJz1fL87zFYMCV56jQNjfKrZ/preview"
+			"file" => "https://drive.google.com/file/d/1wL0ReJCqlJz1fL87zFYMCV56jQNjfKrZ/preview",
+			"file-en" => "https://drive.google.com/file/d/1NqwwxTWtS1ck6M-3n4Lyf7ceKbqlVgP3/preview"
+		),
+		"waiting_for_support" => array(
+			"update_date" => "2023-09-10",
+			"title" => "Destek Bekleyen Projeler",
+			"title-en" => "Projects Waiting for Support",
+			"our-title" => "Destek Bekleyen Projelerimiz",
+			"our-title-en" => "Our Projects That Need Support",
+			"file" => "https://drive.google.com/file/d/1xEWHs9elg2egCbm77fsUm0nndjzE2BAD/preview",
+			"file-en" => "https://drive.google.com/file/d/1HjGY5pQvtKYV_ENGFhjINWc_UMYXH6Gp/preview"
 		)
 	);
 
