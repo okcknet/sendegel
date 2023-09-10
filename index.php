@@ -1,21 +1,13 @@
 <!doctype html>
-
 <html>
-
 	<head>
-
 		<?php
-
 			$pageTitle = "Anasayfa";
-
 			include 'include/head.php';
-
+			include 'include/site-data.php';
 		?>
-
 	</head>
-
 	<body>
-
 		<!--Header -->
 
 		<?php include 'include/header.php' ?>
