@@ -4,7 +4,7 @@
 		<?php
 			$pageTitle = "Homepage";
 			include 'include/head.php';
-			include __DIR__ . '/include/site-data.php';
+			include __DIR__ . 'assets/data/site-data.php';
 		?>
 	</head>
 	<body>
@@ -17,6 +17,7 @@
 		<!-- Neler Yapıyoruz? -->
 		<?php include 'include/modules/section2.php' ?>
 		<!-- Çalışma Alanlarımız -->
+		<?php echo __DIR__ ?>
 		<section class="section section3">
 			<div class="container">
 				<div class="row">

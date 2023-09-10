@@ -4,7 +4,7 @@
 		<?php
 			$pageTitle = "Anasayfa";
 			include 'include/head.php';
-			include __DIR__ . '/include/site-data.php';
+			include __DIR__ . '/assets/datasite-data.php';
 		?>
 	</head>
 	<body>
@@ -25,6 +25,8 @@
 		<?php include 'include/modules/section2.php' ?>
 
 		<!-- Çalışma Alanlarımız -->
+
+		<?php echo __DIR__ ?>
 
 		<section class="section section3">
 
