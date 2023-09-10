@@ -38,18 +38,16 @@
 											</svg>
 											<span>All Independent Auditors' Reports</span>
 										</a>
-									</div>	
+									</div>
 
 									<div class="accordion accordion2">
 										<div class="panel-group" id="accordion1">
 
-										<?php
-												foreach ($reports["independent_audit_reports"] as $year => $report) {
-													// check if english report exists
+											<?php
+												foreach ($reports["independent_auditors_reports"] as $year => $report) {
 													if (!isset($report["en"])) {
 														continue;
 													}
-													
 													$report = $report["en"];
 													echo '
 														<div class="panel">
@@ -64,90 +62,8 @@
 														</div>
 													';
 												}
-											?>										
+											?>
 
-											<div class="panel">
-												<div class="panel-heading">
-													<h4 class="panel-title">
-														<a href="https://drive.google.com/file/d/1ibnTRNzzLPzCwj9FqfwYeYgUK6djdygt/view" target="_blank" title="2021 Independent Auditors' Report">
-															<span>2021 Independent Auditors' Report</span>
-															<i class="icon icon-zoom"></i>
-														</a>
-													</h4>
-												</div>
-											</div>										
-
-											<div class="panel">
-												<div class="panel-heading">
-													<h4 class="panel-title">
-														<a href="https://drive.google.com/file/d/1Y0ACoKUU9MTCwHhDy8MUGcKtxyVQcMw-/view" target="_blank" title="2020 Independent Auditors' Report">
-															<span>2020 Independent Auditors' Report</span>
-															<i class="icon icon-zoom"></i>
-														</a>
-													</h4>
-												</div>
-											</div>
-
-											<div class="panel">
-												<div class="panel-heading">
-													<h4 class="panel-title">
-														<a href="https://drive.google.com/file/d/1Joxn6Ni0J2Rv91d2F4LrrdYqoqblDMz-/view" target="_blank" title="2019 Independent Auditors' Report">
-															<span>2019 Independent Auditors' Report</span>
-															<i class="icon icon-zoom"></i>
-														</a>
-													</h4>
-												</div>
-											</div>
-											<div class="panel">
-												<div class="panel-heading">
-													<h4 class="panel-title">
-														<a href="https://drive.google.com/file/d/14fxQW6QsxQ6pWBvNzRgnGVmmsAZhkKUe/view" target="_blank" title="2018 Independent Auditors' Report">
-															<span>2018 Independent Auditors' Report</span>
-															<i class="icon icon-zoom"></i>
-														</a>
-													</h4>
-												</div>
-											</div>
-											<div class="panel">
-												<div class="panel-heading">
-													<h4 class="panel-title">
-														<a href="https://drive.google.com/file/d/1PdMhXShVr1GKUp7EpKUITU8kSlDPoxIu/view" target="_blank" title="2017 Independent Auditors' Report">
-															<span>2017 Independent Auditors' Report</span>
-															<i class="icon icon-zoom"></i>
-														</a>
-													</h4>
-												</div>
-											</div>
-											<div class="panel">
-												<div class="panel-heading">
-													<h4 class="panel-title">
-														<a href="https://drive.google.com/file/d/11zKJCXMy69Cy9dMnvKcleirww5UUqKlG/view" target="_blank" title="2016 Independent Auditors' Report">
-															<span>2016 Independent Auditors' Report</span>
-															<i class="icon icon-zoom"></i>
-														</a>
-													</h4>
-												</div>
-											</div>
-											<div class="panel">
-												<div class="panel-heading">
-													<h4 class="panel-title">
-														<a href="https://drive.google.com/file/d/1jhIngZNtSm5XnDpyEVN5Qa320ajDUhN7/viev" target="_blank" title="2015 Independent Auditors' Report">
-															<span>2015 Independent Auditors' Report</span>
-															<i class="icon icon-zoom"></i>
-														</a>
-													</h4>
-												</div>
-											</div>
-											<div class="panel">
-												<div class="panel-heading">
-													<h4 class="panel-title">
-														<a href="https://drive.google.com/file/d/1yDqHYsDja8dct4SLiTVuEH8iiZ7Vy90Q/view" target="_blank" title="2014 Independent Auditors' Report">
-															<span>2014 Independent Auditors' Report</span>
-															<i class="icon icon-zoom"></i>
-														</a>
-													</h4>
-												</div>
-											</div>
 										</div>
 									</div>
 								</div>
@@ -165,82 +81,28 @@
 									<div class="accordion accordion2">
 										<div class="panel-group" id="accordion2">
 
-											<div class="panel">
-												<div class="panel-heading">
-													<h4 class="panel-title">
-														<a href="https://drive.google.com/file/d/1ZQpXlhGVTyj9bkOmJ0KUqywJDsarePKp/view" target="_blank" title="SenDeGel 2021 Annual Report">
-															<span>SenDeGel 2021 Annual Report</span>
-															<i class="icon icon-zoom"></i>
-														</a>
-													</h4>
-												</div>
-											</div>
+											<?php
+												foreach ($reports["annual_reports"] as $year => $report) {
+													// check if turkish report exists
+													if (!isset($report["en"])) {
+														continue;
+													}
 
-											<div class="panel">
-												<div class="panel-heading">
-													<h4 class="panel-title">
-														<a href="https://drive.google.com/file/d/1phlNW4D7OBn3yi3fws7JhOpC7IKCiQy7/view" target="_blank" title="SenDeGel 2020 Annual Report">
-															<span>SenDeGel 2020 Annual Report</span>
-															<i class="icon icon-zoom"></i>
-														</a>
-													</h4>
-												</div>
-											</div>
-
-											<div class="panel">
-												<div class="panel-heading">
-													<h4 class="panel-title">
-														<a href="https://drive.google.com/file/d/113oqcVgAg_gl0dnk8wjX26v9pPL7D9fl/view" target="_blank" title="SenDeGel 2019 Annual Report">
-															<span>SenDeGel 2019 Annual Report</span>
-															<i class="icon icon-zoom"></i>
-														</a>
-													</h4>
-												</div>
-											</div>
-
-											<div class="panel">
-												<div class="panel-heading">
-													<h4 class="panel-title">
-														<a href="https://drive.google.com/file/d/1JdJ8VYeNMGZWJSEfICvIBDMHUG6xliS8/view" target="_blank" title="SenDeGel 2018 Annual Report">
-															<span>SenDeGel 2018 Annual Report</span>
-															<i class="icon icon-zoom"></i>
-														</a>
-													</h4>
-												</div>
-											</div>
-
-											<div class="panel">
-												<div class="panel-heading">
-													<h4 class="panel-title">
-														<a href="https://drive.google.com/file/d/1PNS6DDPnZDzDIzx7S3sHw6AGpYmQ0gty/view" target="_blank" title="SenDeGel 2017 Annual Report">
-															<span>SenDeGel 2017 Annual Report</span>
-															<i class="icon icon-zoom"></i>
-														</a>
-													</h4>
-												</div>
-											</div>	
-											
-											<div class="panel">
-												<div class="panel-heading">
-													<h4 class="panel-title">
-														<a href="https://drive.google.com/file/d/1eIQUItQszdFD2jWleAd5M7l0b7JjA-pI/view" target="_blank" title="SenDeGel 2016 Annual Report">
-															<span>SenDeGel 2016 Annual Report</span>
-															<i class="icon icon-zoom"></i>
-														</a>
-													</h4>
-												</div>
-											</div>	
-											
-											<div class="panel">
-												<div class="panel-heading">
-													<h4 class="panel-title">
-														<a href="https://drive.google.com/file/d/1Fi7-8vH5-uXSOy93anI8P6wxo3uhNEkH/view" target="_blank" title="SenDeGel 2015 Annual Report">
-															<span>SenDeGel 2015 Annual Report</span>
-															<i class="icon icon-zoom"></i>
-														</a>
-													</h4>
-												</div>
-											</div>
+													$report = $report["en"];
+													echo '
+														<div class="panel">
+															<div class="panel-heading">
+																<h4 class="panel-title">
+																	<a href="' . $report["file"] . '" target="_blank" title="' . $report["title"] . '">
+																		<span>' . $report["title"] . '</span>
+																		<i class="icon icon-zoom"></i>
+																	</a>
+																</h4>
+															</div>
+														</div>
+													';
+												}
+											?>
 
 										</div>
 									</div>

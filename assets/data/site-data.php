@@ -11,13 +11,9 @@
 		"student_annual_dues" => 50
 	);
 
-/*
-
-*/
-
 	# reports
 	$reports = array(
-		"independent_audit_reports" => array(
+		"independent_auditors_reports" => array(
 			"2022" => array(
 				"tr" => array(
 					"title" => "2022 Yılı Bağımsız Denetim Raporu",
@@ -118,6 +114,84 @@
 				"tr" => array(
 					"title" => "2012 Yılı Bağımsız Denetim Raporu",
 					"file" => "https://drive.google.com/file/d/1YPDPA2dY-OoRKOCvLlipA77OedgdEWdn/view"
+				)
+			)
+		),
+		"annual_reports" => array(
+			"2022" => array(
+				"tr" => array(
+					"title" => "2022 Yılı Faaliyet Raporumuz",
+					"file" => "https://drive.google.com/file/d/1Lv3WBgkXU4rwbN1fcSlYEFAUO4577RBY/view"
+				)
+			),
+			"2021" => array(
+				"tr" => array(
+					"title" => "2021 Yılı Faaliyet Raporumuz",
+					"file" => "https://drive.google.com/file/d/1BIYB0EnhIH6hYUPUwR5_oM8uaPz8xCdc/view"
+				),
+				"en" => array(
+					"title" => "2021 Annual Report",
+					"file" => "https://drive.google.com/file/d/1ZQpXlhGVTyj9bkOmJ0KUqywJDsarePKp/view"
+				)
+			),
+			"2020" => array(
+				"tr" => array(
+					"title" => "2020 Yılı Faaliyet Raporumuz",
+					"file" => "https://drive.google.com/file/d/1KOEKwM_8cXq2ZspVQUDy4OPxAysUCYjR/view"
+				),
+				"en" => array(
+					"title" => "2020 Annual Report",
+					"file" => "https://drive.google.com/file/d/1phlNW4D7OBn3yi3fws7JhOpC7IKCiQy7/view"
+				)
+			),
+			"2019" => array(
+				"tr" => array(
+					"title" => "2019 Yılı Faaliyet Raporumuz",
+					"file" => "https://drive.google.com/file/d/1YYmCYDz2pOGnQ0T-cSkbw3TsQmzHh94Q/view"
+				),
+				"en" => array(
+					"title" => "2019 Annual Report",
+					"file" => "https://drive.google.com/file/d/113oqcVgAg_gl0dnk8wjX26v9pPL7D9fl/view"
+				)
+			),
+			"2018" => array(
+				"tr" => array(
+					"title" => "2018 Yılı Faaliyet Raporumuz",
+					"file" => "https://drive.google.com/file/d/1u3-jfLlMh4JDZjqeFJb06ru_i_q16ocG/view"
+				),
+				"en" => array(
+					"title" => "2018 Annual Report",
+					"file" => "https://drive.google.com/file/d/1JdJ8VYeNMGZWJSEfICvIBDMHUG6xliS8/view"
+				)
+			),
+			"2017" => array(
+				"tr" => array(
+					"title" => "2017 Yılı Faaliyet Raporumuz",
+					"file" => "https://drive.google.com/file/d/1VYrB7luDji0ELrNl2gri-2ZuL2yKYub9/view"
+				),
+				"en" => array(
+					"title" => "2017 Annual Report",
+					"file" => "https://drive.google.com/file/d/1PNS6DDPnZDzDIzx7S3sHw6AGpYmQ0gty/view"
+				)
+			),
+			"2016" => array(
+				"tr" => array(
+					"title" => "2016 Yılı Faaliyet Raporumuz",
+					"file" => "https://drive.google.com/file/d/1YJcoT6R0z9q0bjx3o6Db_M3dZSbyOe5R/view"
+				),
+				"en" => array(
+					"title" => "2016 Annual Report",
+					"file" => "https://drive.google.com/file/d/1eIQUItQszdFD2jWleAd5M7l0b7JjA-pI/view"
+				)
+			),
+			"2015" => array(
+				"tr" => array(
+					"title" => "2015 Yılı Faaliyet Raporumuz",
+					"file" => "https://drive.google.com/file/d/1eTo0BpnKcbayO8x7_w7KTOdpP6FspdYH/view"
+				),
+				"en" => array(
+					"title" => "2015 Annual Report",
+					"file" => "https://drive.google.com/file/d/1Fi7-8vH5-uXSOy93anI8P6wxo3uhNEkH/view"
 				)
 			)
 		)

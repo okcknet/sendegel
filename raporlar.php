@@ -45,8 +45,8 @@
 									<div class="accordion accordion2">
 										<div class="panel-group" id="accordion1">
 
-										<?php
-												foreach ($reports["independent_audit_reports"] as $year => $report) {
+											<?php
+												foreach ($reports["independent_auditors_reports"] as $year => $report) {
 													// check if turkish report exists
 													if (!isset($report["tr"])) {
 														continue;
@@ -66,117 +66,7 @@
 														</div>
 													';
 												}
-											?>	
-
-											<div class="panel">
-												<div class="panel-heading">
-													<h4 class="panel-title">
-														<a href="https://drive.google.com/file/d/17FQbrhc39Wpkp3iyszAwWbviu5I65ofE/view" target="_blank" title="2021 Yılı Bağımsız Denetim Raporu">
-															<span>2021 Yılı Bağımsız Denetim Raporu</span>
-															<i class="icon icon-zoom"></i>
-														</a>
-													</h4>
-												</div>
-											</div>
-
-											<div class="panel">
-												<div class="panel-heading">
-													<h4 class="panel-title">
-														<a href="https://drive.google.com/file/d/1iUSS5JI-ZSZQWH5j6GSYYJ8aAZS1VGlu/view" target="_blank" title="2020 Yılı Bağımsız Denetim Raporu">
-															<span>2020 Yılı Bağımsız Denetim Raporu</span>
-															<i class="icon icon-zoom"></i>
-														</a>
-													</h4>
-												</div>
-											</div>
-
-											<div class="panel">
-												<div class="panel-heading">
-													<h4 class="panel-title">
-														<a href="https://drive.google.com/file/d/1jdGkYolQL4SY7Zj4yQ9-ielLcpOD1fgC/view" target="_blank" title="2019 Yılı Bağımsız Denetim Raporu">
-															<span>2019 Yılı Bağımsız Denetim Raporu</span>
-															<i class="icon icon-zoom"></i>
-														</a>
-													</h4>
-												</div>
-											</div>
-
-											<div class="panel">
-												<div class="panel-heading">
-													<h4 class="panel-title">
-														<a href="https://drive.google.com/file/d/1yGGAB4nbjmytcVrr4s6HDW46A3bSa227/view" target="_blank" title="2018 Yılı Bağımsız Denetim Raporu">
-															<span>2018 Yılı Bağımsız Denetim Raporu</span>
-															<i class="icon icon-zoom"></i>
-														</a>
-													</h4>
-												</div>
-											</div>
-
-											<div class="panel">
-												<div class="panel-heading">
-													<h4 class="panel-title">
-														<a href="https://drive.google.com/file/d/1m4YSD8vWK3BjnwGoK6CqFuiPlCLMtrtR/view" target="_blank" title="2017 Yılı Bağımsız Denetim Raporu">
-															<span>2017 Yılı Bağımsız Denetim Raporu</span>
-															<i class="icon icon-zoom"></i>
-														</a>
-													</h4>
-												</div>
-											</div>
-
-											<div class="panel">
-												<div class="panel-heading">
-													<h4 class="panel-title">
-														<a href="https://drive.google.com/file/d/1DgjowjgTVAqMdRcWUVKzGUW6AJykKK7u/view" target="_blank" title="2016 Yılı Bağımsız Denetim Raporu">
-															<span>2016 Yılı Bağımsız Denetim Raporu </span>
-															<i class="icon icon-zoom"></i>
-														</a>
-													</h4>
-												</div>
-											</div>
-
-											<div class="panel">
-												<div class="panel-heading">
-													<h4 class="panel-title">
-														<a href="https://drive.google.com/file/d/11U5m2g2prD11fc3p-cKg9fsY2hvCQixH/view" target="_blank" title="2015 Yılı Bağımsız Denetim Raporu">
-															<span>2015 Yılı Bağımsız Denetim Raporu</span>
-															<i class="icon icon-zoom"></i>
-														</a>
-													</h4>
-												</div>
-											</div>
-
-											<div class="panel">
-												<div class="panel-heading">
-													<h4 class="panel-title">
-														<a href="https://drive.google.com/file/d/1Ai2B7fwDQZrVw5YaIMkoHa1ntP6CbU0A/view" target="_blank" title="2014 Yılı Bağımsız Denetim Raporu">
-															<span>2014 Yılı Bağımsız Denetim Raporu</span>
-															<i class="icon icon-zoom"></i>
-														</a>
-													</h4>
-												</div>
-											</div>
-
-											<div class="panel">
-												<div class="panel-heading">
-													<h4 class="panel-title">
-														<a href="https://drive.google.com/file/d/1XCT4XFb8UXkDHRKGq8vWl4xuh0DaIsAe/view" target="_blank" title="2013 Yılı Bağımsız Denetim Raporu">
-															<span>2013 Yılı Bağımsız Denetim Raporu</span>
-															<i class="icon icon-zoom"></i>
-														</a>
-													</h4>
-												</div>
-											</div>
-
-											<div class="panel">
-												<div class="panel-heading">
-													<h4 class="panel-title">
-														<a href="https://drive.google.com/file/d/1YPDPA2dY-OoRKOCvLlipA77OedgdEWdn/view" target="_blank" title="2012 Yılı Bağımsız Denetim Raporu">
-															<span>2012 Yılı Bağımsız Denetim Raporu</span>
-															<i class="icon icon-zoom"></i>
-														</a>
-													</h4>
-												</div>
-											</div>
+											?>
 
 										</div>
 									</div>
@@ -191,107 +81,33 @@
 											</svg>
 											<span>Tüm Faaliyet Raporları</span>
 										</a>
-									</div>									
+									</div>
 
 									<div class="accordion accordion2">
 										<div class="panel-group" id="accordion2">
 
-											<div class="panel">
-												<div class="panel-heading">
-													<h4 class="panel-title">
-														<a href="https://drive.google.com/file/d/1BIYB0EnhIH6hYUPUwR5_oM8uaPz8xCdc/view" target="_blank" title="2021 Yılı Faaliyet Raporumuz">
-															<span>2021 Yılı Faaliyet Raporumuz</span>
-															<i class="icon icon-zoom"></i>
-														</a>
-													</h4>
-												</div>
-											</div>
+											<?php
+												foreach ($reports["annual_reports"] as $year => $report) {
+													// check if turkish report exists
+													if (!isset($report["tr"])) {
+														continue;
+													}
 
-											<div class="panel">
-												<div class="panel-heading">
-													<h4 class="panel-title">
-														<a href="https://drive.google.com/file/d/1KOEKwM_8cXq2ZspVQUDy4OPxAysUCYjR/view" target="_blank" title="2020 Yılı Faaliyet Raporumuz">
-															<span>2020 Yılı Faaliyet Raporumuz</span>
-															<i class="icon icon-zoom"></i>
-														</a>
-													</h4>
-												</div>
-											</div>
-
-											<div class="panel">
-
-												<div class="panel-heading">
-
-													<h4 class="panel-title">
-
-														<a href="https://drive.google.com/file/d/1YYmCYDz2pOGnQ0T-cSkbw3TsQmzHh94Q/view" target="_blank" title="2019 Yılı Faaliyet Raporumuz">
-
-															<span>2019 Yılı Faaliyet Raporumuz</span>
-
-															<i class="icon icon-zoom"></i>
-
-														</a>
-
-													</h4>
-
-												</div>
-
-											</div>
-
-											<div class="panel">
-												<div class="panel-heading">
-													<h4 class="panel-title">
-														<a href="https://drive.google.com/file/d/1u3-jfLlMh4JDZjqeFJb06ru_i_q16ocG/view" target="_blank" title="2018 Yılı Faaliyet Raporumuz">
-															<span>2018 Yılı Faaliyet Raporumuz</span>
-															<i class="icon icon-zoom"></i>
-														</a>
-													</h4>
-												</div>
-											</div>
-
-											<div class="panel">
-												<div class="panel-heading">
-													<h4 class="panel-title">
-														<a href="https://drive.google.com/file/d/1VYrB7luDji0ELrNl2gri-2ZuL2yKYub9/view" target="_blank" title="2017 Yılı Faaliyet Raporumuz">
-															<span>2017 Yılı Faaliyet Raporumuz</span>
-															<i class="icon icon-zoom"></i>
-														</a>
-													</h4>
-												</div>
-											</div>
-
-											<div class="panel">
-												<div class="panel-heading">
-													<h4 class="panel-title">
-														<a href="https://drive.google.com/file/d/1YJcoT6R0z9q0bjx3o6Db_M3dZSbyOe5R/view" target="_blank" title="2016 Yılı Faaliyet Raporumuz">
-															<span>2016 Yılı Faaliyet Raporumuz</span>
-															<i class="icon icon-zoom"></i>
-														</a>
-													</h4>
-												</div>
-											</div>
-
-											<div class="panel">
-												<div class="panel-heading">
-													<h4 class="panel-title">
-														<a href="https://drive.google.com/file/d/1eTo0BpnKcbayO8x7_w7KTOdpP6FspdYH/view" target="_blank" title="2015 Yılı Faaliyet Raporumuz">
-															<span>2015 Yılı Faaliyet Raporumuz</span>
-															<i class="icon icon-zoom"></i>
-														</a>
-													</h4>
-												</div>
-											</div>
-
-											<div class="panel">
-												<div class="panel-heading">
-													<h4 class="panel-title">
-														<a href="https://drive.google.com/file/d/1OqCPCkResQhboJRPnMcJwFI1yaifxvHI/view" target="_blank" title="2014 Yılı Faaliyet Raporumuz">
-															<span>2014 Yılı Faaliyet Raporumuz</span>
-															<i class="icon icon-zoom"></i>
-														</a>
-													</h4>
-												</div>
-											</div>
+													$report = $report["tr"];
+													echo '
+														<div class="panel">
+															<div class="panel-heading">
+																<h4 class="panel-title">
+																	<a href="' . $report["file"] . '" target="_blank" title="' . $report["title"] . '">
+																		<span>' . $report["title"] . '</span>
+																		<i class="icon icon-zoom"></i>
+																	</a>
+																</h4>
+															</div>
+														</div>
+													';
+												}
+											?>
 
 										</div>
 									</div>
