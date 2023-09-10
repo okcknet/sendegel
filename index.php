@@ -4,7 +4,7 @@
 		<?php
 			$pageTitle = "Anasayfa";
 			include 'include/head.php';
-			include 'include/site-data.php';
+			include __DIR__ . '/include/site-data.php';
 		?>
 	</head>
 	<body>
