@@ -2,7 +2,7 @@
 
 	# supporters
 	$supporters = array(
-		"2022" = array(
+		"2022" => array(
 			"active" => true,
 			"title" => "2022 Yılı Destekçilerimiz",
 			"title-en" => "2022 Supporters",
