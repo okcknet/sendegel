@@ -22,7 +22,7 @@
 <script src="/assets/js/core.min.js"></script>
 <script src="/assets/js/bootstrap.min.js"></script>
 
-<?php include __DIR__ . '/../assets/data/site-data.php'; ?>
+<?php include __DIR__ . '/../../assets/data/site-data.php'; ?>
 
 <!-- if page url is destekcilerimiz.php or our-supporters.php, include site-supporters.php -->
 <?php if (strpos($_SERVER['REQUEST_URI'], 'destekcilerimiz.php') || strpos($_SERVER['REQUEST_URI'], 'our-supporters.php')): ?>
