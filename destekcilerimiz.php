@@ -470,6 +470,43 @@
 												</div>
 											';
 										}
+									} else if ($supporter_type == "corporate_donors") {
+										foreach ($supporter_group["supporters"] as $supporter) {
+											echo '
+												<div class="' . $supporter_group["col-md"] . '">
+													<div class="section7-item">
+														<a href="' . $supporter["link"] . '" target="_blank" rel="nofollow">
+															<div class="img-wrapper"><img src="' . $supporter["image"] . '" alt="' . $supporter["title"] . '" class="img-responsive center-block "></div>
+															<p>' . $supporter["title"] . '</p>
+														</a>
+													</div>
+												</div>
+											';
+										}
+									} else if ($supporter_type == "in-kind_donors") {
+										foreach ($supporter_group["supporters"] as $supporter) {
+											echo '
+												<div class="' . $supporter_group["col-md"] . '">
+													<div class="section7-item">
+														<a href="' . $supporter["link"] . '" target="_blank" rel="nofollow">
+															<div class="img-wrapper"><img src="' . $supporter["image"] . '" alt="' . $supporter["title"] . '" class="img-responsive center-block "></div>
+															<p>' . $supporter["title"] . '</p>
+														</a>
+													</div>
+												</div>
+											';
+										}
+									} else if ($supporter_type == "other_supporters") {
+										foreach ($supporter_group as $other_supporter) {
+											echo '
+												<div class="' . $supporter_group["col-md"] . '">
+													<div class="section7-item">
+														<p>' . $other_supporter["title"] . '</p>
+														<p>' . $other_supporter["supporter"] . '</p>
+													</div>
+												</div>
+											';
+										}
 									} else if ($supporter_type == "secret_supporters") {
 										echo '
 											<div class="' . $supporter_group["col-md"] . '">
@@ -505,6 +542,7 @@
 										}
 									}
 
+									/*
 									foreach ($supporter_group["supporters"] as $supporter) {
 										if (isset($supporter["link"])) {
 											echo '
@@ -528,6 +566,7 @@
 											';
 										}
 									}
+									*/
 
 									echo '
 													</div>
