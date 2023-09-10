@@ -114,18 +114,22 @@
 											';
 										}
 									} else if ($supporter_type == "corporate_donors") {
+										echo '
+											<div class="' . $supporter_group["col-md"] . '">
+												<div class="section7-item">
+										';
 										foreach ($supporter_group["supporters"] as $supporter) {
 											echo '
-												<div class="' . $supporter_group["col-md"] . '">
-													<div class="section7-item">
-														<a href="' . $supporter["link"] . '" target="_blank" rel="nofollow">
-															<div class="img-wrapper"><img src="' . $supporter["image"] . '" alt="' . $supporter["title"] . '" class="img-responsive center-block "></div>
-															<p>' . $supporter["title"] . '</p>
-														</a>
-													</div>
-												</div>
+												<a href="' . $supporter["link"] . '" target="_blank" rel="nofollow">
+													<div class="img-wrapper"><img src="' . $supporter["image"] . '" alt="' . $supporter["title"] . '" class="img-responsive center-block "></div>
+													<p>' . $supporter["title"] . '</p>
+												</a>
 											';
 										}
+										echo '
+												</div>
+											</div>
+										';
 									} else if ($supporter_type == "in-kind_donors") {
 										foreach ($supporter_group["supporters"] as $supporter) {
 											echo '
