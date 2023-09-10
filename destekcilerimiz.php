@@ -39,393 +39,6 @@
 					<div class="col-md-12">
 						<div class="tab-content">
 
-<!--
-		$supporters = array(
-		"2021" =>  array(
-			"active" => true,
-			"title" => "2021 Yılı Destekçilerimiz",
-			"title-en" => "2021 Supporters",
-			"main_supporters" => array(
-				"title" => "Ana Destekçilerimiz",
-				"title-en" => "Main Supporters",
-				"col-md" => "col-md-4",
-				"supporters" => array(
-					array(
-						"title" => "İslam Kalkınma Bankası",
-						"image" => "/assets/images/content/destekcilerimiz/isd-bank.png",
-						"link" => "http://www.isdb.org/",
-					),
-					array(
-						"title" => "Kaleseramik Eğitim, Sağlık ve Sosyal Yardım Vakfı",
-						"image" => "/assets/images/content/destekcilerimiz/ksv.jpg",
-						"link" => "https://www.ksvvakfi.org",
-					),
-					array(
-						"title" => "Mehmet Betil",
-						"image" => "/assets/images/content/destekcilerimiz/mehmet-betil.jpg",
-						"link" => "",
-					)
-				)
-			),
-			"project_supporters" => array(
-				"title" => "Proje Destekçilerimiz",
-				"title-en" => "Project Supporters",
-				"col-md" => "col-md-3",
-				"supporters" => array(
-					array(
-						"title" => "Asım Kadri Soygül",
-						"image" => "/assets/images/content/destekcilerimiz/supporter.jpg",
-						"link" => "",
-					),
-					array(
-						"title" => "Cem Akşehirlioğlu",
-						"image" => "/assets/images/content/destekcilerimiz/supporter.jpg",
-						"link" => "",
-					),
-					array(
-						"title" => "Paribu",
-						"image" => "/assets/images/content/destekcilerimiz/paribu.png",
-						"link" => "https://www.paribu.com/",
-					),
-					array(
-						"title" => "Peter &amp; Eleanor Kuniholm",
-						"image" => "/assets/images/content/destekcilerimiz/supporter.jpg",
-						"link" => "",
-					)
-				)
-			),
-			"individual_supporters" => array(
-				"title" => "Bireysel Destekçilerimiz",
-				"title-en" => "Individual Supporters",
-				"col-md" => "col-md-12",
-				"supporters" => array(
-					"Ayşe Akşehirlioğlu",
-					"Betün Çakan",
-					"Necati Bice",
-					"Nesim Çelik",
-					"Sema Emek",
-					"Serkan İzci",
-					"Ayşe Akşehirlioğlu",
-					"Betün Çakan",
-					"Necati Bice",
-					"Nesim Çelik",
-					"Sema Emek",
-					"Serkan İzci",
-					"Ayşe Akşehirlioğlu",
-					"Betün Çakan",
-					"Necati Bice",
-					"Nesim Çelik",
-					"Sema Emek",
-					"Serkan İzci",
-					"Ayşe Akşehirlioğlu",
-					"Betün Çakan",
-					"Necati Bice",
-					"Nesim Çelik",
-					"Sema Emek",
-					"Serkan İzci",
-					"Ayşe Akşehirlioğlu",
-					"Betün Çakan",
-					"Necati Bice",
-					"Nesim Çelik",
-					"Sema Emek",
-					"Serkan İzci",
-					"Ayşe Akşehirlioğlu",
-					"Betün Çakan",
-					"Necati Bice",
-					"Nesim Çelik",
-					"Sema Emek",
-					"Serkan İzci",
-					"Ayşe Akşehirlioğlu",
-					"Betün Çakan",
-					"Necati Bice",
-					"Nesim Çelik",
-					"Sema Emek",
-					"Serkan İzci",
-				)
-			),
-			"corporate_donors" => array(
-				"title" => "Kurumsal Bağışçılarımız",
-				"title-en" => "Corporate Donors",
-				"col-md" => "col-md-6",
-				"supporters" => array(
-					array(
-						"title" => "Mogul Tekstil San.ve Tic.Ltd Şti",
-						"image" => "/assets/images/content/destekcilerimiz/mogul.png",
-						"link" => "https://www.mogulsb.com",
-					),
-					array(
-						"title" => "Sarkuysan Elektrolitik Bakır San ve Tic. A.Ş",
-						"image" => "/assets/images/content/destekcilerimiz/sarkuysan.png",
-						"link" => "https://www.sarkuysan.com",
-					)
-				)
-			),
-			"in-kind_donors" => array(
-				"title" => "Ayni Bağışçılarımız",
-				"title-en" => "In-kind Donors",
-				"col-md" => "col-md-4",
-				"supporters" => array(
-					array(
-						"title" => "DenizBank",
-						"image" => "/assets/images/content/destekcilerimiz/denizbank.png",
-						"link" => "",
-					),
-					array(
-						"title" => "Er-Ay Basım Hizmetleri Ltd.Şti",
-						"image" => "/assets/images/content/destekcilerimiz/eray.jpg",
-						"link" => "",
-					),
-					array(
-						"title" => "Mazars",
-						"image" => "/assets/images/content/destekcilerimiz/mazars.png",
-						"link" => "",
-					),
-					array(
-						"title" => "Nef-Timur Gayrimenkul Yapı ve Yatırım A.Ş.",
-						"image" => "/assets/images/content/destekcilerimiz/2017-nef.png",
-						"link" => "",
-					),
-					array(
-						"title" => "Turkısh Philanthropy Fund",
-						"image" => "/assets/images/content/destekcilerimiz/TPF_Logo.jpg",
-						"link" => "",
-					),
-					array(
-						"title" => "Webdenal.com",
-						"image" => "/assets/images/content/destekcilerimiz/webdenal.png",
-						"link" => "",
-					)
-				)
-			),
-			"individual_supporters" => array(
-				"title" => "Bireysel Bağışçılarımız",
-				"title-en" => "Individual Supporters",
-				"col-md" => "col-md-6",
-				"supporters" => array(
-					"Abdullah Hardura",
-					"Abdurrahman Bayraktaroğlu",
-					"Ahmet Gülgün",
-					"Ahmet Kayhan Dede",
-					"Ahmet Umut Güngör",
-					"Alev Mutlu",
-					"Ali Boran",
-					"Ali Büyükdereli",
-					"Arda Altun",
-					"Aslı Derbent",
-					"Aslı Enis",
-					"Aslı Zengin Çetin",
-					"Asuman Bayrak",
-					"Atilla Özer",
-					"Ayçe Tuba Dumanlı",
-					"Ayhan Türkkan",
-					"Aynur Aydemir",
-					"Aynur Göncü",
-					"Ayşe Kapusuz",
-					"Ayşe Sayın",
-					"Bahar Gelmez",
-					"Bahar Şimşek",
-					"Başak Dal",
-					"Başar Ecem Yücel",
-					"Bengü Gülfer",
-					"Berna Özer",
-					"Betül Bahar",
-					"Buket Nur Kırmızıgül",
-					"Burcu Gelmez",
-					"Burçak Gökçeer Baltaş",
-					"Bülent Devrim Peköz",
-					"Büşra Çıldık",
-					"Can Akkurt",
-					"Can Genc",
-					"Cansever Aydın",
-					"Ceyda Sayın",
-					"Çağlar Özer",
-					"Çiğdem Magemizoğlu",
-					"Dara Aslan",
-					"Demet Bozatli",
-					"Deniz Emin",
-					"Derya Altansoy",
-					"Derya Yanmış",
-					"Didem Baltacı",
-					"Dilek Gönen",
-					"Dobrinka Cidrof",
-					"Döndü Güler",
-					"Duru Şehvar Karasu",
-					"Ebru Karaca",
-					"Elif Aygün",
-					"Elif Canmaya",
-					"Elif Farukoğlu",
-					"Elif Hardura",
-					"Emel Gür Önen",
-					"Emine Enür",
-					"Emine Esen",
-					"Emine Yoldaş",
-					"Emre Behlül Uzunca",
-					"Emre Güçlü",
-					"Engin Selcuk",
-					"Enver Arsoy",
-					"Esen Eren Aktaş",
-					"Esin Asiye Bozyel",
-					"Ezgi Akar",
-					"Fadime Acar Ural",
-					"Fatih Fermanoğlu",
-					"Fatma Belgin Albayram",
-					"Fatma Efe",
-					"Fatma Güç",
-					"Fatma Karaaslan",
-					"Fazilet Adanur",
-					"Fethiye Aktepe",
-					"Feyman Yürükoğlu",
-					"Funda Erdemli",
-					"Gamze Gale",
-					"Gamze Karacam",
-					"Gokhan Altansoy",
-					"Gökalp Aslan",
-					"Göktuğ Savaş Doğan",
-					"Göktürk Kağan Çiçek",
-					"Görkem Oyman",
-					"Gulsah Celik",
-					"Gülay Güneş",
-					"Gülay Karadavut Kaplan",
-					"Gülçin Menteşoğlu Durgun",
-					"Gülhan Bozkurt",
-					"Gülşen Çiçek Keskinsoy",
-					"Günay Ermergen",
-					"Günay Handan",
-					"Hakan Genç",
-					"Hakan İlgün",
-					"Hakan Kekik",
-					"Harun Taygur",
-					"Hatice Serpil Bostancı",
-					"Hatice Yaman",
-					"Hava Ayrılmaz",
-					"Hayal Yüksel",
-					"Hayriye Göksu Tekbir",
-					"Hazal Suzan Selçuk",
-					"Hulusi Tok",
-					"Hür Göçen",
-					"Hüseyin Ferhat Kul",
-					"Hüseyin Kaya",
-					"Hüseyin Kuplay",
-					"Irene Hulst",
-					"Işıl Önal",
-					"İbrahim Betil",
-					"İnanç Beyazıt",
-					"İpek Aksehirlioglu Yener",
-					"Kadir Çınar",
-					"Kani Özsoy",
-					"Kazim Veysel Dolapçı",
-					"Kemal Ural",
-					"Kemal Yener",
-					"Kerem Çırpan",
-					"Kerim Altınsoy",
-					"Kübra Atalay Kabasakal",
-					"Leyla Arslan",
-					"Leyla Yıldız",
-					"Lütfi Aydeniz",
-					"Lütfi Öztürker",
-					"Marziya Demir",
-					"Mehmet Dutar",
-					"Mehmet Sağlam",
-					"Mehmet Tekin",
-					"Mehmet Tevfik Alkış",
-					"Melek Sultan Canpınar",
-					"Mestan Özdemir",
-					"Mesut Kelle",
-					"Mine Dörtkaş",
-					"Mine Poyraz",
-					"Mustafa Ballı",
-					"Mustafa Erhan Nas",
-					"Münevver Özel",
-					"Nadir Zafertepe",
-					"Nazar Büyüm",
-					"Necati Günal",
-					"Neslihan Altun",
-					"Neşe İplikçi",
-					"Nihal Çiçek",
-					"Nihan Satıroğlu",
-					"Nirgun Ayar",
-					"Osman Kocaer",
-					"Özgül Kayıhan",
-					"Özlem Bıçak",
-					"Öznur Hande",
-					"Öznur Karakaya",
-					"Öznur Özkan",
-					"Pelin Soygul",
-					"Ramazan Doruk",
-					"Remziye Sermin Örsel",
-					"Sadıka İzci",
-					"Salih Doğan",
-					"Salin Sevinç",
-					"Seda Dadikhi",
-					"Seda Zulfikaroglu",
-					"Selma Günay",
-					"Semih Dilmen",
-					"Semih Dümdüz",
-					"Serpil Aslan",
-					"Sevnur Malik",
-					"Seyhan Yüksel",
-					"Sezgin Kaçar",
-					"Sibel Ölmez",
-					"Sibel Toptancı",
-					"Soner Alas",
-					"Soner Baloğlu",
-					"Sosyal Fabrika Teknolojileri",
-					"Suzan Özpeynirci",
-					"süleybe öztürk",
-					"Sündüz Çınar Bilgin",
-					"Şüheyda Karayiğit",
-					"Talu S. Alatlı",
-					"TOG Çalışanları",
-					"Tuna Ece",
-					"Uğur Atalay",
-					"Uğur Berke Kayıkçı",
-					"Utku Nogay",
-					"Ümmü Bozkurt",
-					"Vildan Barlas",
-					"Yadigar Işıldar",
-					"Yeşim Göksu",
-					"Yeşim Koç",
-					"Yıldıray Özcan",
-					"Zeynep Aksehirlioglu",
-					"Zeynep Korkmaz",
-					"Zeynep Özkaya",
-					"Zeynep Yıldız",
-					"Zühal Bozok"
-				)
-			),
-			"other_supporters" => array(
-				array(
-					"title" => "Gönüllü Web Geliştirici",
-					"title-en" => "Volunteer Web Developer",
-					"supporter" => "Oğuz Kaan Çağatay Kılınç"
-				),
-				array(
-					"title" => "Gönüllü Çevirmenler",
-					"title-en" => "Volunteer Translator",
-					"supporter" => "Büşra Çağlayan<br/>Deniz Ekin Doğan"
-				),
-				array(
-					"title" => "Gönüllü Faaliyet Raporu Tasarımı",
-					"title-en" => "Volunteer Activity Report Design",
-					"supporter" => "Yasin Müminoğlu"
-				),
-				array(
-					"title" => "Gönüllü Faaliyet Raporu Metin Düzenleme",
-					"title-en" => "Volunteer Activity Report Text Editing",
-					"supporter" => "Buse Abacıoğlu"
-				),
-			),
-			"secret_supporters" => array(
-				"title" => "Donars Prefferring not to Disclose Their Names",
-				"col-md" => "col-md-12",
-				"supporters" => array(
-					"2021 Year Total: 221.185 TL"
-				)
-			)
-		)
-	);
--->
-
 						<?php
 							foreach ($supporters as $year => $supporter) {
 								$active = $supporter["active"] ? "active" : "";
@@ -460,7 +73,37 @@
 													<div class="row">
 									';
 
-									if ($supporter_type == "individual_supporters") {
+									if ($supporter_type == "individual_donors") {
+
+										// divide supporters into two columns
+										$col1 = array_slice($supporter_group["supporters"], 0, ceil(count($supporter_group["supporters"]) / 2));
+										$col2 = array_slice($supporter_group["supporters"], ceil(count($supporter_group["supporters"]) / 2));
+
+										echo '
+											<div class="' . $supporter_group["col-md"] . '">
+												<div class="section7-item">
+										';
+
+										foreach ($col1 as $supporter) {
+											echo '<p>' . $supporter . '</p>';
+										}
+
+										echo '
+												</div>
+											</div>
+											<div class="' . $supporter_group["col-md"] . '">
+												<div class="section7-item">
+										';
+
+										foreach ($col2 as $supporter) {
+											echo '<p>' . $supporter . '</p>';
+										}
+
+										echo '
+												</div>
+											</div>
+										';
+									} else if ($supporter_type == "individual_supporters") {
 										foreach ($supporter_group["supporters"] as $supporter) {
 											echo '
 												<div class="' . $supporter_group["col-md"] . '">

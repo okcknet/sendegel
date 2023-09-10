@@ -340,11 +340,11 @@
 				),
 			),
 			"secret_supporters" => array(
-				"title" => "Donars Prefferring not to Disclose Their Names",
+				"title" => "Adının Açıklanmasını Tercih Etmeyen Bireysel ve Kurumsal Bağışçılarımız",
+				"title-en" => "Donors Prefferring not to Disclose Their Names",
 				"col-md" => "col-md-12",
-				"supporters" => array(
-					"2021 Year Total: 221.185 TL"
-				)
+				"text" => "2021 Yılı Toplam: 221.185 TL",
+				"text-en" => "2021 Year Total: 221.185 TL"
 			)
 		)
 	);
