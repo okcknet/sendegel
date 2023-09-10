@@ -18,20 +18,14 @@
 	# reports
 	$reports = array(
 		"independent_audit_reports" => array(
-			"2023" => array(
-				"en" => array(
-					"title" => "Independent Audit Report 2023",
-					"file" => "assets/files/2023-bagimsiz-denetcilik-raporu.pdf"
-				),
-				"tr" => array(
-					"title" => "2023 Bağımsız Denetim Raporu",
-					"file" => "assets/files/2023-bagimsiz-denetcilik-raporu.pdf"
-				)
-			),
 			"2022" => array(
 				"tr" => array(
 					"title" => "2022 Yılı Bağımsız Denetim Raporu",
 					"file" => "https://drive.google.com/file/d/1tQFt8liEWopYK8qf4PKCyUTv5WgTHJLt/view"
+				),
+				"en" => array(
+					"title" => "2022 Independent Auditors' Report",
+					"file" => "https://drive.google.com/file/d/1oPCG5dz1rQSXChpR7B-SH9BC8QgSzZ3G/view"
 				)
 			),
 			"2021" => array(
