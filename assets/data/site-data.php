@@ -3,12 +3,12 @@
 
 	# membership fees
 	$membershipFees = array(
-		"entry_fee" => 150,
-		"annual_dues" => 100,
-		"legal_entity_entry_fee" => 500,
-		"legal_entity_annual_dues" => 1000,
-		"student_entry_fee" => 50,
-		"student_annual_dues" => 50
+		"entry_fee" => 250,
+		"annual_dues" => 200,
+		"legal_entity_entry_fee" => 1000,
+		"legal_entity_annual_dues" => 5000,
+		"student_entry_fee" => 75,
+		"student_annual_dues" => 75
 	);
 
 	# reports
