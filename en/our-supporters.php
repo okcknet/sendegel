@@ -36,473 +36,144 @@
 					<div class="col-md-12">
 						<div class="tab-content">
 
-							<div role="tabpanel" class="tab-pane fade in active" id="2021">
+						<?php
+							foreach ($supporters as $year => $supporter) {
+								$active = $supporter["active"] ? "active" : "";
+								echo '
+									<div role="tabpanel" class="tab-pane fade in ' . $active . '" id="' . $year . '">
+										<section class="section section7">
+											<div class="container">
 
-								<section class="section section7">
-
-									<div class="container">
-
-										<div class="row">
-
-											<div class="col-md-12">
-
-												<div class="section-container align-center">
-
-													<h3 class="section-title wo-section-description">2021 Supporters</h3>
-
+												<div class="row">
+													<div class="col-md-12">
+														<div class="section-container align-center">
+															<h3 class="section-title wo-section-description">' . $supporter["title-en"] . '</h3>
+														</div>
+													</div>
 												</div>
+								';
 
+								foreach ($supporter as $supporter_type => $supporter_group) {
+									if ($supporter_type == "active" || $supporter_type == "title" || $supporter_type == "title-en") {
+										continue;
+									}
+
+									echo '
+										<div class="row">
+											<div class="col-md-12">
+												<div class="section7-container">
+													<div class="row">
+														<div class="col-md-12">
+															<h4 class="section7-title">' . $supporter_group["title-en"] . '</h4>
+														</div>
+													</div>
+													<div class="row">
+									';
+
+									if ($supporter_type == "individual_donors") {
+
+										// divide supporters into two columns
+										$col1 = array_slice($supporter_group["supporters"], 0, ceil(count($supporter_group["supporters"]) / 2));
+										$col2 = array_slice($supporter_group["supporters"], ceil(count($supporter_group["supporters"]) / 2));
+
+										echo '
+											<div class="' . $supporter_group["col-md"] . '">
+												<div class="section7-item">
+										';
+
+										foreach ($col1 as $supporter) {
+											echo '<p>' . $supporter . '</p>';
+										}
+
+										echo '
+												</div>
 											</div>
+											<div class="' . $supporter_group["col-md"] . '">
+												<div class="section7-item">
+										';
 
-										</div>
+										foreach ($col2 as $supporter) {
+											echo '<p>' . $supporter . '</p>';
+										}
 
-										<div class="row">
-
-											<div class="col-md-12">
-
-												<div class="section7-container">
-													<div class="row">
-														<div class="col-md-12">
-															<h4 class="section7-title">Main Supporters</h4>
-														</div>
-													</div>
-													<div class="row">
-														<div class="col-md-4">
-															<div class="section7-item">
-																<a href="http://www.isdb.org/" target="_blank" rel="nofollow">
-																	<div class="img-wrapper"><img src="/assets/images/content/destekcilerimiz/isd-bank.png" alt="İslam Kalkınma Bankası" class="img-responsive center-block "></div>
-																	<p>İslam Kalkınma Bankası</p>
-																</a>
-															</div>
-														</div>
-														<div class="col-md-4">
-															<div class="section7-item">
-																<a href="https://www.ksvvakfi.org" target="_blank" rel="nofollow">
-																	<div class="img-wrapper"><img src="/assets/images/content/destekcilerimiz/ksv.jpg" alt="Kaleseramik Eğitim, Sağlık ve Sosyal Yardım Vakfı" class="img-responsive center-block "></div>
-																	<p>Kaleseramik Eğitim, Sağlık ve Sosyal Yardım Vakfı</p>
-																</a>
-															</div>
-														</div>													
-														<div class="col-md-4">
-															<div class="section7-item">
-																	<div class="img-wrapper"><img src="/assets/images/content/destekcilerimiz/mehmet-betil.jpg" alt="Mehmet Betil" class="img-responsive center-block"></div>
-																	<p>Mehmet Betil</p>
-															</div>
-														</div>
+										echo '
+												</div>
+											</div>
+										';
+									} else if ($supporter_type == "individual_supporters") {
+										echo '
+											<div class="' . $supporter_group["col-md"] . '">
+												<div class="section7-item">
+										';
+										foreach ($supporter_group["supporters"] as $supporter) {
+											echo '<p>' . $supporter . '</p>';
+										}
+										echo '
+												</div>
+											</div>
+										';
+									} else if ($supporter_type == "other_supporters") {
+										foreach ($supporter_group as $other_supporter) {
+											echo '
+												<div class="' . $supporter_group["col-md"] . '">
+													<div class="section7-item">
+														<h4 class="section7-title">' . $other_supporter["title-en"] . '</h4>
+														<p>' . $other_supporter["supporter"] . '</p>
 													</div>
 												</div>
-
-												<div class="section7-container">
-													<div class="row">
-														<div class="col-md-12">
-															<h4 class="section7-title">Project Supporters</h4>
-														</div>
-													</div>
-													<div class="row">
-														<div class="col-md-3">
-															<div class="section7-item">
-																	<div class="img-wrapper"><img src="/assets/images/content/destekcilerimiz/supporter.jpg" alt="Asım Kadri Soygül" class="img-responsive center-block"></div>
-																	<p>Asım Kadri Soygül</p>
-															</div>
-														</div>
-														<div class="col-md-3">
-															<div class="section7-item">
-																	<div class="img-wrapper"><img src="/assets/images/content/destekcilerimiz/supporter.jpg" alt="Cem Akşehirlioğlu" class="img-responsive center-block"></div>
-																	<p>Cem Akşehirlioğlu</p>
-															</div>
-														</div>		
-														<div class="col-md-3">
-															<div class="section7-item">
-																<a href="https://www.paribu.com/" target="_blank" rel="nofollow">
-																	<div class="img-wrapper"><img src="/assets/images/content/destekcilerimiz/paribu.png" alt="Paribu" class="img-responsive center-block"></div>
-																	<p>Paribu</p>
-																</a>
-															</div>
-														</div>
-														<div class="col-md-3">
-															<div class="section7-item">
-																	<div class="img-wrapper"><img src="/assets/images/content/destekcilerimiz/supporter.jpg" alt="Peter &amp; Eleanor Kuniholm" class="img-responsive center-block"></div>
-																	<p>Peter &amp; Eleanor Kuniholm</p>
-															</div>
-													</div>
-												</div>											
-
-												<div class="section7-container">
-													<div class="row">
-														<div class="col-md-12">
-															<h4 class="section7-title">Individual Supporters</h4>
-														</div>
-													</div>
-													<div class="row">
-														<div class="col-md-12">
-															<div class="section7-item">
-																<p>Ayşe Akşehirlioğlu</p>
-																<p>Betün Çakan</p>
-																<p>Necati Bice</p>
-																<p>Nesim Çelik</p>
-																<p>Sema Emek</p>
-																<p>Serkan İzci</p>
-															</div>
-														</div>
-													</div>
+											';
+										}
+									} else if ($supporter_type == "secret_supporters") {
+										echo '
+											<div class="' . $supporter_group["col-md"] . '">
+												<div class="section7-item">
+													<p>' . $supporter_group["text-en"] . '</p>
 												</div>
+											</div>
+										';
+									} else {
+										foreach ($supporter_group["supporters"] as $supporter) {
+											if (isset($supporter["link"])) {
+												echo '
+													<div class="' . $supporter_group["col-md"] . '">
+														<div class="section7-item">
+															<a href="' . $supporter["link"] . '" target="_blank" rel="nofollow">
+																<div class="img-wrapper"><img src="' . $supporter["image"] . '" alt="' . $supporter["title-en"] . '" class="img-responsive center-block "></div>
+																<p>' . $supporter["title-en"] . '</p>
+															</a>
+														</div>
+													</div>
+												';
+											} else {
+												echo '
+													<div class="' . $supporter_group["col-md"] . '">
+														<div class="section7-item">
+															<div class="img-wrapper"><img src="' . $supporter["image"] . '" alt="' . $supporter["title-en"] . '" class="img-responsive center-block "></div>
+															<p>' . $supporter["title-en"] . '</p>
+														</div>
+													</div>
+												';
+											}
+										}
+									}
 
-												<div class="section7-container">
-													<div class="row">
-														<div class="col-md-12">
-															<h4 class="section7-title">Corporate Donors</h4>
-														</div>
+									echo '
 													</div>
-													<div class="row">
-														<div class="col-md-6">
-															<div class="section7-item">
-																<a href="https://www.mogulsb.com" target="_blank" rel="nofollow">
-																	<div class="img-wrapper"><img src="/assets/images/content/destekcilerimiz/mogul.png" alt="Mogul Tekstil San.ve Tic.Ltd Şti" class="img-responsive center-block"></div>
-																	<p>Mogul Tekstil San.ve Tic.Ltd Şti</p>
-																</a>
-															</div>
-														</div>
-														<div class="col-md-6">
-															<div class="section7-item">
-																<a href="https://www.sarkuysan.com" target="_blank" rel="nofollow">
-																	<div class="img-wrapper"><img src="/assets/images/content/destekcilerimiz/sarkuysan.png" alt="Sarkuysan Elektrolitik Bakır San ve Tic. A.Ş" class="img-responsive center-block"></div>
-																	<p>Sarkuysan Elektrolitik Bakır San ve Tic. A.Ş</p>
-																</a>
-															</div>
-														</div>
-													</div>
-												</div>
-
-												<div class="section7-container">
-													<div class="row">
-														<div class="col-md-12">
-															<h4 class="section7-title">In-kind Donors</h4>
-														</div>
-													</div>
-													<div class="row">
-														<div class="col-md-4">
-															<div class="section7-item">
-																<div class="img-wrapper"><img src="/assets/images/content/destekcilerimiz/denizbank.png" alt="DenizBank" class="img-responsive center-block"></div>
-																<p>DenizBank</p>
-															</div>
-														</div>
-														<div class="col-md-4">
-															<div class="section7-item">
-																<div class="img-wrapper"><img src="/assets/images/content/destekcilerimiz/eray.jpg" alt="Er-Ay Basım Hizmetleri Ltd.Şti" class="img-responsive center-block"></div>
-																<p>Er-Ay Basım Hizmetleri Ltd.Şti</p>
-															</div>
-														</div>
-														<div class="col-md-4">
-															<div class="section7-item">
-																<div class="img-wrapper"><img src="/assets/images/content/destekcilerimiz/mazars.png" alt="Mazars" class="img-responsive center-block"></div>
-																<p>Mazars</p>
-															</div>
-														</div>
-
-														<div class="col-md-4">
-															<div class="section7-item">
-																<div class="img-wrapper"><img src="/assets/images/content/destekcilerimiz/2017-nef.png" alt="Destekçimiz" class="img-responsive center-block"></div>
-																<p>Nef-Timur Gayrimenkul Yapı ve Yatırım A.Ş.</p>
-															</div>
-														</div>
-
-														<div class="col-md-4">
-															<div class="section7-item">
-																<div class="img-wrapper"><img src="/assets/images/content/destekcilerimiz/TPF_Logo.jpg" alt="Destekçimiz" class="img-responsive center-block mx-width"></div>
-																<p>Turkısh Philanthropy<br> Fund</p>
-															</div>
-														</div>
-
-														<div class="col-md-4">
-															<div class="section7-item">
-																<div class="img-wrapper"><img src="/assets/images/content/destekcilerimiz/webdenal.png" alt="Webdenal.com" class="img-responsive center-block mx-width"></div>
-																<p>Webdenal.com</p>
-															</div>
-														</div>
-
-													</div>
-												</div>
-
-												<div class="section7-container">
-													<div class="row">
-														<div class="col-md-12">
-															<h4 class="section7-title">Individual Supporters</h4>
-														</div>
-													</div>
-													<div class="row">
-														<div class="col-md-6">
-															<div class="section7-item">
-																<p>Abdullah Hardura</p>
-																<p>Abdurrahman Bayraktaroğlu</p>
-																<p>Ahmet Gülgün</p>
-																<p>Ahmet Kayhan Dede</p>
-																<p>Ahmet Umut Güngör</p>
-																<p>Alev Mutlu</p>
-																<p>Ali Boran</p>
-																<p>Ali Büyükdereli</p>
-																<p>Arda Altun</p>
-																<p>Aslı Derbent</p>
-																<p>Aslı Enis</p>
-																<p>Aslı Zengin Çetin</p>
-																<p>Asuman Bayrak</p>
-																<p>Atilla Özer</p>
-																<p>Ayçe Tuba Dumanlı</p>
-																<p>Ayhan Türkkan</p>
-																<p>Aynur Aydemir</p>
-																<p>Aynur Göncü</p>
-																<p>Ayşe Kapusuz</p>
-																<p>Ayşe Sayın</p>
-																<p>Bahar Gelmez</p>
-																<p>Bahar Şimşek</p>
-																<p>Başak Dal</p>
-																<p>Başar Ecem Yücel</p>
-																<p>Bengü Gülfer</p>
-																<p>Berna Özer</p>
-																<p>Betül Bahar</p>
-																<p>Buket Nur Kırmızıgül</p>
-																<p>Burcu Gelmez</p>
-																<p>Burçak Gökçeer Baltaş</p>
-																<p>Bülent Devrim Peköz</p>
-																<p>Büşra Çıldık</p>
-																<p>Can Akkurt</p>
-																<p>Can Genc</p>
-																<p>Cansever Aydın</p>
-																<p>Ceyda Sayın</p>
-																<p>Çağlar Özer</p>
-																<p>Çiğdem Magemizoğlu</p>
-																<p>Dara Aslan</p>
-																<p>Demet Bozatli</p>
-																<p>Deniz Emin</p>
-																<p>Derya Altansoy</p>
-																<p>Derya Yanmış</p>
-																<p>Didem Baltacı</p>
-																<p>Dilek Gönen</p>
-																<p>Dobrinka Cidrof</p>
-																<p>Döndü Güler</p>
-																<p>Duru Şehvar Karasu</p>
-																<p>Ebru Karaca</p>
-																<p>Elif Aygün</p>
-																<p>Elif Canmaya</p>
-																<p>Elif Farukoğlu</p>
-																<p>Elif Hardura</p>
-																<p>Emel Gür Önen</p>
-																<p>Emine Enür</p>
-																<p>Emine Esen</p>
-																<p>Emine Yoldaş</p>
-																<p>Emre Behlül Uzunca</p>
-																<p>Emre Güçlü</p>
-																<p>Engin Selcuk</p>
-																<p>Enver Arsoy</p>
-																<p>Esen Eren Aktaş</p>
-																<p>Esin Asiye Bozyel</p>
-																<p>Ezgi Akar</p>
-																<p>Fadime Acar Ural</p>
-																<p>Fatih Fermanoğlu</p>
-																<p>Fatma Belgin Albayram</p>
-																<p>Fatma Efe</p>
-																<p>Fatma Güç</p>
-																<p>Fatma Karaaslan</p>
-																<p>Fazilet Adanur</p>
-																<p>Fethiye Aktepe</p>
-																<p>Feyman Yürükoğlu</p>
-																<p>Funda Erdemli</p>
-																<p>Gamze Gale</p>
-																<p>Gamze Karacam</p>
-																<p>Gokhan Altansoy</p>
-																<p>Gökalp Aslan</p>
-																<p>Göktuğ Savaş Doğan</p>
-																<p>Göktürk Kağan Çiçek</p>
-																<p>Görkem Oyman</p>
-																<p>Gulsah Celik</p>
-																<p>Gülay Güneş</p>
-																<p>Gülay Karadavut Kaplan</p>
-																<p>Gülçin Menteşoğlu Durgun</p>
-																<p>Gülhan Bozkurt</p>
-																<p>Gülşen Çiçek Keskinsoy</p>
-																<p>Günay Ermergen</p>
-																<p>Günay Handan</p>
-																<p>Hakan Genç</p>
-																<p>Hakan İlgün</p>
-																<p>Hakan Kekik</p>
-																<p>Harun Taygur</p>
-																<p>Hatice Serpil Bostancı</p>
-																<p>Hatice Yaman</p>
-															</div>
-														</div>
-														<div class="col-md-6">
-															<div class="section7-item">
-																<p>Hava Ayrılmaz</p>
-																<p>Hayal Yüksel</p>
-																<p>Hayriye Göksu Tekbir</p>
-																<p>Hazal Suzan Selçuk</p>
-																<p>Hulusi Tok</p>
-																<p>Hür Göçen</p>
-																<p>Hüseyin Ferhat Kul</p>
-																<p>Hüseyin Kaya</p>
-																<p>Hüseyin Kuplay</p>
-																<p>Irene Hulst</p>
-																<p>Işıl Önal</p>
-																<p>İbrahim Betil</p>
-																<p>İnanç Beyazıt</p>
-																<p>İpek Aksehirlioglu Yener</p>
-																<p>Kadir Çınar</p>
-																<p>Kani Özsoy</p>
-																<p>Kazim Veysel Dolapçı</p>
-																<p>Kemal Ural</p>
-																<p>Kemal Yener</p>
-																<p>Kerem Çırpan</p>
-																<p>Kerim Altınsoy</p>
-																<p>Kübra Atalay Kabasakal</p>
-																<p>Leyla Arslan</p>
-																<p>Leyla Yıldız</p>
-																<p>Lütfi Aydeniz</p>
-																<p>Lütfi Öztürker</p>
-																<p>Marziya Demir</p>
-																<p>Mehmet Dutar</p>
-																<p>Mehmet Sağlam</p>
-																<p>Mehmet Tekin</p>
-																<p>Mehmet Tevfik Alkış</p>
-																<p>Melek Sultan Canpınar</p>
-																<p>Mestan Özdemir</p>
-																<p>Mesut Kelle</p>
-																<p>Mine Dörtkaş</p>
-																<p>Mine Poyraz</p>
-																<p>Mustafa Ballı</p>
-																<p>Mustafa Erhan Nas</p>
-																<p>Münevver Özel</p>
-																<p>Nadir Zafertepe</p>
-																<p>Nazar Büyüm</p>
-																<p>Necati Günal</p>
-																<p>Neslihan Altun</p>
-																<p>Neşe İplikçi</p>
-																<p>Nihal Çiçek</p>
-																<p>Nihan Satıroğlu</p>
-																<p>Nirgun Ayar</p>
-																<p>Osman Kocaer</p>
-																<p>Özgül Kayıhan</p>
-																<p>Özlem Bıçak</p>
-																<p>Öznur Hande</p>
-																<p>Öznur Karakaya</p>
-																<p>Öznur Özkan</p>
-																<p>Pelin Soygul</p>
-																<p>Ramazan Doruk</p>
-																<p>Remziye Sermin Örsel</p>
-																<p>Sadıka İzci</p>
-																<p>Salih Doğan</p>
-																<p>Salin Sevinç</p>
-																<p>Seda Dadikhi</p>
-																<p>Seda Zulfikaroglu</p>
-																<p>Selma Günay</p>
-																<p>Semih Dilmen</p>
-																<p>Semih Dümdüz</p>
-																<p>Serpil Aslan</p>
-																<p>Sevnur Malik</p>
-																<p>Seyhan Yüksel</p>
-																<p>Sezgin Kaçar</p>
-																<p>Sibel Ölmez</p>
-																<p>Sibel Toptancı</p>
-																<p>Soner Alas</p>
-																<p>Soner Baloğlu</p>
-																<p>Sosyal Fabrika Teknolojileri</p>
-																<p>Suzan Özpeynirci</p>
-																<p>süleybe öztürk</p>
-																<p>Sündüz Çınar Bilgin</p>
-																<p>Şüheyda Karayiğit</p>
-																<p>Talu S. Alatlı</p>
-																<p>TOG Çalışanları</p>
-																<p>Tuna Ece</p>
-																<p>Uğur Atalay</p>
-																<p>Uğur Berke Kayıkçı</p>
-																<p>Utku Nogay</p>
-																<p>Ümmü Bozkurt</p>
-																<p>Vildan Barlas</p>
-																<p>Yadigar Işıldar</p>
-																<p>Yeşim Göksu</p>
-																<p>Yeşim Koç</p>
-																<p>Yıldıray Özcan</p>
-																<p>Zeynep Aksehirlioglu</p>
-																<p>Zeynep Korkmaz</p>
-																<p>Zeynep Özkaya</p>
-																<p>Zeynep Yıldız</p>
-																<p>Zühal Bozok</p>
-															</div>
-														</div>
-													</div>
-												</div>
-
-												<div class="section7-container">
-													<div class="row">
-														<div class="col-md-12">
-															<h4 class="section7-title">Volunteer Web Developer</h4>
-														</div>
-													</div>
-													<div class="row">
-														<div class="col-md-12">
-															<div class="section7-item">
-																<p>Oğuz Kaan Çağatay Kılınç</p>
-															</div>
-														</div>
-													</div>
-
-													<div class="row">
-														<div class="col-md-12">
-															<h4 class="section7-title">Volunteer Translator</h4>
-														</div>
-													</div>
-													<div class="row">
-														<div class="col-md-12">
-															<div class="section7-item">
-																<p>Büşra Çağlayan<br/>Deniz Ekin Doğan</p>
-															</div>
-														</div>
-													</div>													
-
-													<div class="row">
-														<div class="col-md-12">
-															<h4 class="section7-title">Volunteer Activity Report Design</h4>
-														</div>
-													</div>
-													<div class="row">
-														<div class="col-md-12">
-															<div class="section7-item">
-																<p>Yasin Müminoğlu</p>
-															</div>
-														</div>
-													</div>
-
-													<div class="row">
-														<div class="col-md-12">
-															<h4 class="section7-title">Volunteer Activity Report Text Editing</h4>
-														</div>
-													</div>
-													<div class="row">
-														<div class="col-md-12">
-															<div class="section7-item">
-																<p>Buse Abacıoğlu</p>
-															</div>
-														</div>
-													</div>
-
-													<div class="row">
-														<div class="col-md-12">
-															<h4 class="section7-title">Donars Prefferring not to Disclose Their Names:</h4>
-														</div>
-													</div>
-													<div class="row">
-														<div class="col-md-12">
-															<div class="section7-item">
-																<p>2021 Year Total: 221.185 TL</p>
-															</div>
-														</div>
-													</div>
-
 												</div>
 											</div>
 										</div>
+									';
+
+								}
+
+								echo '
+											</div>
+										</section>
 									</div>
-								</section>
+								';
 
-							</div>
+							}
+						?>
 
 							<div role="tabpanel" class="tab-pane fade" id="2020">
 								<section class="section section7">
