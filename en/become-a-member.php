@@ -51,7 +51,7 @@
 											Membership entry fee is <?php echo $membershipFees["entry_fee"]; ?> TL (<?php echo $membershipFees["legal_entity_entry_fee"]; ?> TL for corporate members).
 										</li>
 										<li>
-											Annual membership fee is <?php echo $membershipFees["annual_dues"]; ?> TL (for corporate members 10<?php echo $membershipFees["legal_entity_annual_dues"]; ?>00 TL) and it is paid every year in April.
+											Annual membership fee is <?php echo $membershipFees["annual_dues"]; ?> TL (for corporate members <?php echo $membershipFees["legal_entity_annual_dues"]; ?> TL) and it is paid every year in April.
 										</li>
 										<li>
 											Membership entry fee and annual membership fee for university student under 25 is <?php echo $membershipFees["student_annual_dues"]; ?> TL.

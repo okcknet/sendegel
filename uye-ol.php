@@ -46,13 +46,13 @@
 											Başvuru onayınız tarafınıza bildirilene kadar ödeme yapmayınız.
 										</li>
 										<li>
-											Üyeliğe giriş ödentisi <?php echo $membershipFees["entry_fee"]; ?>’dır, (Tüzel üyeler için <?php echo $membershipFees["legal_entity_entry_fee"]; ?>TL)
+											Üyeliğe giriş ödentisi <?php echo $membershipFees["entry_fee"]; ?> TL’dir, (Tüzel üyeler için <?php echo $membershipFees["legal_entity_entry_fee"]; ?> TL)
 										</li>
 										<li>
-											Üyelerin yıllık aidat ödemeleri <?php echo $membershipFees["annual_dues"]; ?>TL olup her yıl Nisan ayında ödenir. (Tüzel üyeler için <?php echo $membershipFees["legal_entity_annual_dues"]; ?>TL)
+											Üyelerin yıllık aidat ödemeleri <?php echo $membershipFees["annual_dues"]; ?> TL olup her yıl Nisan ayında ödenir. (Tüzel üyeler için <?php echo $membershipFees["legal_entity_annual_dues"]; ?> TL)
 										</li>
 										<li>
-											25 yaş altı üniversite öğrencilerinin üye giriş aidatı <?php echo $membershipFees["student_entry_fee"]; ?>TL, yıllık aidatları da <?php echo $membershipFees["student_annual_dues"]; ?>TL’dir.
+											25 yaş altı üniversite öğrencilerinin üye giriş aidatı <?php echo $membershipFees["student_entry_fee"]; ?> TL, yıllık aidatları da <?php echo $membershipFees["student_annual_dues"]; ?> TL’dir.
 										</li>
 									</ul>
 									<p><br></p>
