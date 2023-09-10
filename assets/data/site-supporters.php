@@ -65,44 +65,7 @@
 					"Necati Bice",
 					"Nesim Çelik",
 					"Sema Emek",
-					"Serkan İzci",
-					"Ayşe Akşehirlioğlu",
-					"Betün Çakan",
-					"Necati Bice",
-					"Nesim Çelik",
-					"Sema Emek",
-					"Serkan İzci",
-					"Ayşe Akşehirlioğlu",
-					"Betün Çakan",
-					"Necati Bice",
-					"Nesim Çelik",
-					"Sema Emek",
-					"Serkan İzci",
-					"Ayşe Akşehirlioğlu",
-					"Betün Çakan",
-					"Necati Bice",
-					"Nesim Çelik",
-					"Sema Emek",
-					"Serkan İzci",
-					"Ayşe Akşehirlioğlu",
-					"Betün Çakan",
-					"Necati Bice",
-					"Nesim Çelik",
-					"Sema Emek",
-					"Serkan İzci",
-					"Ayşe Akşehirlioğlu",
-					"Betün Çakan",
-					"Necati Bice",
-					"Nesim Çelik",
-					"Sema Emek",
-					"Serkan İzci",
-					"Ayşe Akşehirlioğlu",
-					"Betün Çakan",
-					"Necati Bice",
-					"Nesim Çelik",
-					"Sema Emek",
-					"Serkan İzci",
-				)
+					"Serkan İzci"
 			),
 			"corporate_donors" => array(
 				"title" => "Kurumsal Bağışçılarımız",
@@ -121,7 +84,7 @@
 					)
 				)
 			),
-			"in-kind_donors" => array(
+			"in_kind_donors" => array(
 				"title" => "Ayni Bağışçılarımız",
 				"title-en" => "In-kind Donors",
 				"col-md" => "col-md-4",
@@ -158,9 +121,9 @@
 					)
 				)
 			),
-			"individual_supporters" => array(
+			"individual_donors" => array(
 				"title" => "Bireysel Bağışçılarımız",
-				"title-en" => "Individual Supporters",
+				"title-en" => "Individual Donors",
 				"col-md" => "col-md-6",
 				"supporters" => array(
 					"Abdullah Hardura",
