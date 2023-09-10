@@ -2,6 +2,168 @@
 
 	# supporters
 	$supporters = array(
+		"2022" = array(
+			"active" => true,
+			"title" => "2022 Yılı Destekçilerimiz",
+			"title-en" => "2022 Supporters",
+			"main_supporters" => array(
+					"title" => "Ana Destekçilerimiz",
+					"title-en" => "Main Supporters",
+					"col-md" => "col-md-4",
+					"supporters" => array(
+							array(
+									"title" => "Global Water Challenge",
+									"image" => "",
+									"link" => "",
+							),
+							array(
+									"title" => "İslam Kalkınma Bankası",
+									"image" => "",
+									"link" => "",
+							),
+							array(
+									"title" => "Mehmet Betil",
+									"image" => "",
+									"link" => "",
+							),
+							array(
+									"title" => "Peter & Eleanor Kuniholm",
+									"image" => "",
+									"link" => "",
+							)
+					)
+			),
+			"project_supporters" => array(
+					"title" => "Proje Destekçilerimiz",
+					"title-en" => "Project Supporters",
+					"col-md" => "col-md-3",
+					"supporters" => array(
+							array(
+									"title" => "Asım Kadri Soygül",
+									"image" => "",
+									"link" => "",
+							),
+							array(
+									"title" => "Cem Akşehirlioğlu",
+									"image" => "",
+									"link" => "",
+							),
+							array(
+									"title" => "Paribu Teknoloji A.Ş",
+									"image" => "",
+									"link" => "",
+							)
+					)
+			),
+			"individual_supporters" => array(
+					"title" => "Bireysel Destekçilerimiz",
+					"title-en" => "Individual Supporters",
+					"col-md" => "col-md-12",
+					"supporters" => array(
+							"İpek Yener",
+							"Turgut Derman"
+					)
+			),
+			"corporate_donors" => array(
+					"title" => "Kurumsal Bağışçılarımız",
+					"title-en" => "Corporate Donors",
+					"col-md" => "col-md-6",
+					"supporters" => array(
+							array(
+									"title" => "AGC Gıda Tarım",
+									"image" => "",
+									"link" => "",
+							),
+							array(
+									"title" => "Alcas Metal San. A.Ş.",
+									"image" => "",
+									"link" => "",
+							),
+							array(
+									"title" => "Ali İsmail Korkmaz Vakfı (ALİKEV)",
+									"image" => "",
+									"link" => "",
+							),
+							array(
+									"title" => "ASAŞ Alüminyum Sanayi ve Ticaret A.Ş.",
+									"image" => "",
+									"link" => "",
+							),
+							array(
+									"title" => "Eyüboğlu Eğitim Kurumları",
+									"image" => "",
+									"link" => "",
+							),
+							array(
+									"title" => "NESCE İnşaat Enerji Ticaret A.Ş",
+									"image" => "",
+									"link" => "",
+							),
+							array(
+									"title" => "Wellbees",
+									"image" => "",
+									"link" => "",
+							)
+					)
+			),
+			"in_kind_donors" => array(
+					"title" => "Ayni Bağışçılarımız",
+					"title-en" => "In-kind Donors",
+					"col-md" => "col-md-4",
+					"supporters" => array(
+							array(
+									"title" => "Mazars Denge",
+									"image" => "",
+									"link" => "",
+							),
+							array(
+									"title" => "Nef-Timur Gayrimenkul",
+									"image" => "",
+									"link" => "",
+							),
+							array(
+									"title" => "Turkish Philanthropy Fund",
+									"image" => "",
+									"link" => "",
+							),
+							array(
+									"title" => "Yapı ve Yatırım A. Ş.",
+									"image" => "",
+									"link" => "",
+							)
+					)
+			),
+			"individual_donors" => array(
+					"title" => "Bireysel Bağışçılarımız",
+					"title-en" => "Individual Donors",
+					"col-md" => "col-md-6",
+					"supporters" => array("Ada Beyza Tunç", "Adem Öztürk", "Ahmet Kurtuldu", "Ali Durahim", "Ali Emir Çelik", "Ali Murat Ekin", "Alp Kuş", "Alper Baldöktü", "Arda Altun", "Arda Demir Yılmaz", "Arzu Sare Tatar", "Aslı Derbent", "Asuman Bayrak", "Atilla Can", "Atlas Özbaş", "Ayhan Türkkan", "Aynur Kırımlı", "Ayse Bilginsoy", "Ayşe Akşehirlioğlu", "Ayşe Nur Yılmaz", "Aytül Tülay Balcı", "Banu Saruhan Kırali", "Banu Şen", "Başak Dal", "Bekir cenker illeez", "Berk Turan", "Berrin Yorgun", "Beste Şener Altunkaynak", "Bilge Doğa Yücel", "Bora Eraslan", "Buket Nur Kırmızıgül", "Bulut Yapıcıoğlu", "Burcu Hepgüler", "Seda Çakoğlu", "Burcu Solak", "Can Genç", "Canan Özcan", "Cem Akşehirlioğlu", "Cemal Çavdar-Emir Temelli", "Cenk Cemil Unur", "Cenk Özsoy", "Ceren Kalı", "Çelik Arsel", "Çetin Bayramlı", "Demir Alp Batış", "Demir Alp Çelik", "Demirhan Ocak", "Deniz Can", "Deniz Emin", "Deniz Eraslqn", "Derya Yanmış", "Didem Ünsür", "Dilber Kanşay", "Dobrinka Cidrof", "Dursunali Kara", "Duru Şanlı", "Duygu Yakışkan", "Ebru İnan", "Ebru Kurucan", "Ece Kurtuldu", "Efe Yılmaz", "Elif Birkan", "Emel Çelepçıkay İslam", "Emre Turan", "Engin Selcuk", "Enver Arsoy", "Ertuğrul Aksoy", "Esra Birol", "Evrim Eriş", "Eylül Çil", "Eymen Yalaz", "Fadime Acar Ural", "Fahriye Demirel", "Ferah Paker", "Figen Özkan", "Filiz İyidil", "Furkan Dalkıran", "Gamze Beray", "Gamze Karacam", "Gonca Özel", "Gökalp Aslan", "Göksel Yavuz", "Gülay Günes", "Gülhanım Mengüç", "Günay Ermergen", "Halil İbrahim Düzcan", "Halil Öner", "Hamza Özdemir", "Hasret Akdemir", "Hatice Serpil Bostancı", "Hayat Buğlem Selamet", "Hayrettin Çil", "Hayrettin Kağnıcı", "Hazal Suzan Selçuk", "Hülya Özer", "Hüseyin Baran", "Hüseyin Kaya", "Irene Hulst", "İbrahim Betil", "İman Öner", "İpek Yener", "İskender Savaşlı", "Kavacık Resim Grubu", "Kaya Tan Doğan", "Kayhan Alver", "Kayla Ünal", "Kazim Veysel Dolapçı", "Kemal Güven", "Kemal Ural", "Kerim Altınsoy", "Keriman Kolukısa", "Lara Kadoğlu", "Leyla Arslan", "Lütfi Öztürker", "Mehmet Ali İnan", "Mehmet Ali Şahin", "Mehmet Can Yavuz", "Mehmet Dutar", "Mehmet Tevfik Alkış", "Melek Özgen", "Melike Baladın", "Melis Yalçın", "Merve Gök Bozok", "Mestan Özdemir", "Mesut Kelle", "Mevlüde Kanberoğlu", "Murat Demir", "Mustafa Ballı", "Mustafa Yıldız", "Mutlu Şen", "Mücahit Gök", "Münevver Özel", "Nadide Sema Girgin", "Necati Günal", "Neval Yoldırım", "Nevin Ulusoy", "Oğuz Tutal", "Ömer Salih Çelik", "Öykü Cirit", "Özge Karakale", "Özlem Oruç", "Özlem Sarı", "Özlem Sarıkaya Paşaalioğlu", "Öznur Karakaya", "Pelin Abacılar", "Recep Topçu", "S. Özlem Sökmen", "Saniye Özdemir", "Savaş Kabak", "Seda Aalan", "Seda Batış", "Seda Zulfikaroglu", "Seher Özkurt", "Seher Şimşek", "Selim Deniz", "Selin Ceyhan Becet", "Semih Bayıl", "Semih Dilmen", "Semih Dümdüz", "Semih Eldemir", "Serap Karakaya", "Serkan Bayraktar", "Sezgin Kaçar", "Sia Gürün", "Sinan Abanoz", "Suna Eksen", "Süheyla Camaş", "Süheyla Özyaşar", "Süleybe Öztürk", "Şimal Bostancı", "Şule Yıldırım", "Şüheyda Karayiğit", "Taha Yasir Fasal", "Talu S. Alatlı", "Tuğba Özdamar", "Tuğba Tezer", "Tuğçe Sivri", "Tuna Demirci", "Tuna Ece", "Tuna Kuş", "Tuncay Gunes", "Tuncer Kayacı", "Uğur Atalay", "Umut Şanlı", "Vasıf İnan", "Vildan Demirci", "Yaşar Altun", "Yeşim Hitay", "Yiğit Alp Tezer", "Yunus Emre Atacan", "Yusuf Özdemir", "Yusuf Yalçın", "Zehra Uyar", "Zeynep Betil", "Zeynep Cebeoğlu", "Zeynep Duru Öztürk", "Zeynep Kayaalp", "Zuhal Çetin")
+			),
+			"other_supporters" => array(
+					array(
+							"title" => "Gönüllü Web Geliştirici",
+							"title-en" => "Volunteer Web Developer",
+							"supporter" => "Oğuz Kaan Çağatay Kılınç"
+					),
+					array(
+							"title" => "Gönüllü Çevirmen",
+							"title-en" => "Volunteer Translator",
+							"supporter" => "Deniz Ekin Doğan"
+					),
+					array(
+							"title" => "Gönüllü Faaliyet Raporu Tasarım",
+							"title-en" => "Volunteer Activity Report Design",
+							"supporter" => ""
+					),
+					array(
+							"title" => "Adının açıklanmasını tercih etmeyen bireysel ve kurumsal bağışçılarımız",
+							"title-en" => "Donors Preferring not to Disclose Their Names",
+							"col-md" => "col-md-12",
+							"text" => "2022 Yılı Toplam: 944.885 TL",
+							"text-en" => "2022 Year Total: 944.885 TL"
+					)
+			)
+		),
 		"2021" =>  array(
 			"active" => true,
 			"title" => "2021 Yılı Destekçilerimiz",
