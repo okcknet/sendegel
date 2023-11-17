@@ -125,8 +125,8 @@
 				),
 				"en" => array(
 					"title" => "2022 Annual Report",
-					"file" => "https://drive.google.com/file/d/1Lv3WBgkXU4rwbN1fcSlYEFAUO4577RBY/view"
-				)		
+					"file" => "https://drive.google.com/file/d/1zN804opknViFnbMqchRz-r6KIYzkRzbR/view"
+				)
 			),
 			"2021" => array(
 				"tr" => array(
