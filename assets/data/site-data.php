@@ -122,7 +122,11 @@
 				"tr" => array(
 					"title" => "2022 Yılı Faaliyet Raporumuz",
 					"file" => "https://drive.google.com/file/d/1Lv3WBgkXU4rwbN1fcSlYEFAUO4577RBY/view"
-				)
+				),
+				"en" => array(
+					"title" => "2022 Annual Report",
+					"file" => "https://drive.google.com/file/d/1Lv3WBgkXU4rwbN1fcSlYEFAUO4577RBY/view"
+				)		
 			),
 			"2021" => array(
 				"tr" => array(
