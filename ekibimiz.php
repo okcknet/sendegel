@@ -21,64 +21,19 @@
 
 	<div class="tab tab1">
 		<ul class="nav nav-tabs" role="tablist">
-			<li class="active"><a href="#tab1-item1" data-toggle="tab">KURUCULAR</a></li>
-			<li><a href="#tab1-item2" aria-controls="profile" data-toggle="tab">YÖNETİM</a></li>
-			<li><a href="#tab1-item3" aria-controls="messages" data-toggle="tab">DENETİM KURULU</a></li>
-			<li><a href="#tab1-item4" aria-controls="settings" data-toggle="tab">DANIŞMA KURULU</a></li>
+			<li class="active">
+				<a href="#founders" aria-controls="founders" data-toggle="tab">KURUCULAR</a>
+			</li>
+			<li>
+				<a href="#board" aria-controls="board" data-toggle="tab">YÖNETİM KURULU</a>
+			</li>
+			<li>
+				<a href="#auditors" aria-controls="auditors" data-toggle="tab">DENETİM KURULU</a>
+			</li>
+			<li>
+				<a href="#advisors" aria-controls="advisors" data-toggle="tab">DANIŞMA KURULU</a>
+			</li>
 		</ul>
-
-
-		<?php
-		# Function to sort team members by order
-		function sortByOrder($a, $b)
-		{
-			return $a['order'] - $b['order'];
-		}
-
-		# Sort team members by order
-		usort($team, function ($a, $b) {
-			return sortByOrder($a['type'][0], $b['type'][0]);
-		});
-
-		# Group team members by type
-		$groupedTeam = [];
-		foreach ($team as $member) {
-			$type = $member['type'][0]['type'];
-			$groupedTeam[$type][] = $member;
-		}
-
-		# Display tab list
-		echo '<ul>';
-		foreach ($groupedTeam as $type => $members) {
-			echo '<li onclick="showTab(\'' . $type . '\')">' . ucfirst($type) . '</li>';
-		}
-		echo '</ul>';
-
-		# Display member details in tabs
-		foreach ($groupedTeam as $type => $members) {
-			echo '<div id="' . $type . '" class="tab-content">';
-			foreach ($members as $member) {
-				echo '<h2>' . $member['name'] . '</h2>';
-				echo '<p><strong>Title (' . $member['title']['en'] . '): </strong>' . $member['title']['tr'] . '</p>';
-				echo '<p><strong>Bio (' . $member['bio']['en'] . '): </strong>' . $member['bio']['tr'] . '</p>';
-			}
-			echo '</div>';
-		}
-		?>
-
-		<script>
-			// JavaScript function to show/hide tabs
-			function showTab(tabId) {
-				// Hide all tabs
-				var tabs = document.querySelectorAll('.tab-content');
-				tabs.forEach(function(tab) {
-					tab.style.display = 'none';
-				});
-
-				// Show the selected tab
-				document.getElementById(tabId).style.display = 'block';
-			}
-		</script>
 
 		<section class="section">
 			<div class="container">
@@ -86,10 +41,45 @@
 					<div class="col-md-12">
 						<div class="tab-content">
 
+							<?php
+							$teamFounders = [
+								'Aziz Akgül' => 'aziz-akgul.php',
+								'Mehmet Arda' => 'mehmet-arda.php',
+								// Add more team members as needed
+							];
+							?>
 
-							<div role="tabpanel" class="tab-pane fade in active" id="tab1-item1">
+							<div role="tabpanel" class="tab-pane fade in active" id="founders">
 								<div class="accordion accordion2">
 									<div class="panel-group" id="accordion1">
+
+										<?php foreach ($teamMembers as $name => $file) : ?>
+											<div class="panel">
+												<div class="panel-heading">
+													<h4 class="panel-title">
+														<a data-toggle="collapse" data-parent="#accordion1" href="#<?= strtolower(str_replace(' ', '-', $name)); ?>">
+															<span><?= $name ?></span>
+															<i class="icon icon-minus"></i>
+															<i class="icon icon-plus"></i>
+														</a>
+													</h4>
+												</div>
+												<div id="<?= strtolower(str_replace(' ', '-', $name)); ?>" class="panel-collapse collapse">
+													<div class="panel-body">
+														<div class="content"><?php include 'ekibimiz/' . $file; ?></div>
+													</div>
+												</div>
+											</div>
+										<?php endforeach; ?>
+
+									</div>
+								</div>
+							</div>
+
+							<div role="tabpanel" class="tab-pane fade in active" id="founders">
+								<div class="accordion accordion2">
+									<div class="panel-group" id="accordion1">
+
 										<div class="panel">
 											<div class="panel-heading">
 												<h4 class="panel-title">
@@ -106,6 +96,7 @@
 												</div>
 											</div>
 										</div>
+
 										<div class="panel">
 											<div class="panel-heading">
 												<h4 class="panel-title">
@@ -122,6 +113,8 @@
 												</div>
 											</div>
 										</div>
+
+
 										<div class="panel">
 											<div class="panel-heading">
 												<h4 class="panel-title">
@@ -278,7 +271,7 @@
 									</div>
 								</div>
 							</div>
-							<div role="tabpanel" class="tab-pane fade" id="tab1-item2">
+							<div role="tabpanel" class="tab-pane fade" id="board">
 								<div class="accordion accordion2">
 									<div class="panel-group" id="accordion2">
 
@@ -473,7 +466,7 @@
 									</div>
 								</div>
 							</div>
-							<div role="tabpanel" class="tab-pane fade" id="tab1-item3">
+							<div role="tabpanel" class="tab-pane fade" id="auditors">
 								<div class="accordion accordion2">
 									<div class="panel-group" id="accordion3">
 
@@ -582,7 +575,7 @@
 									</div>
 								</div>
 							</div>
-							<div role="tabpanel" class="tab-pane fade" id="tab1-item4">
+							<div role="tabpanel" class="tab-pane fade" id="advisors">
 								<div class="accordion accordion2">
 									<div class="panel-group" id="accordion4">
 										<div class="panel">
