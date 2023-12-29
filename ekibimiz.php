@@ -352,8 +352,7 @@
 													<div class="panel-heading">
 														<h4 class="panel-title">
 															<a data-toggle="collapse" data-parent="#teamFoundersGroup" href="#<?= $handle; ?>">
-																<span><?= $member['name'] ?></span>
-																<i class="icon icon-minus"></i>
+																<span><?= $member['name'] . ($member['title'][$type] ? ' (' . $member['title'][$type] . ')' : ''); ?></span <i class="icon icon-minus"></i>
 																<i class="icon icon-plus"></i>
 															</a>
 														</h4>
@@ -388,8 +387,7 @@
 													<div class="panel-heading">
 														<h4 class="panel-title">
 															<a data-toggle="collapse" data-parent="#teamBoardGroup" href="#<?= $handle; ?>">
-																<span><?= $member['name'] ?></span>
-																<i class="icon icon-minus"></i>
+																<span><?= $member['name'] . ($member['title'][$type] ? ' (' . $member['title'][$type] . ')' : ''); ?></span <i class="icon icon-minus"></i>
 																<i class="icon icon-plus"></i>
 															</a>
 														</h4>
@@ -424,8 +422,7 @@
 													<div class="panel-heading">
 														<h4 class="panel-title">
 															<a data-toggle="collapse" data-parent="#teamAdvisorsGroup" href="#<?= $handle; ?>">
-																<span><?= $member['name'] ?></span>
-																<i class="icon icon-minus"></i>
+																<span><?= $member['name'] . ($member['title'][$type] ? ' (' . $member['title'][$type] . ')' : ''); ?></span <i class="icon icon-minus"></i>
 																<i class="icon icon-plus"></i>
 															</a>
 														</h4>
@@ -460,8 +457,7 @@
 													<div class="panel-heading">
 														<h4 class="panel-title">
 															<a data-toggle="collapse" data-parent="#teamAuditorsGroup" href="#<?= $handle; ?>">
-																<span><?= $member['name'] ?></span>
-																<i class="icon icon-minus"></i>
+																<span><?= $member['name'] . ($member['title'][$type] ? ' (' . $member['title'][$type] . ')' : ''); ?></span <i class="icon icon-minus"></i>
 																<i class="icon icon-plus"></i>
 															</a>
 														</h4>
@@ -496,8 +492,7 @@
 													<div class="panel-heading">
 														<h4 class="panel-title">
 															<a data-toggle="collapse" data-parent="#teamAdvisorsGroup" href="#<?= $handle; ?>">
-																<span><?= $member['name'] ?></span>
-																<i class="icon icon-minus"></i>
+																<span><?= $member['name'] . ($member['title'][$type] ? ' (' . $member['title'][$type] . ')' : ''); ?></span <i class="icon icon-minus"></i>
 																<i class="icon icon-plus"></i>
 															</a>
 														</h4>
@@ -532,8 +527,7 @@
 													<div class="panel-heading">
 														<h4 class="panel-title">
 															<a data-toggle="collapse" data-parent="#teamEmployeesGroup" href="#<?= $handle; ?>">
-																<span><?= $member['name'] ?></span>
-																<i class="icon icon-minus"></i>
+																<span><?= $member['name'] . ($member['title'][$type] ? ' (' . $member['title'][$type] . ')' : ''); ?></span <i class="icon icon-minus"></i>
 																<i class="icon icon-plus"></i>
 															</a>
 														</h4>
