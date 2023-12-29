@@ -357,13 +357,16 @@
                         <div class="panel">
                           <div class="panel-heading">
                             <h4 class="panel-title">
-                              <a data-toggle="collapse" data-parent="#teamFoundersGroup" href="#<?= $handle; ?>">
-                                <span><?= $member['name'] . ($member['title'][$type] ? ' (' . $member['title'][$type] . ')' : ''); ?></span <i class="icon icon-minus"></i>
+                              <a data-toggle="collapse" data-parent="#teamFoundersGroup" href="#<?= $type . '-' . $handle; ?>">
+                                <span>
+                                  <?= $member['name'] . ($member['title'][$type] ? ' (' . $member['title'][$type] . ')' : ''); ?>
+                                </span>
+                                <i class="icon icon-minus"></i>
                                 <i class="icon icon-plus"></i>
                               </a>
                             </h4>
                           </div>
-                          <div id="<?= $handle; ?>" class="panel-collapse collapse">
+                          <div id="<?= $type . '-' . $handle; ?>" class="panel-collapse collapse">
                             <div class="panel-body">
                               <div class="content"><?php include 'ekibimiz/' . $member['file']; ?></div>
                             </div>
@@ -392,13 +395,16 @@
                         <div class="panel">
                           <div class="panel-heading">
                             <h4 class="panel-title">
-                              <a data-toggle="collapse" data-parent="#teamBoardGroup" href="#<?= $handle; ?>">
-                                <span><?= $member['name'] . ($member['title'][$type] ? ' (' . $member['title'][$type] . ')' : ''); ?></span <i class="icon icon-minus"></i>
+                              <a data-toggle="collapse" data-parent="#teamFoundersGroup" href="#<?= $type . '-' . $handle; ?>">
+                                <span>
+                                  <?= $member['name'] . ($member['title'][$type] ? ' (' . $member['title'][$type] . ')' : ''); ?>
+                                </span>
+                                <i class="icon icon-minus"></i>
                                 <i class="icon icon-plus"></i>
                               </a>
                             </h4>
                           </div>
-                          <div id="<?= $handle; ?>" class="panel-collapse collapse">
+                          <div id="<?= $type . '-' . $handle; ?>" class="panel-collapse collapse">
                             <div class="panel-body">
                               <div class="content"><?php include 'ekibimiz/' . $member['file']; ?></div>
                             </div>
@@ -427,13 +433,16 @@
                         <div class="panel">
                           <div class="panel-heading">
                             <h4 class="panel-title">
-                              <a data-toggle="collapse" data-parent="#teamAdvisorsGroup" href="#<?= $handle; ?>">
-                                <span><?= $member['name'] . ($member['title'][$type] ? ' (' . $member['title'][$type] . ')' : ''); ?></span <i class="icon icon-minus"></i>
+                              <a data-toggle="collapse" data-parent="#teamFoundersGroup" href="#<?= $type . '-' . $handle; ?>">
+                                <span>
+                                  <?= $member['name'] . ($member['title'][$type] ? ' (' . $member['title'][$type] . ')' : ''); ?>
+                                </span>
+                                <i class="icon icon-minus"></i>
                                 <i class="icon icon-plus"></i>
                               </a>
                             </h4>
                           </div>
-                          <div id="<?= $handle; ?>" class="panel-collapse collapse">
+                          <div id="<?= $type . '-' . $handle; ?>" class="panel-collapse collapse">
                             <div class="panel-body">
                               <div class="content"><?php include 'ekibimiz/' . $member['file']; ?></div>
                             </div>
@@ -462,13 +471,16 @@
                         <div class="panel">
                           <div class="panel-heading">
                             <h4 class="panel-title">
-                              <a data-toggle="collapse" data-parent="#teamAuditorsGroup" href="#<?= $handle; ?>">
-                                <span><?= $member['name'] . ($member['title'][$type] ? ' (' . $member['title'][$type] . ')' : ''); ?></span <i class="icon icon-minus"></i>
+                              <a data-toggle="collapse" data-parent="#teamFoundersGroup" href="#<?= $type . '-' . $handle; ?>">
+                                <span>
+                                  <?= $member['name'] . ($member['title'][$type] ? ' (' . $member['title'][$type] . ')' : ''); ?>
+                                </span>
+                                <i class="icon icon-minus"></i>
                                 <i class="icon icon-plus"></i>
                               </a>
                             </h4>
                           </div>
-                          <div id="<?= $handle; ?>" class="panel-collapse collapse">
+                          <div id="<?= $type . '-' . $handle; ?>" class="panel-collapse collapse">
                             <div class="panel-body">
                               <div class="content"><?php include 'ekibimiz/' . $member['file']; ?></div>
                             </div>
@@ -497,13 +509,16 @@
                         <div class="panel">
                           <div class="panel-heading">
                             <h4 class="panel-title">
-                              <a data-toggle="collapse" data-parent="#teamAdvisorsGroup" href="#<?= $handle; ?>">
-                                <span><?= $member['name'] . ($member['title'][$type] ? ' (' . $member['title'][$type] . ')' : ''); ?></span <i class="icon icon-minus"></i>
+                              <a data-toggle="collapse" data-parent="#teamFoundersGroup" href="#<?= $type . '-' . $handle; ?>">
+                                <span>
+                                  <?= $member['name'] . ($member['title'][$type] ? ' (' . $member['title'][$type] . ')' : ''); ?>
+                                </span>
+                                <i class="icon icon-minus"></i>
                                 <i class="icon icon-plus"></i>
                               </a>
                             </h4>
                           </div>
-                          <div id="<?= $handle; ?>" class="panel-collapse collapse">
+                          <div id="<?= $type . '-' . $handle; ?>" class="panel-collapse collapse">
                             <div class="panel-body">
                               <div class="content"><?php include 'ekibimiz/' . $member['file']; ?></div>
                             </div>
@@ -532,13 +547,16 @@
                         <div class="panel">
                           <div class="panel-heading">
                             <h4 class="panel-title">
-                              <a data-toggle="collapse" data-parent="#teamEmployeesGroup" href="#<?= $handle; ?>">
-                                <span><?= $member['name'] . ($member['title'][$type] ? ' (' . $member['title'][$type] . ')' : ''); ?></span <i class="icon icon-minus"></i>
+                              <a data-toggle="collapse" data-parent="#teamFoundersGroup" href="#<?= $type . '-' . $handle; ?>">
+                                <span>
+                                  <?= $member['name'] . ($member['title'][$type] ? ' (' . $member['title'][$type] . ')' : ''); ?>
+                                </span>
+                                <i class="icon icon-minus"></i>
                                 <i class="icon icon-plus"></i>
                               </a>
                             </h4>
                           </div>
-                          <div id="<?= $handle; ?>" class="panel-collapse collapse">
+                          <div id="<?= $type . '-' . $handle; ?>" class="panel-collapse collapse">
                             <div class="panel-body">
                               <div class="content"><?php include 'ekibimiz/' . $member['file']; ?></div>
                             </div>
