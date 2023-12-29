@@ -1,0 +1,3 @@
+<p>
+  Marmara Üniversitesi İletişim Fakültesi Gazetecilik Bölümünden mezun olduktan sonra Türkiye’de çeşitlik ticari kuruluşlarda çalıştı, yönetici görevler üstlendi. 2014 yılına kadar pek çok sivil toplum kuruluşunda gönüllü faaliyetlerine devam etti. 2014 Ocak ayı itibariyle Sen De Gel derneğinin en az gelişmiş ülkelerde yürüttüğü sürdürülebilir kalkınma çalışmalarının koordinasyonu göreviyle Afrika’ya gitti. Halen Sen De Gel derneğinin genel koordinatörü olarak görev yapmaktadır.
+</p>

@@ -1,0 +1,3 @@
+<p>
+  Kastamonu Üniversitesi İşletme bölümünü bitirdikten sonra Anadolu Üniversitesi’nde lisans eğitimini tamamladı. 2011 yılında Sompo Japan Sigorta’da stajer olarak iş hayatına başladı. 2012 yılında Nur Yapı’da satış sorumlusu olarak çalıştı. 2013 yılında CTG Planet TEK’de Genel Müdür Asistanı olarak görev aldı. 2013 Temmuz ayı itibariyle Yeniçağ Danışmanlık firmasın’da İbrahim Betil’in Asistanı olarak çalışmaya başladı. Bu görevinin yanında Sen De Gel Derneği’nde Genel Müdür Yardımcısı ve Genel Sekreterlik yapıyor. Birçok sivil toplum kuruluşunun gönüllülük faaliyetlerinde yer almaya devam ediyor.
+</p>
