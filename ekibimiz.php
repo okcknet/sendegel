@@ -347,7 +347,7 @@
                   <div class="panel-group" id="teamFoundersGroup">
                     <?php
                     $type = 'founder'; // Specify the type for sorting
-                    usort($teamMembers, function ($a, $b) use ($type) {
+                    uasort($teamMembers, function ($a, $b) use ($type) {
                       return (in_array($type, $a['types'])) ? $a['order'][$type] - $b['order'][$type] : 0;
                     });
 
@@ -382,7 +382,7 @@
                   <div class="panel-group" id="teamBoardGroup">
                     <?php
                     $type = 'board'; // Specify the type for sorting
-                    usort($teamMembers, function ($a, $b) use ($type) {
+                    uasort($teamMembers, function ($a, $b) use ($type) {
                       return (in_array($type, $a['types'])) ? $a['order'][$type] - $b['order'][$type] : 0;
                     });
 
@@ -417,7 +417,7 @@
                   <div class="panel-group" id="teamAdvisorsGroup">
                     <?php
                     $type = 'advisor'; // Specify the type for sorting
-                    usort($teamMembers, function ($a, $b) use ($type) {
+                    uasort($teamMembers, function ($a, $b) use ($type) {
                       return (in_array($type, $a['types'])) ? $a['order'][$type] - $b['order'][$type] : 0;
                     });
 
@@ -452,7 +452,7 @@
                   <div class="panel-group" id="teamAuditorsGroup">
                     <?php
                     $type = 'auditor'; // Specify the type for sorting
-                    usort($teamMembers, function ($a, $b) use ($type) {
+                    uasort($teamMembers, function ($a, $b) use ($type) {
                       return (in_array($type, $a['types'])) ? $a['order'][$type] - $b['order'][$type] : 0;
                     });
 
@@ -487,7 +487,7 @@
                   <div class="panel-group" id="teamAdvisorsGroup">
                     <?php
                     $type = 'advisor'; // Specify the type for sorting
-                    usort($teamMembers, function ($a, $b) use ($type) {
+                    uasort($teamMembers, function ($a, $b) use ($type) {
                       return (in_array($type, $a['types'])) ? $a['order'][$type] - $b['order'][$type] : 0;
                     });
 
@@ -522,7 +522,7 @@
                   <div class="panel-group" id="teamEmployeesGroup">
                     <?php
                     $type = 'employee'; // Specify the type for sorting
-                    usort($teamMembers, function ($a, $b) use ($type) {
+                    uasort($teamMembers, function ($a, $b) use ($type) {
                       return (in_array($type, $a['types'])) ? $a['order'][$type] - $b['order'][$type] : 0;
                     });
 
