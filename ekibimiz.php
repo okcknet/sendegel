@@ -336,7 +336,7 @@
 					<div class="col-md-12">
 						<div class="tab-content">
 
-							<div role="tabpanel" class="tab-pane fade" id="teamFounders">
+							<div role="tabpanel" class="tab-pane fade in active" id="teamFounders">
 								<div class="accordion accordion2">
 									<div class="panel-group" id="teamFoundersGroup">
 										<?php
