@@ -53,7 +53,7 @@
 								<div class="accordion accordion2">
 									<div class="panel-group" id="accordion1">
 
-										<?php foreach ($teamMembers as $name => $file) : ?>
+										<?php foreach ($teamFounders as $name => $file) : ?>
 											<div class="panel">
 												<div class="panel-heading">
 													<h4 class="panel-title">
