@@ -12,6 +12,21 @@
 	<!--Header -->
 	<?php include 'include/header.php' ?>
 
+	<?php
+	$teamMembers = [
+		'ibrahim-betil' => [
+			'name' => 'İbrahim Betil',
+			'file' => 'ibrahim-betil.php',
+			'types' => ['member', 'advisor'],
+		],
+		'nuh-hakan-oflazer' => [
+			'name' => 'Nuh Hakan Oflazer',
+			'file' => 'nuh-hakan-oflazer.php',
+			'types' => ['member'],
+		]
+	];
+	?>
+
 	<section class="section section5">
 		<h1 class="page-title">Ekibimiz</h1>
 		<div class="img-wrapper">
@@ -60,6 +75,102 @@
 								// Add more team members as needed
 							];
 							?>
+
+							<?php
+							$teamMembers = [
+								'ibrahim-betil' => [
+									'name' => 'İbrahim Betil',
+									'file' => 'ibrahim-betil.php',
+									'types' => ['founder', 'advisor'],
+									'order' => [
+										'founder' => 1, // Set the order number for founder type
+										'advisor' => 2, // Set the order number for advisor type
+									],
+								],
+								'nuh-hakan-oflazer' => [
+									'name' => 'Nuh Hakan Oflazer',
+									'file' => 'nuh-hakan-oflazer.php',
+									'types' => ['founder'],
+									'order' => [
+										'founder' => 3, // Set the order number for founder type
+									],
+								]
+							];
+							?>
+
+							<div role="tabpanel" class="tab-pane fade" id="teamFounders">
+								<div class="accordion accordion2">
+									<div class="panel-group" id="teamFoundersGroup">
+										<?php
+										$type = 'founder'; // Specify the type for sorting
+										usort($teamMembers, function ($a, $b) use ($type) {
+											return (in_array($type, $a['types'])) ? $a['order'][$type] - $b['order'][$type] : 0;
+										});
+
+										foreach ($teamMembers as $handle => $member) :
+											if (in_array($type, $member['types'])) :
+										?>
+												<div class="panel">
+													<div class="panel-heading">
+														<h4 class="panel-title">
+															<a data-toggle="collapse" data-parent="#teamFoundersGroup" href="#<?= $handle; ?>">
+																<span><?= $member['name'] ?></span>
+																<i class="icon icon-minus"></i>
+																<i class="icon icon-plus"></i>
+															</a>
+														</h4>
+													</div>
+													<div id="<?= $handle; ?>" class="panel-collapse collapse">
+														<div class="panel-body">
+															<div class="content"><?php include 'ekibimiz/' . $member['file']; ?></div>
+														</div>
+													</div>
+												</div>
+										<?php
+											endif;
+										endforeach;
+										?>
+									</div>
+								</div>
+							</div>
+
+							<div role="tabpanel" class="tab-pane fade" id="teamAdvisors">
+								<div class="accordion accordion2">
+									<div class="panel-group" id="teamAdvisorsGroup">
+										<?php
+										$type = 'advisor'; // Specify the type for sorting (e.g., 'member' or 'advisor')
+										usort($teamMembers, function ($a, $b) use ($type) {
+											return (in_array($type, $a['types'])) ? $a['order'][$type] - $b['order'][$type] : 0;
+										});
+
+										foreach ($teamMembers as $handle => $member) :
+											if (in_array($type, $member['types'])) :
+										?>
+												<div class="panel">
+													<div class="panel-heading">
+														<h4 class="panel-title">
+															<a data-toggle="collapse" data-parent="#teamAdvisorsGroup" href="#<?= $handle; ?>">
+																<span><?= $member['name'] ?></span>
+																<i class="icon icon-minus"></i>
+																<i class="icon icon-plus"></i>
+															</a>
+														</h4>
+													</div>
+													<div id="<?= $handle; ?>" class="panel-collapse collapse">
+														<div class="panel-body">
+															<div class="content"><?php include 'ekibimiz/' . $member['file']; ?></div>
+														</div>
+													</div>
+												</div>
+										<?php
+											endif;
+										endforeach;
+										?>
+									</div>
+								</div>
+							</div>
+
+							<!-- Team Members Section -->
 
 							<div role="tabpanel" class="tab-pane fade in active" id="teamFounders">
 								<div class="accordion accordion2">
