@@ -319,21 +319,11 @@
 
   <div class="tab tab1">
     <ul class="nav nav-tabs" role="tablist">
-      <li class="active">
-        <a href="#teamFounders" aria-controls="teamFounders" data-toggle="tab">KURUCULAR</a>
-      </li>
-      <li>
-        <a href="#teamBoard" aria-controls="teamBoard" data-toggle="tab">YÖNETİM KURULU</a>
-      </li>
-      <li>
-        <a href="#teamAuditors" aria-controls="teamAuditors" data-toggle="tab">DENETİM KURULU</a>
-      </li>
-      <li>
-        <a href="#teamAdvisors" aria-controls="teamAdvisors" data-toggle="tab">DANIŞMA KURULU</a>
-      </li>
-      <li>
-        <a href="#teamEmployees" aria-controls="teamEmployees" data-toggle="tab">ÇALIŞANLAR</a>
-      </li>
+      <li class="active"><a href="#teamFounders" aria-controls="teamFounders" data-toggle="tab">KURUCULAR</a></li>
+      <li><a href="#teamBoard" aria-controls="teamBoard" data-toggle="tab">YÖNETİM KURULU</a></li>
+      <li><a href="#teamAuditors" aria-controls="teamAuditors" data-toggle="tab">DENETİM KURULU</a></li>
+      <li><a href="#teamAdvisors" aria-controls="teamAdvisors" data-toggle="tab">DANIŞMA KURULU</a></li>
+      <li><a href="#teamEmployees" aria-controls="teamEmployees" data-toggle="tab">ÇALIŞANLAR</a></li>
     </ul>
 
     <section class="section">

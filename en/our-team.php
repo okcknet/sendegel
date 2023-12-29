@@ -1,614 +1,578 @@
 <!doctype html>
 <html>
+
 <head>
 	<?php
-			$pageTitle = "Our Team";
-			include 'include/head.php';
-		?>
+	$pageTitle = "Our Team";
+	include 'include/head.php';
+	?>
 </head>
+
 <body>
-<!--Header -->
-<?php include 'include/header.php' ?>
+	<!--Header -->
+	<?php include 'include/header.php' ?>
 
-<section class="section section5">
-	<h1 class="page-title">Our Team</h1>
-	<div class="img-wrapper">
-		<img src="/assets/images/content/bg-ekibimiz.jpg" alt="" class="img-responsive">
-	</div>
-</section>
+	<?php
+	$teamMembers = [
+		'abdullah-hardura' => [
+			'name' => 'Abdullah Hardura',
+			'file' => 'abdullah-hardura.php',
+			'types' => ['board'],
+			'order' => [
+				'board' => 7,
+			],
+			'title' => [
+				'board' => 'Substitute Member',
+			],
+		],
+		'asli-aysen-aydin' => [
+			'name' => 'Aslı Ayşen Aydın',
+			'file' => 'asli-aysen-aydin.php',
+			'types' => ['founder'],
+			'order' => [
+				'founder' => 6,
+			],
+		],
+		'aytul-tulay-balci' => [
+			'name' => 'Aytül Tülay Balcı',
+			'file' => 'aytul-tulay-balci.php',
+			'types' => ['auditor'],
+			'order' => [
+				'auditor' => 4,
+			],
+			'title' => [
+				'auditor' => 'Member',
+			],
+		],
+		'aziz-akgul' => [
+			'name' => 'Aziz Akgül',
+			'file' => 'aziz-akgul.php',
+			'types' => ['founder'],
+			'order' => [
+				'founder' => 1,
+			],
+		],
+		'bilge-ogun-bassani' => [
+			'name' => 'Bilge Öğün Bassani',
+			'file' => 'bilge-ogun-bassani.php',
+			'types' => ['advisor'],
+			'order' => [
+				'advisor' => 1,
+			],
+		],
+		'cem-aksehirlioglu' => [
+			'name' => 'Cem Akşehirlioğlu',
+			'file' => 'cem-aksehirlioglu.php',
+			'types' => ['board'],
+			'order' => [
+				'board' => 6,
+			],
+			'title' => [
+				'board' => 'Member',
+			],
+		],
+		'ceren-kali' => [
+			'name' => 'Ceren Kalı',
+			'file' => 'ceren-kali.php',
+			'types' => ['founder'],
+			'order' => [
+				'founder' => 11,
+			],
+		],
+		'charlotte-sabbah' => [
+			'name' => 'Charlotte Sabbah',
+			'file' => 'charlotte-sabbah.php',
+			'types' => ['advisor'],
+			'order' => [
+				'advisor' => 4,
+			],
+		],
+		'dara-aslan' => [
+			'name' => 'Dara Aslan',
+			'file' => 'dara-aslan.php',
+			'types' => ['board'],
+			'order' => [
+				'board' => 3,
+			],
+			'title' => [
+				'board' => 'Secretary',
+			],
+		],
+		'derya-sel-bozkurt' => [
+			'name' => 'Derya Sel Bozkurt',
+			'file' => 'derya-sel-bozkurt.php',
+			'types' => ['founder', 'auditor'],
+			'order' => [
+				'founder' => 5,
+				'auditor' => 6,
+			],
+			'title' => [
+				'auditor' => 'Substitute Member',
+			],
+		],
+		'didem-unsur' => [
+			'name' => 'Didem Ünsür',
+			'file' => 'didem-unsur.php',
+			'types' => ['board'],
+			'order' => [
+				'board' => 4,
+			],
+			'title' => [
+				'board' => 'Accountant',
+			],
+		],
+		'ebru-celebi' => [
+			'name' => 'Ebru Çelebi',
+			'file' => 'ebru-celebi.php',
+			'types' => ['employee'],
+			'order' => [
+				'employee' => 1,
+			],
+			'title' => [
+				'employee' => 'General Secretary and Donor Relations',
+			],
+		],
+		'ecehan-bike-geckinli' => [
+			'name' => 'Ecehan Bike Geçkinli',
+			'file' => 'ecehan-bike-geckinli.php',
+			'types' => ['auditor'],
+			'order' => [
+				'auditor' => 3,
+			],
+			'title' => [
+				'auditor' => 'Member',
+			],
+		],
+		'ibrahim-betil' => [
+			'name' => 'İbrahim Betil',
+			'file' => 'ibrahim-betil.php',
+			'types' => ['founder', 'board'],
+			'order' => [
+				'founder' => 3, // Set the order number for founder type
+				'board' => 1, // Set the order number for board type
+			],
+			'title' => [
+				'board' => 'Chairman of the Board',
+			]
+		],
+		'jak-jabes' => [
+			'name' => 'Jak Jabes',
+			'file' => 'jak-jabes.php',
+			'types' => ['advisor'],
+			'order' => [
+				'advisor' => 2,
+			],
+		],
+		'kaddafi-bozkurt' => [
+			'name' => 'Kaddafi Bozkurt',
+			'file' => 'kaddafi-bozkurt.php',
+			'types' => ['founder'],
+			'order' => [
+				'founder' => 7,
+			],
+		],
+		'kerim-uralli' => [
+			'name' => 'Kerim Urallı',
+			'file' => 'kerim-uralli.php',
+			'types' => ['founder'],
+			'order' => [
+				'founder' => 4,
+			],
+		],
+		'mehmet-arda' => [
+			'name' => 'Mehmet Arda',
+			'file' => 'mehmet-arda.php',
+			'types' => ['founder'],
+			'order' => [
+				'founder' => 2,
+			],
+		],
+		'mehmet-bahadir-teke' => [
+			'name' => 'Mehmet Bahadır Teke',
+			'file' => 'mehmet-bahadir-teke.php',
+			'types' => ['auditor'],
+			'order' => [
+				'auditor' => 1,
+			],
+			'title' => [
+				'auditor' => 'Chairman of the Board of Auditors',
+			],
+		],
+		'mustafa-ciper' => [
+			'name' => 'Mustafa Çiper',
+			'file' => 'mustafa-ciper.php',
+			'types' => ['board'],
+			'order' => [
+				'board' => 8,
+			],
+			'title' => [
+				'board' => 'Substitute Member',
+			],
+		],
+		'mutlu-sen' => [
+			'name' => 'Mutlu Şen',
+			'file' => 'mutlu-sen.php',
+			'types' => ['auditor'],
+			'order' => [
+				'auditor' => 5,
+			],
+			'title' => [
+				'auditor' => 'Substitute Member',
+			],
+		],
+		'nuh-hakan-oflazer' => [
+			'name' => 'Nuh Hakan Oflazer',
+			'file' => 'nuh-hakan-oflazer.php',
+			'types' => ['board'],
+			'order' => [
+				'board' => 2,
+			],
+			'title' => [
+				'board' => 'Vice Chairman of the Board',
+			],
+		],
+		'samir-bayraktar' => [
+			'name' => 'Samir Bayraktar',
+			'file' => 'samir-bayraktar.php',
+			'types' => ['founder'],
+			'order' => [
+				'founder' => 9,
+			],
+		],
+		'sema-emek' => [
+			'name' => 'Sema Emek',
+			'file' => 'sema-emek.php',
+			'types' => ['board'],
+			'order' => [
+				'board' => 5,
+			],
+			'title' => [
+				'board' => 'Member',
+			],
+		],
+		'sema-gumus' => [
+			'name' => 'Sema Gümüş',
+			'file' => 'sema-gumus.php',
+			'types' => ['board'],
+			'order' => [
+				'board' => 9,
+			],
+			'title' => [
+				'board' => 'Substitute Member',
+			],
+		],
+		'tayyibe-gulek-domac' => [
+			'name' => 'Tayyibe Gülek Domaç',
+			'file' => 'tayyibe-gulek-domac.php',
+			'types' => ['advisor'],
+			'order' => [
+				'advisor' => 3,
+			],
+		],
+		'tugba-jabban' => [
+			'name' => 'Tuğba Jabban',
+			'file' => 'tugba-jabban.php',
+			'types' => ['founder'],
+			'order' => [
+				'founder' => 10,
+			],
+		],
+		'tuncay-bozkurt' => [
+			'name' => 'Tuncay Bozkurt',
+			'file' => 'tuncay-bozkurt.php',
+			'types' => ['employee'],
+			'order' => [
+				'employee' => 2,
+			],
+			'title' => [
+				'employee' => 'General Coordinator',
+			],
+		],
+		'turgut-derman' => [
+			'name' => 'Turgut Derman',
+			'file' => 'turgut-derman.php',
+			'types' => ['founder'],
+			'order' => [
+				'founder' => 8,
+			],
+		],
+		'zeynel-senan' => [
+			'name' => 'Zeynel Senan',
+			'file' => 'zeynel-senan.php',
+			'types' => ['auditor'],
+			'order' => [
+				'auditor' => 2,
+			],
+			'title' => [
+				'auditor' => 'Member',
+			],
+		],
+	];
+	?>
 
-<div class="tab tab1">
-	<ul class="nav nav-tabs" role="tablist">
-		<li class="active"><a href="#tab1-item1" data-toggle="tab">FOUNDERS</a></li>
-		<li><a href="#tab1-item2" aria-controls="profile" data-toggle="tab">BOARD OF DIRECTORS</a></li>
-		<li><a href="#tab1-item3" aria-controls="messages" data-toggle="tab">BOARD OF AUDITORS</a></li>
-		<li><a href="#tab1-item4" aria-controls="settings" data-toggle="tab">BOARD OF ADVISORS</a></li>
-	</ul>
+	<section class="section section5">
+		<h1 class="page-title">Our Team</h1>
+		<div class="img-wrapper">
+			<img src="/assets/images/content/bg-ekibimiz.jpg" alt="" class="img-responsive">
+		</div>
+	</section>
 
-	<section class="section">
-		<div class="container">
-			<div class="row">
-				<div class="col-md-12">
-					<div class="tab-content">
-						<div role="tabpanel" class="tab-pane fade in active" id="tab1-item1">
-							<div class="accordion accordion2">
-								<div class="panel-group" id="accordion1">
-									<div class="panel">
-										<div class="panel-heading">
-											<h4 class="panel-title">
-												<a data-toggle="collapse" data-parent="#accordion1" href="#accordion1-item1">
-													<span>Aziz Akgül</span>
-													<i class="icon icon-minus"></i>
-													<i class="icon icon-plus"></i>
-												</a>
-											</h4>
-										</div>
-										<div id="accordion1-item1" class="panel-collapse collapse">
-											<div class="panel-body">
-												<div class="content"><?php include 'team/aziz-akgul.php' ?></div>
-											</div>
-										</div>
-									</div>
-									<div class="panel">
-										<div class="panel-heading">
-											<h4 class="panel-title">
-												<a class="collapsed" data-toggle="collapse" data-parent="#accordion1" href="#accordion1-item2">
-													<span>Mehmet Arda</span>
-													<i class="icon icon-minus"></i>
-													<i class="icon icon-plus"></i>
-												</a>
-											</h4>
-										</div>
-										<div id="accordion1-item2" class="panel-collapse collapse">
-											<div class="panel-body">
-												<div class="content"><?php include 'team/mehmet-arda.php' ?></div>
-											</div>
-										</div>
-									</div>
-									<div class="panel">
-										<div class="panel-heading">
-											<h4 class="panel-title">
-												<a class="collapsed" data-toggle="collapse" data-parent="#accordion1" href="#accordion1-item3">
-													<span>İbrahim Betil</span>
-													<i class="icon icon-minus"></i>
-													<i class="icon icon-plus"></i>
-												</a>
+	<div class="tab tab1">
+		<ul class="nav nav-tabs" role="tablist">
+			<li class="active"><a href="#teamFounders" aria-controls="teamFounders" data-toggle="tab">FOUNDERS</a></li>
+			<li><a href="#teamBoard" aria-controls="teamBoard" data-toggle="tab">BOARD OF DIRECTORS</a></li>
+			<li><a href="#teamAuditors" aria-controls="teamAuditors" data-toggle="tab">BOARD OF AUDITORS</a></li>
+			<li><a href="#teamAdvisors" aria-controls="teamAdvisors" data-toggle="tab">BOARD OF ADVISORS</a></li>
+			<li><a href="#teamEmployees" aria-controls="teamEmployees" data-toggle="tab">EMPLOYEES</a></li>
+		</ul>
 
-											</h4>
-										</div>
-										<div id="accordion1-item3" class="panel-collapse collapse">
-											<div class="panel-body">
-												<div class="content"><?php include 'team/ibrahim-betil.php' ?></div>
-											</div>
-										</div>
-									</div>
-									<div class="panel">
-										<div class="panel-heading">
-											<h4 class="panel-title">
-												<a class="collapsed" data-toggle="collapse" data-parent="#accordion1" href="#accordion1-item4">
-													<span>Kerim Urallı</span>
-													<i class="icon icon-minus"></i>
-													<i class="icon icon-plus"></i>
-												</a>
+		<section class="section">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12">
+						<div class="tab-content">
 
-											</h4>
-										</div>
-										<div id="accordion1-item4" class="panel-collapse collapse">
-											<div class="panel-body">
-												<div class="content"><?php include 'team/kerim-uralli.php' ?></div>
-											</div>
-										</div>
-									</div>
-									<div class="panel">
-										<div class="panel-heading">
-											<h4 class="panel-title">
-												<a class="collapsed" data-toggle="collapse" data-parent="#accordion1" href="#accordion1-item5">
-													<span>Derya Sel Bozkurt</span>
-													<i class="icon icon-minus"></i>
-													<i class="icon icon-plus"></i>
-												</a>
+							<div role="tabpanel" class="tab-pane fade in active" id="teamFounders">
+								<div class="accordion accordion2">
+									<div class="panel-group" id="teamFoundersGroup">
+										<?php
+										$type = 'founder'; // Specify the type for sorting
+										uasort($teamMembers, function ($a, $b) use ($type) {
+											return (in_array($type, $a['types'])) ? $a['order'][$type] - $b['order'][$type] : 0;
+										});
 
-											</h4>
-										</div>
-										<div id="accordion1-item5" class="panel-collapse collapse">
-											<div class="panel-body">
-												<div class="content"><?php include 'team/derya-sel-bozkurt.php' ?></div>
-											</div>
-										</div>
-									</div>
-									<div class="panel">
-										<div class="panel-heading">
-											<h4 class="panel-title">
-												<a class="collapsed" data-toggle="collapse" data-parent="#accordion1" href="#accordion1-item6">
-													<span>Aslı Ayşen Aydın</span>
-													<i class="icon icon-minus"></i>
-													<i class="icon icon-plus"></i>
-												</a>
-
-											</h4>
-										</div>
-										<div id="accordion1-item6" class="panel-collapse collapse">
-											<div class="panel-body">
-												<div class="content"><?php include 'team/asli-aysen-aydin.php' ?></div>
-											</div>
-										</div>
-									</div>
-									<div class="panel">
-										<div class="panel-heading">
-											<h4 class="panel-title">
-												<a class="collapsed" data-toggle="collapse" data-parent="#accordion1" href="#accordion1-item7">
-													<span>Kaddafi Bozkurt</span>
-													<i class="icon icon-minus"></i>
-													<i class="icon icon-plus"></i>
-												</a>
-
-											</h4>
-										</div>
-										<div id="accordion1-item7" class="panel-collapse collapse">
-											<div class="panel-body">
-												<div class="content"><?php include 'team/kaddafi-bozkurt.php' ?></div>
-											</div>
-										</div>
-									</div>
-									<div class="panel">
-										<div class="panel-heading">
-											<h4 class="panel-title">
-												<a class="collapsed" data-toggle="collapse" data-parent="#accordion1" href="#accordion1-item8">
-													<span>Turgut Derman</span>
-													<i class="icon icon-minus"></i>
-													<i class="icon icon-plus"></i>
-												</a>
-
-											</h4>
-										</div>
-										<div id="accordion1-item8" class="panel-collapse collapse">
-											<div class="panel-body">
-												<div class="content"><?php include 'team/turgut-derman.php' ?></div>
-											</div>
-										</div>
-									</div>
-									<div class="panel">
-										<div class="panel-heading">
-											<h4 class="panel-title">
-												<a class="collapsed" data-toggle="collapse" data-parent="#accordion1" href="#accordion1-item9">
-													<span>Samir Bayraktar</span>
-													<i class="icon icon-minus"></i>
-													<i class="icon icon-plus"></i>
-												</a>
-
-											</h4>
-										</div>
-										<div id="accordion1-item9" class="panel-collapse collapse">
-											<div class="panel-body">
-												<div class="content"><?php include 'team/samir-bayraktar.php' ?></div>
-											</div>
-										</div>
-									</div>
-									<div class="panel">
-										<div class="panel-heading">
-											<h4 class="panel-title">
-												<a class="collapsed" data-toggle="collapse" data-parent="#accordion1" href="#accordion1-item10">
-													<span>Tuğba Jabban</span>
-													<i class="icon icon-minus"></i>
-													<i class="icon icon-plus"></i>
-												</a>
-
-											</h4>
-										</div>
-										<div id="accordion1-item10" class="panel-collapse collapse">
-											<div class="panel-body">
-												<div class="content"><?php include 'team/tugba-jabban.php' ?></div>
-											</div>
-										</div>
-									</div>
-									<div class="panel">
-										<div class="panel-heading">
-											<h4 class="panel-title">
-												<a class="collapsed" data-toggle="collapse" data-parent="#accordion1" href="#accordion1-item11">
-													<span>Ceren Kalı</span>
-													<i class="icon icon-minus"></i>
-													<i class="icon icon-plus"></i>
-												</a>
-
-											</h4>
-										</div>
-										<div id="accordion1-item11" class="panel-collapse collapse">
-											<div class="panel-body">
-												<div class="content"><?php include 'team/ceren-kali.php' ?></div>
-											</div>
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
-						<div role="tabpanel" class="tab-pane fade" id="tab1-item2">
-							<div class="accordion accordion2">
-								<div class="panel-group" id="accordion2">
-
-									<div class="panel">
-										<div class="panel-heading">
-											<h4 class="panel-title">
-												<a data-toggle="collapse" data-parent="#accordion2" href="#accordion2-item1">
-													<span>İbrahim Betil (YK Başkanı)</span>
-													<i class="icon icon-minus"></i>
-													<i class="icon icon-plus"></i>
-												</a>
-											</h4>
-										</div>
-										<div id="accordion2-item1" class="panel-collapse collapse">
-											<div class="panel-body">
-												<div class="content"><?php include 'team/ibrahim-betil.php' ?></div>
-											</div>
-										</div>
-									</div>
-
-									<div class="panel">
-										<div class="panel-heading">
-											<h4 class="panel-title">
-												<a class="collapsed" data-toggle="collapse" data-parent="#accordion2" href="#accordion2-item2">
-													<span>Nuh Hakan Oflazer (YK Başkan Yardımcısı)</span>
-													<i class="icon icon-minus"></i>
-													<i class="icon icon-plus"></i>													
-												</a>
-											</h4>
-										</div>
-										<div id="accordion2-item2" class="panel-collapse collapse">
-											<div class="panel-body">
-												<div class="content"><?php include 'team/nuh-hakan-oflazer.php' ?></div>
-											</div>
-										</div>										
-									</div>
-
-									<div class="panel">
-										<div class="panel-heading">
-											<h4 class="panel-title">
-												<a class="collapsed" data-toggle="collapse" data-parent="#accordion2" href="#accordion2-item3">
-													<span>Dara Aslan (Sekreter)</span>
-													<i class="icon icon-minus"></i>
-													<i class="icon icon-plus"></i>													
-												</a>
-											</h4>
-										</div>
-										<div id="accordion2-item3" class="panel-collapse collapse">
-											<div class="panel-body">
-												<div class="content"><?php include 'team/dara-aslan.php' ?></div>
-											</div>
-										</div>										
-									</div>
-
-									<div class="panel">
-										<div class="panel-heading">
-											<h4 class="panel-title">
-												<a class="collapsed" data-toggle="collapse" data-parent="#accordion2" href="#accordion2-item4">
-													<span>Didem Ünsür (Sayman)</span>
-													<i class="icon icon-minus"></i>
-													<i class="icon icon-plus"></i>													
-												</a>
-											</h4>
-										</div>
-										<div id="accordion2-item4" class="panel-collapse collapse">
-											<div class="panel-body">
-												<div class="content"><?php include 'team/didem-unsur.php' ?></div>
-											</div>
-										</div>										
-									</div>	
-
-									<div class="panel">
-										<div class="panel-heading">
-											<h4 class="panel-title">
-												<a class="collapsed" data-toggle="collapse" data-parent="#accordion2" href="#accordion2-item5">
-													<span>Sema Emek (YK Üyesi)</span>
-													<i class="icon icon-minus"></i>
-													<i class="icon icon-plus"></i>
-												</a>
-											</h4>
-										</div>
-										<div id="accordion2-item5" class="panel-collapse collapse">
-											<div class="panel-body">
-												<div class="content"><?php include 'team/sema-emek.php' ?></div>
-											</div>
-										</div>
-									</div>
-
-									<div class="panel">
-										<div class="panel-heading">
-											<h4 class="panel-title">
-												<a class="collapsed" data-toggle="collapse" data-parent="#accordion2" href="#accordion2-item6">
-													<span>Cem Akşehirlioğlu (YK Üyesi)</span>
-													<i class="icon icon-minus"></i>
-													<i class="icon icon-plus"></i>													
-												</a>
-											</h4>
-										</div>
-										<div id="accordion2-item6" class="panel-collapse collapse">
-											<div class="panel-body">
-												<div class="content"><?php include 'team/cem-aksehirlioglu.php' ?></div>
-											</div>
-										</div>										
-									</div>
-
-									<div class="panel">
-										<div class="panel-heading">
-											<h4 class="panel-title">
-												<a class="collapsed" data-toggle="collapse" data-parent="#accordion2" href="#accordion2-item7">
-													<span>Abdullah Hardura (Yedek Üye)</span>
-													<i class="icon icon-minus"></i>
-													<i class="icon icon-plus"></i>
-												</a>
-											</h4>
-										</div>
-										<div id="accordion2-item7" class="panel-collapse collapse">
-											<div class="panel-body">
-												<div class="content"><?php include 'team/abdullah-hardura.php' ?></div>
-											</div>
-										</div>
-									</div>									
-
-									<div class="panel">
-										<div class="panel-heading">
-											<h4 class="panel-title">
-												<a class="collapsed" data-toggle="collapse" data-parent="#accordion2" href="#accordion2-item8">
-													<span>Kaddafi Bozkurt (Yedek Üye)</span>
-													<i class="icon icon-minus"></i>
-													<i class="icon icon-plus"></i>
-												</a>
-											</h4>
-										</div>
-										<div id="accordion2-item8" class="panel-collapse collapse">
-											<div class="panel-body">
-											<div class="content"><?php include 'team/kaddafi-bozkurt.php' ?></div>
-											</div>
-										</div>
-									</div>
-
-									<div class="panel">
-										<div class="panel-heading">
-											<h4 class="panel-title">
-												<a class="collapsed" data-toggle="collapse" data-parent="#accordion2" href="#accordion2-item9">
-													<span>Mustafa Çiper (Yedek Üye)</span>
-													<i class="icon icon-minus"></i>
-													<i class="icon icon-plus"></i>													
-												</a>
-											</h4>
-										</div>
-										<div id="accordion2-item9" class="panel-collapse collapse">
-											<div class="panel-body">
-											<div class="content"><?php include 'team/mustafa-ciper.php' ?></div>
-											</div>
-										</div>										
-									</div>
-
-									<div class="panel">
-										<div class="panel-heading">
-											<h4 class="panel-title">
-												<a class="collapsed" data-toggle="collapse" data-parent="#accordion2" href="#accordion2-item10">
-													<span>Aziz Akgül (Yedek Üye)</span>
-													<i class="icon icon-minus"></i>
-													<i class="icon icon-plus"></i>
-												</a>
-											</h4>
-										</div>
-										<div id="accordion2-item10" class="panel-collapse collapse">
-											<div class="panel-body">
-												<div class="content"><?php include 'team/aziz-akgul.php' ?></div>
-											</div>
-										</div>										
-									</div>									
-
-
-									<div class="panel">
-										<div class="panel-heading">
-											<h4 class="panel-title">
-												<a class="collapsed" data-toggle="collapse" data-parent="#accordion2" href="#accordion2-item11">
-													<span>Sema Gümüş (Yedek Üye)</span>
-													<i class="icon icon-minus"></i>
-													<i class="icon icon-plus"></i>													
-												</a>
-											</h4>
-										</div>
-										<div id="accordion2-item11" class="panel-collapse collapse">
-											<div class="panel-body">
-												<div class="content"><?php include 'team/sema-gumus.php' ?></div>
-											</div>
-										</div>										
-									</div>
-
-								</div>
-							</div>
-						</div>
-						<div role="tabpanel" class="tab-pane fade" id="tab1-item3">
-							<div class="accordion accordion2">
-								<div class="panel-group" id="accordion3">
-
-									<div class="panel">
-										<div class="panel-heading">
-											<h4 class="panel-title">
-												<a class="collapsed" data-toggle="collapse" data-parent="#accordion3" href="#accordion3-item1">
-													<span>Mehmet Bahadır Teke (DK Başkanı)</span>
-													<i class="icon icon-minus"></i>
-													<i class="icon icon-plus"></i>													
-												</a>
-											</h4>
-										</div>
-										<div id="accordion3-item1" class="panel-collapse collapse">
-											<div class="panel-body">
-												<div class="content"><?php include 'team/mehmet-bahadir-teke.php' ?></div>
-											</div>
-										</div>
-									</div>
-
-									<div class="panel">
-										<div class="panel-heading">
-											<h4 class="panel-title">
-												<a class="collapsed" data-toggle="collapse" data-parent="#accordion3" href="#accordion3-item2">
-													<span>Zeynel Senan (DK Üyesi)</span>
-													<i class="icon icon-minus"></i>
-													<i class="icon icon-plus"></i>															
-												</a>												
-											</h4>
-										</div>
-										<div id="accordion3-item2" class="panel-collapse collapse">
-											<div class="panel-body">
-												<div class="content"><?php include 'team/zeynel-senan.php' ?></div>
-											</div>
-										</div>
-									</div>									
-
-									<div class="panel">
-										<div class="panel-heading">
-											<h4 class="panel-title">
-												<a class="collapsed" data-toggle="collapse" data-parent="#accordion3" href="#accordion3-item3">
-													<span>Ecehan Bike Geçkinli (DK Üyesi)</span>
-													<i class="icon icon-minus"></i>
-													<i class="icon icon-plus"></i>
-												</a>
-											</h4>
-										</div>
-										<div id="accordion3-item3" class="panel-collapse collapse">
-											<div class="panel-body">
-												<div class="content"><?php include 'team/ecehan-bike-geckinli.php' ?></div>
-											</div>
-										</div>
-									</div>
-
-									<div class="panel">
-										<div class="panel-heading">
-											<h4 class="panel-title">
-												<a class="collapsed" data-toggle="collapse" data-parent="#accordion3" href="#accordion3-item4">
-													<span>Aytül Tülay Balcı (Yedek Üye)</span>
-													<i class="icon icon-minus"></i>
-													<i class="icon icon-plus"></i>
-												</a>
-											</h4>
-										</div>
-										<div id="accordion3-item4" class="panel-collapse collapse">
-											<div class="panel-body">
-												<div class="content"><?php include 'team/aytul-tulay-balci.php' ?></div>
-											</div>
-										</div>
-									</div>
-
-									<div class="panel">
-										<div class="panel-heading">
-											<h4 class="panel-title">
-												<a class="collapsed" data-toggle="collapse" data-parent="#accordion3" href="#accordion3-item5">
-													<span>Mutlu Şen (Yedek Üye)</span>
-													<i class="icon icon-minus"></i>
-													<i class="icon icon-plus"></i>
-												</a>
-											</h4>
-										</div>
-										<div id="accordion3-item5" class="panel-collapse collapse">
-											<div class="panel-body">
-												<div class="content"><?php include 'team/mutlu-sen.php' ?></div>
-											</div>
-										</div>
-									</div>
-
-									<div class="panel">
-										<div class="panel-heading">
-											<h4 class="panel-title">
-												<a class="collapsed" data-toggle="collapse" data-parent="#accordion2" href="#accordion3-item6">
-													<span>Derya Sel Bozkurt (Yedek Üye)</span>
-													<i class="icon icon-minus"></i>
-													<i class="icon icon-plus"></i>
-												</a>
-											</h4>
-										</div>
-										<div id="accordion3-item6" class="panel-collapse collapse">
-											<div class="panel-body">
-												<div class="content"><?php include 'team/derya-sel-bozkurt.php' ?></div>
-											</div>
-										</div>
-									</div>
-
-								</div>
-							</div>
-						</div>
-						<div role="tabpanel" class="tab-pane fade" id="tab1-item4">
-							<div class="accordion accordion2">
-								<div class="panel-group" id="accordion4">
-									<div class="panel">
-										<div class="panel-heading">
-											<h4 class="panel-title">
-												<a data-toggle="collapse" data-parent="#accordion4" href="#accordion4-item1">
-													<span>Bilge Ögün Bassani</span>
-													<i class="icon icon-minus"></i>
-													<i class="icon icon-plus"></i>
-												</a>
-											</h4>
-										</div>
-										<div id="accordion4-item1" class="panel-collapse collapse">
-											<div class="panel-body">
-												<div class="content"><?php include 'team/bilge-ogun-bassani.php' ?></div>
-											</div>
-										</div>
-									</div>
-									<div class="panel">
-										<div class="panel-heading">
-											<h4 class="panel-title">
-												<a class="collapsed" data-toggle="collapse" data-parent="#accordion4" href="#accordion4-item2">
-													<span>Jak Jabes</span>
-													<i class="icon icon-minus"></i>
-													<i class="icon icon-plus"></i>
-												</a>
-											</h4>
-										</div>
-										<div id="accordion4-item2" class="panel-collapse collapse">
-											<div class="panel-body">
-												<div class="content"><?php include 'team/jak-jabes.php' ?></div>
-											</div>
-										</div>
-									</div>
-									<div class="panel">
-										<div class="panel-heading">
-											<h4 class="panel-title">
-												<a class="collapsed" data-toggle="collapse" data-parent="#accordion4" href="#accordion4-item3">
-													<span>Tayyibe Gülek Domaç</span>
-													<i class="icon icon-minus"></i>
-													<i class="icon icon-plus"></i>
-												</a>
-
-											</h4>
-										</div>
-										<div id="accordion4-item3" class="panel-collapse collapse">
-											<div class="panel-body">
-												<div class="content"><?php include 'team/tayyibe-gulek-domac.php' ?></div>
-											</div>
-										</div>
-									</div>
-									<div class="panel">
-										<div class="panel-heading">
-											<h4 class="panel-title">
-												<a class="collapsed" data-toggle="collapse" data-parent="#accordion4" href="#accordion4-item4">
-													<span>Charlotte Sabbah</span>
-													<i class="icon icon-minus"></i>
-													<i class="icon icon-plus"></i>
-												</a>
-
-											</h4>
-										</div>
-										<div id="accordion4-item4" class="panel-collapse collapse">
-											<div class="panel-body">
-												<div class="content"><?php include 'team/charlotte-sabbah.php' ?></div>
-											</div>
-										</div>
+										foreach ($teamMembers as $handle => $member) :
+											if (in_array($type, $member['types'])) :
+										?>
+												<div class="panel">
+													<div class="panel-heading">
+														<h4 class="panel-title">
+															<a data-toggle="collapse" data-parent="#teamFoundersGroup" href="#<?= $type . '-' . $handle; ?>">
+																<span>
+																	<?= $member['name'] . ($member['title'][$type] ? ' (' . $member['title'][$type] . ')' : ''); ?>
+																</span>
+																<i class="icon icon-minus"></i>
+																<i class="icon icon-plus"></i>
+															</a>
+														</h4>
+													</div>
+													<div id="<?= $type . '-' . $handle; ?>" class="panel-collapse collapse">
+														<div class="panel-body">
+															<div class="content"><?php include 'team/' . $member['file']; ?></div>
+														</div>
+													</div>
+												</div>
+										<?php
+											endif;
+										endforeach;
+										?>
 									</div>
 								</div>
 							</div>
+
+							<div role="tabpanel" class="tab-pane fade" id="teamBoard">
+								<div class="accordion accordion2">
+									<div class="panel-group" id="teamBoardGroup">
+										<?php
+										$type = 'board'; // Specify the type for sorting
+										uasort($teamMembers, function ($a, $b) use ($type) {
+											return (in_array($type, $a['types'])) ? $a['order'][$type] - $b['order'][$type] : 0;
+										});
+
+										foreach ($teamMembers as $handle => $member) :
+											if (in_array($type, $member['types'])) :
+										?>
+												<div class="panel">
+													<div class="panel-heading">
+														<h4 class="panel-title">
+															<a data-toggle="collapse" data-parent="#teamFoundersGroup" href="#<?= $type . '-' . $handle; ?>">
+																<span>
+																	<?= $member['name'] . ($member['title'][$type] ? ' (' . $member['title'][$type] . ')' : ''); ?>
+																</span>
+																<i class="icon icon-minus"></i>
+																<i class="icon icon-plus"></i>
+															</a>
+														</h4>
+													</div>
+													<div id="<?= $type . '-' . $handle; ?>" class="panel-collapse collapse">
+														<div class="panel-body">
+															<div class="content"><?php include 'team/' . $member['file']; ?></div>
+														</div>
+													</div>
+												</div>
+										<?php
+											endif;
+										endforeach;
+										?>
+									</div>
+								</div>
+							</div>
+
+							<div role="tabpanel" class="tab-pane fade" id="teamAdvisors">
+								<div class="accordion accordion2">
+									<div class="panel-group" id="teamAdvisorsGroup">
+										<?php
+										$type = 'advisor'; // Specify the type for sorting
+										uasort($teamMembers, function ($a, $b) use ($type) {
+											return (in_array($type, $a['types'])) ? $a['order'][$type] - $b['order'][$type] : 0;
+										});
+
+										foreach ($teamMembers as $handle => $member) :
+											if (in_array($type, $member['types'])) :
+										?>
+												<div class="panel">
+													<div class="panel-heading">
+														<h4 class="panel-title">
+															<a data-toggle="collapse" data-parent="#teamFoundersGroup" href="#<?= $type . '-' . $handle; ?>">
+																<span>
+																	<?= $member['name'] . ($member['title'][$type] ? ' (' . $member['title'][$type] . ')' : ''); ?>
+																</span>
+																<i class="icon icon-minus"></i>
+																<i class="icon icon-plus"></i>
+															</a>
+														</h4>
+													</div>
+													<div id="<?= $type . '-' . $handle; ?>" class="panel-collapse collapse">
+														<div class="panel-body">
+															<div class="content"><?php include 'team/' . $member['file']; ?></div>
+														</div>
+													</div>
+												</div>
+										<?php
+											endif;
+										endforeach;
+										?>
+									</div>
+								</div>
+							</div>
+
+							<div role="tabpanel" class="tab-pane fade" id="teamAuditors">
+								<div class="accordion accordion2">
+									<div class="panel-group" id="teamAuditorsGroup">
+										<?php
+										$type = 'auditor'; // Specify the type for sorting
+										uasort($teamMembers, function ($a, $b) use ($type) {
+											return (in_array($type, $a['types'])) ? $a['order'][$type] - $b['order'][$type] : 0;
+										});
+
+										foreach ($teamMembers as $handle => $member) :
+											if (in_array($type, $member['types'])) :
+										?>
+												<div class="panel">
+													<div class="panel-heading">
+														<h4 class="panel-title">
+															<a data-toggle="collapse" data-parent="#teamFoundersGroup" href="#<?= $type . '-' . $handle; ?>">
+																<span>
+																	<?= $member['name'] . ($member['title'][$type] ? ' (' . $member['title'][$type] . ')' : ''); ?>
+																</span>
+																<i class="icon icon-minus"></i>
+																<i class="icon icon-plus"></i>
+															</a>
+														</h4>
+													</div>
+													<div id="<?= $type . '-' . $handle; ?>" class="panel-collapse collapse">
+														<div class="panel-body">
+															<div class="content"><?php include 'team/' . $member['file']; ?></div>
+														</div>
+													</div>
+												</div>
+										<?php
+											endif;
+										endforeach;
+										?>
+									</div>
+								</div>
+							</div>
+
+							<div role="tabpanel" class="tab-pane fade" id="teamAdvisors">
+								<div class="accordion accordion2">
+									<div class="panel-group" id="teamAdvisorsGroup">
+										<?php
+										$type = 'advisor'; // Specify the type for sorting
+										uasort($teamMembers, function ($a, $b) use ($type) {
+											return (in_array($type, $a['types'])) ? $a['order'][$type] - $b['order'][$type] : 0;
+										});
+
+										foreach ($teamMembers as $handle => $member) :
+											if (in_array($type, $member['types'])) :
+										?>
+												<div class="panel">
+													<div class="panel-heading">
+														<h4 class="panel-title">
+															<a data-toggle="collapse" data-parent="#teamFoundersGroup" href="#<?= $type . '-' . $handle; ?>">
+																<span>
+																	<?= $member['name'] . ($member['title'][$type] ? ' (' . $member['title'][$type] . ')' : ''); ?>
+																</span>
+																<i class="icon icon-minus"></i>
+																<i class="icon icon-plus"></i>
+															</a>
+														</h4>
+													</div>
+													<div id="<?= $type . '-' . $handle; ?>" class="panel-collapse collapse">
+														<div class="panel-body">
+															<div class="content"><?php include 'team/' . $member['file']; ?></div>
+														</div>
+													</div>
+												</div>
+										<?php
+											endif;
+										endforeach;
+										?>
+									</div>
+								</div>
+							</div>
+
+							<div role="tabpanel" class="tab-pane fade" id="teamEmployees">
+								<div class="accordion accordion2">
+									<div class="panel-group" id="teamEmployeesGroup">
+										<?php
+										$type = 'employee'; // Specify the type for sorting
+										uasort($teamMembers, function ($a, $b) use ($type) {
+											return (in_array($type, $a['types'])) ? $a['order'][$type] - $b['order'][$type] : 0;
+										});
+
+										foreach ($teamMembers as $handle => $member) :
+											if (in_array($type, $member['types'])) :
+										?>
+												<div class="panel">
+													<div class="panel-heading">
+														<h4 class="panel-title">
+															<a data-toggle="collapse" data-parent="#teamFoundersGroup" href="#<?= $type . '-' . $handle; ?>">
+																<span>
+																	<?= $member['name'] . ($member['title'][$type] ? ' (' . $member['title'][$type] . ')' : ''); ?>
+																</span>
+																<i class="icon icon-minus"></i>
+																<i class="icon icon-plus"></i>
+															</a>
+														</h4>
+													</div>
+													<div id="<?= $type . '-' . $handle; ?>" class="panel-collapse collapse">
+														<div class="panel-body">
+															<div class="content"><?php include 'team/' . $member['file']; ?></div>
+														</div>
+													</div>
+												</div>
+										<?php
+											endif;
+										endforeach;
+										?>
+									</div>
+								</div>
+							</div>
+
 						</div>
 					</div>
 				</div>
 			</div>
-		</div>
-	</section>
+		</section>
 
-</div>
-
+	</div>
 
 
 
-<!-- Footer -->
-<?php include 'include/footer.php' ?>
+
+	<!-- Footer -->
+	<?php include 'include/footer.php' ?>
 </body>
+
 </html>

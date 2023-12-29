@@ -1,0 +1,3 @@
+<p>
+  After graduating from Kastamonu University, she completed her undergraduate education at Anadolu University. She started her business life as an intern at Sompo Japan Insurance in 2011. She worked as a sales representative at Nur Yapı in 2012. In 2013, she worked as an assistant general manager at CTG Planet TEK. In July 2013, she started working as an assistant to Ibrahim Betil at Yeniçağ Danışmanlık. In addition to this task, she is the Deputy General Manager and General Secretary at Sen De Gel Association. She continues to take part in the volunteer activities of many civil society organizations.
+</p>
