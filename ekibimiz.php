@@ -14,16 +14,293 @@
 
 	<?php
 	$teamMembers = [
+		'abdullah-hardura' => [
+			'name' => 'Abdullah Hardura',
+			'file' => 'abdullah-hardura.php',
+			'types' => ['board'],
+			'order' => [
+				'board' => 7,
+			],
+			'title' => [
+				'board' => 'Yedek Üye',
+			],
+		],
+		'asli-aysen-aydin' => [
+			'name' => 'Aslı Ayşen Aydın',
+			'file' => 'asli-aysen-aydin.php',
+			'types' => ['founder'],
+			'order' => [
+				'founder' => 6,
+			],
+		],
+		'aytul-tulay-balci' => [
+			'name' => 'Aytül Tülay Balcı',
+			'file' => 'aytul-tulay-balci.php',
+			'types' => ['auditor'],
+			'order' => [
+				'auditor' => 4,
+			],
+			'title' => [
+				'auditor' => 'DK Üyesi',
+			],
+		],
+		'aziz-akgul' => [
+			'name' => 'Aziz Akgül',
+			'file' => 'aziz-akgul.php',
+			'types' => ['founder'],
+			'order' => [
+				'founder' => 1,
+			],
+		],
+		'bilge-ogun-bassani' => [
+			'name' => 'Bilge Öğün Bassani',
+			'file' => 'bilge-ogun-bassani.php',
+			'types' => ['advisor'],
+			'order' => [
+				'advisor' => 1,
+			],
+		],
+		'cem-aksehirlioglu' => [
+			'name' => 'Cem Akşehirlioğlu',
+			'file' => 'cem-aksehirlioglu.php',
+			'types' => ['board'],
+			'order' => [
+				'board' => 6,
+			],
+			'title' => [
+				'board' => 'YK Üyesi',
+			],
+		],
+		'ceren-kali' => [
+			'name' => 'Ceren Kalı',
+			'file' => 'ceren-kali.php',
+			'types' => ['founder'],
+			'order' => [
+				'founder' => 11,
+			],
+		],
+		'charlotte-sabbah' => [
+			'name' => 'Charlotte Sabbah',
+			'file' => 'charlotte-sabbah.php',
+			'types' => ['advisor'],
+			'order' => [
+				'advisor' => 4,
+			],
+		],
+		'dara-aslan' => [
+			'name' => 'Dara Aslan',
+			'file' => 'dara-aslan.php',
+			'types' => ['board'],
+			'order' => [
+				'board' => 3,
+			],
+			'title' => [
+				'board' => 'Sekreter',
+			],
+		],
+		'derya-sel-bozkurt' => [
+			'name' => 'Derya Sel Bozkurt',
+			'file' => 'derya-sel-bozkurt.php',
+			'types' => ['founder', 'auditor'],
+			'order' => [
+				'founder' => 5,
+				'auditor' => 6,
+			],
+			'title' => [
+				'auditor' => 'Yedek Üye',
+			],
+		],
+		'didem-unsur' => [
+			'name' => 'Didem Ünsür',
+			'file' => 'didem-unsur.php',
+			'types' => ['board'],
+			'order' => [
+				'board' => 4,
+			],
+			'title' => [
+				'board' => 'Sayman',
+			],
+		],
+		'ebru-celebi' => [
+			'name' => 'Ebru Çelebi',
+			'file' => 'ebru-celebi.php',
+			'types' => ['employee'],
+			'order' => [
+				'employee' => 1,
+			],
+		],
+		'ecehan-bike-geckinli' => [
+			'name' => 'Ecehan Bike Geçkinli',
+			'file' => 'ecehan-bike-geckinli.php',
+			'types' => ['auditor'],
+			'order' => [
+				'auditor' => 3,
+			],
+			'title' => [
+				'auditor' => 'DK Üyesi',
+			],
+		],
 		'ibrahim-betil' => [
 			'name' => 'İbrahim Betil',
 			'file' => 'ibrahim-betil.php',
-			'types' => ['member', 'advisor'],
+			'types' => ['founder', 'board'],
+			'order' => [
+				'founder' => 3, // Set the order number for founder type
+				'board' => 1, // Set the order number for board type
+			],
+			'title' => [
+				'board' => 'YK Başkanı', // Set the title for board type
+			]
+		],
+		'jak-jabes' => [
+			'name' => 'Jak Jabes',
+			'file' => 'jak-jabes.php',
+			'types' => ['advisor'],
+			'order' => [
+				'advisor' => 2,
+			],
+		],
+		'kaddafi-bozkurt' => [
+			'name' => 'Kaddafi Bozkurt',
+			'file' => 'kaddafi-bozkurt.php',
+			'types' => ['founder'],
+			'order' => [
+				'founder' => 7,
+			],
+		],
+		'kerim-uralli' => [
+			'name' => 'Kerim Urallı',
+			'file' => 'kerim-uralli.php',
+			'types' => ['founder'],
+			'order' => [
+				'founder' => 4,
+			],
+		],
+		'mehmet-arda' => [
+			'name' => 'Mehmet Arda',
+			'file' => 'mehmet-arda.php',
+			'types' => ['founder'],
+			'order' => [
+				'founder' => 2,
+			],
+		],
+		'mehmet-bahadir-teke' => [
+			'name' => 'Mehmet Bahadır Teke',
+			'file' => 'mehmet-bahadir-teke.php',
+			'types' => ['auditor'],
+			'order' => [
+				'auditor' => 1,
+			],
+			'title' => [
+				'auditor' => 'DK Başkanı',
+			],
+		],
+		'mustafa-ciper' => [
+			'name' => 'Mustafa Çiper',
+			'file' => 'mustafa-ciper.php',
+			'types' => ['board'],
+			'order' => [
+				'board' => 8,
+			],
+			'title' => [
+				'board' => 'Yedek Üye',
+			],
+		],
+		'mutlu-sen' => [
+			'name' => 'Mutlu Şen',
+			'file' => 'mutlu-sen.php',
+			'types' => ['auditor'],
+			'order' => [
+				'auditor' => 5,
+			],
+			'title' => [
+				'auditor' => 'Yedek Üye',
+			],
 		],
 		'nuh-hakan-oflazer' => [
 			'name' => 'Nuh Hakan Oflazer',
 			'file' => 'nuh-hakan-oflazer.php',
-			'types' => ['member'],
-		]
+			'types' => ['board'],
+			'order' => [
+				'board' => 2,
+			],
+			'title' => [
+				'board' => 'YK Başkan Yardımcısı',
+			],
+		],
+		'samir-bayraktar' => [
+			'name' => 'Samir Bayraktar',
+			'file' => 'samir-bayraktar.php',
+			'types' => ['founder'],
+			'order' => [
+				'founder' => 9,
+			],
+		],
+		'sema-emek' => [
+			'name' => 'Sema Emek',
+			'file' => 'sema-emek.php',
+			'types' => ['board'],
+			'order' => [
+				'board' => 5,
+			],
+			'title' => [
+				'board' => 'YK Üyesi',
+			],
+		],
+		'sema-gumus' => [
+			'name' => 'Sema Gümüş',
+			'file' => 'sema-gumus.php',
+			'types' => ['board'],
+			'order' => [
+				'board' => 9,
+			],
+			'title' => [
+				'board' => 'Yedek Üye',
+			],
+		],
+		'tayyibe-gulek-domac' => [
+			'name' => 'Tayyibe Gülek Domaç',
+			'file' => 'tayyibe-gulek-domac.php',
+			'types' => ['advisor'],
+			'order' => [
+				'advisor' => 3,
+			],
+		],
+		'tugba-jabban' => [
+			'name' => 'Tuğba Jabban',
+			'file' => 'tugba-jabban.php',
+			'types' => ['founder'],
+			'order' => [
+				'founder' => 10,
+			],
+		],
+		'tuncay-bozkurt' => [
+			'name' => 'Tuncay Bozkurt',
+			'file' => 'tuncay-bozkurt.php',
+			'types' => ['employee'],
+			'order' => [
+				'employee' => 2,
+			],
+		],
+		'turgut-derman' => [
+			'name' => 'Turgut Derman',
+			'file' => 'turgut-derman.php',
+			'types' => ['founder'],
+			'order' => [
+				'founder' => 8,
+			],
+		],
+		'zeynel-senan' => [
+			'name' => 'Zeynel Senan',
+			'file' => 'zeynel-senan.php',
+			'types' => ['auditor'],
+			'order' => [
+				'auditor' => 2,
+			],
+			'title' => [
+				'auditor' => 'DK Üyesi',
+			],
+		],
 	];
 	?>
 
@@ -58,45 +335,6 @@
 				<div class="row">
 					<div class="col-md-12">
 						<div class="tab-content">
-
-							<?php
-							$teamFounders = [
-								'Aziz Akgül' => 'aziz-akgul.php',
-								'Mehmet Arda' => 'mehmet-arda.php',
-								'İbrahim Betil' => 'ibrahim-betil.php',
-								'Kerim Urallı' => 'kerim-uralli.php',
-								'Derya Sel Bozkurt' => 'derya-sel-bozkurt.php',
-								'Aslı Ayşen Aydın' => 'asli-aysen-aydin.php',
-								'Kaddafi Bozkurt' => 'kaddafi-bozkurt.php',
-								'Turgut Derman' => 'turgut-derman.php',
-								'Samir Bayraktar' => 'samir-bayraktar.php',
-								'Tuğba Jabban' => 'tugba-jabban.php',
-								'Ceren Kalı' => 'ceren-kali.php',
-								// Add more team members as needed
-							];
-							?>
-
-							<?php
-							$teamMembers = [
-								'ibrahim-betil' => [
-									'name' => 'İbrahim Betil',
-									'file' => 'ibrahim-betil.php',
-									'types' => ['founder', 'advisor'],
-									'order' => [
-										'founder' => 1, // Set the order number for founder type
-										'advisor' => 2, // Set the order number for advisor type
-									],
-								],
-								'nuh-hakan-oflazer' => [
-									'name' => 'Nuh Hakan Oflazer',
-									'file' => 'nuh-hakan-oflazer.php',
-									'types' => ['founder'],
-									'order' => [
-										'founder' => 3, // Set the order number for founder type
-									],
-								]
-							];
-							?>
 
 							<div role="tabpanel" class="tab-pane fade" id="teamFounders">
 								<div class="accordion accordion2">
@@ -134,11 +372,47 @@
 								</div>
 							</div>
 
+							<div role="tabpanel" class="tab-pane fade" id="teamBoard">
+								<div class="accordion accordion2">
+									<div class="panel-group" id="teamBoardGroup">
+										<?php
+										$type = 'board'; // Specify the type for sorting
+										usort($teamMembers, function ($a, $b) use ($type) {
+											return (in_array($type, $a['types'])) ? $a['order'][$type] - $b['order'][$type] : 0;
+										});
+
+										foreach ($teamMembers as $handle => $member) :
+											if (in_array($type, $member['types'])) :
+										?>
+												<div class="panel">
+													<div class="panel-heading">
+														<h4 class="panel-title">
+															<a data-toggle="collapse" data-parent="#teamBoardGroup" href="#<?= $handle; ?>">
+																<span><?= $member['name'] ?></span>
+																<i class="icon icon-minus"></i>
+																<i class="icon icon-plus"></i>
+															</a>
+														</h4>
+													</div>
+													<div id="<?= $handle; ?>" class="panel-collapse collapse">
+														<div class="panel-body">
+															<div class="content"><?php include 'ekibimiz/' . $member['file']; ?></div>
+														</div>
+													</div>
+												</div>
+										<?php
+											endif;
+										endforeach;
+										?>
+									</div>
+								</div>
+							</div>
+
 							<div role="tabpanel" class="tab-pane fade" id="teamAdvisors">
 								<div class="accordion accordion2">
 									<div class="panel-group" id="teamAdvisorsGroup">
 										<?php
-										$type = 'advisor'; // Specify the type for sorting (e.g., 'member' or 'advisor')
+										$type = 'advisor'; // Specify the type for sorting
 										usort($teamMembers, function ($a, $b) use ($type) {
 											return (in_array($type, $a['types'])) ? $a['order'][$type] - $b['order'][$type] : 0;
 										});
@@ -170,186 +444,110 @@
 								</div>
 							</div>
 
-							<!-- Team Members Section -->
-
-							<div role="tabpanel" class="tab-pane fade in active" id="teamFounders">
-								<div class="accordion accordion2">
-									<div class="panel-group" id="accordion1">
-
-										<?php foreach ($teamFounders as $name => $file) : ?>
-											<div class="panel">
-												<div class="panel-heading">
-													<h4 class="panel-title">
-														<a data-toggle="collapse" data-parent="#accordion1" href="#<?= strtolower(str_replace(' ', '-', $name)); ?>">
-															<span><?= $name ?></span>
-															<i class="icon icon-minus"></i>
-															<i class="icon icon-plus"></i>
-														</a>
-													</h4>
-												</div>
-												<div id="<?= strtolower(str_replace(' ', '-', $name)); ?>" class="panel-collapse collapse">
-													<div class="panel-body">
-														<div class="content"><?php include 'ekibimiz/' . $file; ?></div>
-													</div>
-												</div>
-											</div>
-										<?php endforeach; ?>
-
-									</div>
-								</div>
-							</div>
-
-							<?php
-							$teamBoard = [
-								'İbrahim Betil (YK Başkanı)' => 'ibrahim-betil.php',
-								'Nuh Hakan Oflazer (YK Başkan Yardımcısı)' => 'nuh-hakan-oflazer.php',
-								'Dara Aslan (Sekreter)' => 'dara-aslan.php',
-								'Didem Ünsür (Sayman)' => 'didem-unsur.php',
-								'Sema Emek (YK Üyesi)' => 'sema-emek.php',
-								'Cem Akşehirlioğlu (YK Üyesi)' => 'cem-aksehirlioglu.php',
-								'Abdullah Hardura (Yedek Üye)' => 'abdullah-hardura.php',
-								'Kaddafi Bozkurt (Yedek Üye)' => 'kaddafi-bozkurt.php',
-								'Mustafa Çiper (Yedek Üye)' => 'mustafa-ciper.php',
-								'Aziz Akgül (Yedek Üye)' => 'aziz-akgul.php',
-								'Sema Gümüş (Yedek Üye)' => 'sema-gumus.php',
-								// Add more team members as needed
-							];
-							?>
-
-							<div role="tabpanel" class="tab-pane fade" id="teamBoard">
-								<div class="accordion accordion2">
-									<div class="panel-group" id="accordion2">
-
-										<?php foreach ($teamBoard as $name => $file) : ?>
-											<div class="panel">
-												<div class="panel-heading">
-													<h4 class="panel-title">
-														<a data-toggle="collapse" data-parent="#accordion2" href="#<?= strtolower(str_replace(' ', '-', $name)); ?>">
-															<span><?= $name ?></span>
-															<i class="icon icon-minus"></i>
-															<i class="icon icon-plus"></i>
-														</a>
-													</h4>
-												</div>
-												<div id="<?= strtolower(str_replace(' ', '-', $name)); ?>" class="panel-collapse collapse">
-													<div class="panel-body">
-														<div class="content"><?php include 'ekibimiz/' . $file; ?></div>
-													</div>
-												</div>
-											</div>
-										<?php endforeach; ?>
-
-									</div>
-								</div>
-							</div>
-
-							<?php
-							$teamAuditors = [
-								'Mehmet Bahadır Teke (DK Başkanı)' => 'mehmet-bahadir-teke.php',
-								'Zeynel Senan (DK Üyesi)' => 'zeynel-senan.php',
-								'Ecehan Bike Geçkinli (DK Üyesi)' => 'ecehan-bike-geckinli.php',
-								'Aytül Tülay Balcı (Yedek Üye)' => 'aytul-tulay-balci.php',
-								'Mutlu Şen (Yedek Üye)' => 'mutlu-sen.php',
-								'Derya Sel Bozkurt (Yedek Üye)' => 'derya-sel-bozkurt.php',
-								// Add more team members as needed
-							]
-							?>
-
 							<div role="tabpanel" class="tab-pane fade" id="teamAuditors">
 								<div class="accordion accordion2">
-									<div class="panel-group" id="accordion3">
+									<div class="panel-group" id="teamAuditorsGroup">
+										<?php
+										$type = 'auditor'; // Specify the type for sorting
+										usort($teamMembers, function ($a, $b) use ($type) {
+											return (in_array($type, $a['types'])) ? $a['order'][$type] - $b['order'][$type] : 0;
+										});
 
-										<?php foreach ($teamAuditors as $name => $file) : ?>
-											<div class="panel">
-												<div class="panel-heading">
-													<h4 class="panel-title">
-														<a data-toggle="collapse" data-parent="#accordion3" href="#<?= strtolower(str_replace(' ', '-', $name)); ?>">
-															<span><?= $name ?></span>
-															<i class="icon icon-minus"></i>
-															<i class="icon icon-plus"></i>
-														</a>
-													</h4>
-												</div>
-												<div id="<?= strtolower(str_replace(' ', '-', $name)); ?>" class="panel-collapse collapse">
-													<div class="panel-body">
-														<div class="content"><?php include 'ekibimiz/' . $file; ?></div>
+										foreach ($teamMembers as $handle => $member) :
+											if (in_array($type, $member['types'])) :
+										?>
+												<div class="panel">
+													<div class="panel-heading">
+														<h4 class="panel-title">
+															<a data-toggle="collapse" data-parent="#teamAuditorsGroup" href="#<?= $handle; ?>">
+																<span><?= $member['name'] ?></span>
+																<i class="icon icon-minus"></i>
+																<i class="icon icon-plus"></i>
+															</a>
+														</h4>
+													</div>
+													<div id="<?= $handle; ?>" class="panel-collapse collapse">
+														<div class="panel-body">
+															<div class="content"><?php include 'ekibimiz/' . $member['file']; ?></div>
+														</div>
 													</div>
 												</div>
-											</div>
-										<?php endforeach; ?>
-
+										<?php
+											endif;
+										endforeach;
+										?>
 									</div>
 								</div>
 							</div>
-
-							<?php
-							$teamAdvisors = [
-								'Bilge Ögün Bassani' => 'bilge-ogun-bassani.php',
-								'Jak Jabes' => 'jak-jabes.php',
-								'Tayyibe Gülek Domaç' => 'tayyibe-gulek-domac.php',
-								'Charlotte Sabbah' => 'charlotte-sabbah.php',
-								// Add more team members as needed
-							]
-							?>
 
 							<div role="tabpanel" class="tab-pane fade" id="teamAdvisors">
 								<div class="accordion accordion2">
-									<div class="panel-group" id="accordion4">
+									<div class="panel-group" id="teamAdvisorsGroup">
+										<?php
+										$type = 'advisor'; // Specify the type for sorting
+										usort($teamMembers, function ($a, $b) use ($type) {
+											return (in_array($type, $a['types'])) ? $a['order'][$type] - $b['order'][$type] : 0;
+										});
 
-										<?php foreach ($teamAuditors as $name => $file) : ?>
-											<div class="panel">
-												<div class="panel-heading">
-													<h4 class="panel-title">
-														<a data-toggle="collapse" data-parent="#accordion4" href="#<?= strtolower(str_replace(' ', '-', $name)); ?>">
-															<span><?= $name ?></span>
-															<i class="icon icon-minus"></i>
-															<i class="icon icon-plus"></i>
-														</a>
-													</h4>
-												</div>
-												<div id="<?= strtolower(str_replace(' ', '-', $name)); ?>" class="panel-collapse collapse">
-													<div class="panel-body">
-														<div class="content"><?php include 'ekibimiz/' . $file; ?></div>
+										foreach ($teamMembers as $handle => $member) :
+											if (in_array($type, $member['types'])) :
+										?>
+												<div class="panel">
+													<div class="panel-heading">
+														<h4 class="panel-title">
+															<a data-toggle="collapse" data-parent="#teamAdvisorsGroup" href="#<?= $handle; ?>">
+																<span><?= $member['name'] ?></span>
+																<i class="icon icon-minus"></i>
+																<i class="icon icon-plus"></i>
+															</a>
+														</h4>
+													</div>
+													<div id="<?= $handle; ?>" class="panel-collapse collapse">
+														<div class="panel-body">
+															<div class="content"><?php include 'ekibimiz/' . $member['file']; ?></div>
+														</div>
 													</div>
 												</div>
-											</div>
-										<?php endforeach; ?>
-
+										<?php
+											endif;
+										endforeach;
+										?>
 									</div>
 								</div>
 							</div>
 
-							<?php
-							$teamEmployees = [
-								'Ebru Çelebi' => 'ebru-celebi.php',
-								'Tuncay Bozkurt' => 'tuncay-bozkurt.php',
-								// Add more team members as needed
-							]
-							?>
-
 							<div role="tabpanel" class="tab-pane fade" id="teamEmployees">
 								<div class="accordion accordion2">
-									<div class="panel-group" id="accordion5">
+									<div class="panel-group" id="teamEmployeesGroup">
+										<?php
+										$type = 'employee'; // Specify the type for sorting
+										usort($teamMembers, function ($a, $b) use ($type) {
+											return (in_array($type, $a['types'])) ? $a['order'][$type] - $b['order'][$type] : 0;
+										});
 
-										<?php foreach ($teamEmployees as $name => $file) : ?>
-											<div class="panel">
-												<div class="panel-heading">
-													<h4 class="panel-title">
-														<a data-toggle="collapse" data-parent="#accordion5" href="#<?= strtolower(str_replace(' ', '-', $name)); ?>">
-															<span><?= $name ?></span>
-															<i class="icon icon-minus"></i>
-															<i class="icon icon-plus"></i>
-														</a>
-													</h4>
-												</div>
-												<div id="<?= strtolower(str_replace(' ', '-', $name)); ?>" class="panel-collapse collapse">
-													<div class="panel-body">
-														<div class="content"><?php include 'ekibimiz/' . $file; ?></div>
+										foreach ($teamMembers as $handle => $member) :
+											if (in_array($type, $member['types'])) :
+										?>
+												<div class="panel">
+													<div class="panel-heading">
+														<h4 class="panel-title">
+															<a data-toggle="collapse" data-parent="#teamEmployeesGroup" href="#<?= $handle; ?>">
+																<span><?= $member['name'] ?></span>
+																<i class="icon icon-minus"></i>
+																<i class="icon icon-plus"></i>
+															</a>
+														</h4>
+													</div>
+													<div id="<?= $handle; ?>" class="panel-collapse collapse">
+														<div class="panel-body">
+															<div class="content"><?php include 'ekibimiz/' . $member['file']; ?></div>
+														</div>
 													</div>
 												</div>
-											</div>
-										<?php endforeach; ?>
-
+										<?php
+											endif;
+										endforeach;
+										?>
 									</div>
 								</div>
 							</div>
