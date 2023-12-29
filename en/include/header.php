@@ -32,7 +32,7 @@
               <li><a href="/index.php">TR</a></li>
               <li class="stk-logo">
                 <a href="https://acikacik.org/stk/sivil-toplum-kurulusu/sosyal-ve--ekonomik-yasamda-nitelikli-degisim-ve-gelisime-destek-dernegi" target="_blank" title="Açık Açık NGO">
-                  <img src="/assets/images/content/destekcilerimiz/acikacik.svg" alt="Açık Açık" width="80px"></a>
+                  <img src="/assets/images/content/destekcilerimiz/acikacik.png" alt="Açık Açık"></a>
                 </a>
               </li>
             </ul>
