@@ -1,5 +1,5 @@
 <?php
-$affectedPeople = "520.000";
+$affectedPeople = "526.671";
 
 # membership fees
 $membershipFees = array(
