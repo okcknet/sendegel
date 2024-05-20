@@ -482,10 +482,10 @@ function getTeamTitleTranslation($key, $language)
 }
 
 // https://www.sendegel.org.tr/en/our-team.php
-// get language from url
+$urlPath = $_SERVER['REQUEST_URI'];
 $language = 'tr';
-if (isset($_GET['lang'])) {
-	$language = $_GET['lang'];
+if (strpos($urlPath, '/en/') !== false) {
+	$language = 'en';
 }
 
 
