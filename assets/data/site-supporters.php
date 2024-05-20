@@ -9,7 +9,7 @@ $supporters = array(
 		"main_supporters" => array(
 			"title" => "Ana Destekçilerimiz",
 			"title-en" => "Main Supporters",
-			"col-md" => "col-md-3",
+			"col-md" => "col-md-6",
 			"supporters" => array(
 				array(
 					"title" => "Global Water Challenge",
@@ -26,7 +26,7 @@ $supporters = array(
 		"project_supporters" => array(
 			"title" => "Proje Destekçilerimiz",
 			"title-en" => "Project Supporters",
-			"col-md" => "col-md-4",
+			"col-md" => "col-md-3",
 			"supporters" => array(
 				array(
 					"title" => "Cem Akşehirlioğlu",
@@ -72,7 +72,7 @@ $supporters = array(
 				),
 				array(
 					"title" => "İDV Bilkent",
-					"image" => "/assets/images/content/destekcilerimiz/ivd-bilkent.png",
+					"image" => "/assets/images/content/destekcilerimiz/idv-bilkent.png",
 					"link" => "https://obi.bilkent.edu.tr",
 				),
 				array(
