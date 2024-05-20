@@ -15,7 +15,7 @@ $supporters = array(
 					"title" => "Global Water Challenge",
 					"image" => "/assets/images/content/destekcilerimiz/global-water-challenge.png",
 					"image_width" => "auto",
-					"link" => "",
+					"link" => "https://globalwaterchallenge.org",
 				),
 				array(
 					"title" => "Mehmet Betil",
@@ -80,7 +80,7 @@ $supporters = array(
 				array(
 					"title" => "İDV Bilkent",
 					"image" => "/assets/images/content/destekcilerimiz/idv-bilkent.png",
-					"image_width" => "auto",
+					"image_width" => "140",
 					"link" => "https://obi.bilkent.edu.tr",
 				),
 				array(
@@ -92,7 +92,7 @@ $supporters = array(
 				array(
 					"title" => "Mudo Satış Mağazaları A.Ş.",
 					"image" => "/assets/images/content/destekcilerimiz/mudo.png",
-					"image_width" => "auto",
+					"image_width" => "160",
 					"link" => "https://www.mudo.com.tr",
 				),
 				array(
