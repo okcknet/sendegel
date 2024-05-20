@@ -14,11 +14,13 @@ $supporters = array(
 				array(
 					"title" => "Global Water Challenge",
 					"image" => "/assets/images/content/destekcilerimiz/global-water-challenge.png",
+					"image_width" => "auto",
 					"link" => "",
 				),
 				array(
 					"title" => "Mehmet Betil",
 					"image" => "/assets/images/content/destekcilerimiz/supporter.jpg",
+					"image_width" => "auto",
 					"link" => "",
 				)
 			)
@@ -31,21 +33,25 @@ $supporters = array(
 				array(
 					"title" => "Cem Akşehirlioğlu",
 					"image" => "/assets/images/content/destekcilerimiz/supporter.jpg",
+					"image_width" => "auto",
 					"link" => "",
 				),
 				array(
 					"title" => "Dursun İnanır",
 					"image" => "/assets/images/content/destekcilerimiz/supporter.jpg",
+					"image_width" => "auto",
 					"link" => "",
 				),
 				array(
 					"title" => "Paribu",
 					"image" => "/assets/images/content/destekcilerimiz/paribu.png",
+					"image_width" => "auto",
 					"link" => "https://www.paribu.com/",
 				),
 				array(
 					"title" => "Peter & Eleanor Kuniholm",
 					"image" => "/assets/images/content/destekcilerimiz/supporter.jpg",
+					"image_width" => "auto",
 					"link" => "",
 				)
 			)
@@ -68,36 +74,43 @@ $supporters = array(
 				array(
 					"title" => "KSV",
 					"image" => "/assets/images/content/destekcilerimiz/ksv.png",
+					"image_width" => "auto",
 					"link" => "https://www.ksvvakfi.org.tr",
 				),
 				array(
 					"title" => "İDV Bilkent",
 					"image" => "/assets/images/content/destekcilerimiz/idv-bilkent.png",
+					"image_width" => "auto",
 					"link" => "https://obi.bilkent.edu.tr",
 				),
 				array(
 					"title" => "İlke Okulları",
 					"image" => "/assets/images/content/destekcilerimiz/ilke-okullari.png",
+					"image_width" => "auto",
 					"link" => "https://sakaryailkeokullari.com",
 				),
 				array(
 					"title" => "Mudo Satış Mağazaları A.Ş.",
 					"image" => "/assets/images/content/destekcilerimiz/mudo.png",
+					"image_width" => "auto",
 					"link" => "https://www.mudo.com.tr",
 				),
 				array(
 					"title" => "NESCE İnşaat Enerji Ticaret A.Ş",
 					"image" => "/assets/images/content/destekcilerimiz/nesce.png",
+					"image_width" => "auto",
 					"link" => "",
 				),
 				array(
 					"title" => "Sarkuysan Elektrolitik Bakır San ve Tic. A.Ş.",
 					"image" => "/assets/images/content/destekcilerimiz/sarkuysan.png",
+					"image_width" => "auto",
 					"link" => "https://www.sarkuysan.com",
 				),
 				array(
 					"title" => "Yamantürk Vakfı",
 					"image" => "/assets/images/content/destekcilerimiz/yamanturk.png",
+					"image_width" => "auto",
 					"link" => "https://www.yamanturkvakfi.org.tr",
 				)
 			)
@@ -110,16 +123,19 @@ $supporters = array(
 				array(
 					"title" => "Mazars Denge",
 					"image" => "/assets/images/content/destekcilerimiz/mazars-denge.png",
+					"image_width" => "auto",
 					"link" => "https://www.mazars.com.tr",
 				),
 				array(
 					"title" => "Nef-Timur Gayrimenkul<br/>Yapı ve Yatırım A. Ş.",
 					"image" => "/assets/images/content/destekcilerimiz/nef-timur-gayrimenkul.png",
+					"image_width" => "auto",
 					"link" => "https://www.nef.com.tr",
 				),
 				array(
 					"title" => "Turkish Philanthropy Fund",
 					"image" => "/assets/images/content/destekcilerimiz/turkish-philanthropy-fund.png",
+					"image_width" => "auto",
 					"link" => "https://www.tpfund.org",
 				)
 			)

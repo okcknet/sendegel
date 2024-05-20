@@ -3418,6 +3418,12 @@ strong {
   margin-bottom: 50px;
 }
 
+.section7 .section7-container .row {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+}
+
 .section7 .section7-container .section7-title {
   font-size: 20px;
   margin-bottom: 20px;

@@ -147,7 +147,7 @@
 													<div class="' . $supporter_group["col-md"] . '">
 														<div class="section7-item">
 															<a href="' . $supporter["link"] . '" target="_blank" rel="nofollow">
-																<div class="img-wrapper"><img src="' . $supporter["image"] . '" alt="' . $supporter["title-en"] . '" class="img-responsive center-block "></div>
+																<div class="img-wrapper"><img src="' . $supporter["image"] . '" alt="' . $supporter["title-en"] . '" width="' . $supporter["image_width"] . '" class="img-responsive center-block "></div>
 																<p>' . $supporter["title-en"] . '</p>
 															</a>
 														</div>
@@ -157,7 +157,7 @@
 											echo '
 													<div class="' . $supporter_group["col-md"] . '">
 														<div class="section7-item">
-															<div class="img-wrapper"><img src="' . $supporter["image"] . '" alt="' . $supporter["title-en"] . '" class="img-responsive center-block "></div>
+															<div class="img-wrapper"><img src="' . $supporter["image"] . '" alt="' . $supporter["title-en"] . '" width="' . $supporter["image_width"] . '" class="img-responsive center-block "></div>
 															<p>' . $supporter["title-en"] . '</p>
 														</div>
 													</div>
