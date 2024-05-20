@@ -481,6 +481,14 @@ function getTeamTitleTranslation($key, $language)
 	return $teamTitleTranslations[$key][$language];
 }
 
+// https://www.sendegel.org.tr/en/our-team.php
+// get language from url
+$language = 'tr';
+if (isset($_GET['lang'])) {
+	$language = $_GET['lang'];
+}
+
+
 
 $teamMembers = [
 	'abdullah-hardura' => [
@@ -491,7 +499,7 @@ $teamMembers = [
 			'board' => 7,
 		],
 		'title' => [
-			'board' => getTeamTitleTranslation('substitute_member', 'tr'),
+			'board' => getTeamTitleTranslation('substitute_member', $language),
 		],
 	],
 	'asli-aysen-aydin' => [
