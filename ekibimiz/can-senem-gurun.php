@@ -1,0 +1,1 @@
+<p>1973 senesinde İstanbul’da doğan Senem Gürün, Galatasaray lisesinin ardından Georgetown University’den mezun olmuştur. Uzun yıllar pastacılık konusunda kendi işini yapmış, şu anda serbest çalışmaktadır. 20 senedir Toplum Gönüllüleri Vakfı gönüllüsü ayrıca şimdiki yönetim kurulu üyesidir. Evli ve 2 kız annesidir.</p>

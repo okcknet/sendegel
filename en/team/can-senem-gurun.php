@@ -1,0 +1,1 @@
+<p>Born in Istanbul in 1973, Senem Gürün graduated from Galatasaray High School and later Georgetown University. She ran her own pastry business for many years and is currently freelancing. She has been a volunteer at the Community Volunteers Foundation for 20 years and is also a current member of the board of directors. She is married and a mother of two daughters.</p>

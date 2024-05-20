@@ -515,10 +515,10 @@ $teamMembers = [
 		'file' => 'aytul-tulay-balci.php',
 		'types' => ['board'],
 		'order' => [
-			'board' => 12,
+			'board' => 4,
 		],
 		'title' => [
-			'board' => getTeamTitleTranslation('member', $language),
+			'board' => getTeamTitleTranslation('accountant', $language),
 		],
 	],
 	'aziz-akgul' => [
@@ -793,10 +793,10 @@ $teamMembers = [
 		'file' => 'can-senem-gurun.php',
 		'types' => ['board'],
 		'order' => [
-			'board' => 13,
+			'board' => 3,
 		],
 		'title' => [
-			'board' => getTeamTitleTranslation('member', $language),
+			'board' => getTeamTitleTranslation('secretary', $language),
 		],
 	],
 	'yasemin-vargi-emirdag' => [
@@ -804,10 +804,10 @@ $teamMembers = [
 		'file' => 'yasemin-vargi-emirdag.php',
 		'types' => ['board'],
 		'order' => [
-			'board' => 14,
+			'board' => 2,
 		],
 		'title' => [
-			'board' => getTeamTitleTranslation('member', $language),
+			'board' => getTeamTitleTranslation('vice_chairman_of_the_board', $language),
 		],
 	],
 	'neslihan-kayhaoglu' => [
@@ -815,10 +815,10 @@ $teamMembers = [
 		'file' => 'neslihan-kayhaoglu.php',
 		'types' => ['board'],
 		'order' => [
-			'board' => 15,
+			'board' => 25,
 		],
 		'title' => [
-			'board' => getTeamTitleTranslation('member', $language),
+			'board' => getTeamTitleTranslation('substitute_member', $language),
 		],
 	],
 ];
