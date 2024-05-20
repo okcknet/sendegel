@@ -518,7 +518,7 @@ $teamMembers = [
 			'auditor' => 4,
 		],
 		'title' => [
-			'auditor' => 'Member',
+			'auditor' => getTeamTitleTranslation('member', $language),
 		],
 	],
 	'aziz-akgul' => [
@@ -545,7 +545,7 @@ $teamMembers = [
 			'board' => 6,
 		],
 		'title' => [
-			'board' => 'Member',
+			'board' => getTeamTitleTranslation('member', $language),
 		],
 	],
 	'ceren-kali' => [
@@ -572,7 +572,7 @@ $teamMembers = [
 			'board' => 3,
 		],
 		'title' => [
-			'board' => 'Secretary',
+			'board' => getTeamTitleTranslation('secretary', $language),
 		],
 	],
 	'derya-sel-bozkurt' => [
@@ -584,7 +584,7 @@ $teamMembers = [
 			'auditor' => 6,
 		],
 		'title' => [
-			'auditor' => 'Substitute Member',
+			'auditor' => getTeamTitleTranslation('substitute_member', $language),
 		],
 	],
 	'didem-unsur' => [
@@ -595,7 +595,7 @@ $teamMembers = [
 			'board' => 4,
 		],
 		'title' => [
-			'board' => 'Accountant',
+			'board' => getTeamTitleTranslation('accountant', $language),
 		],
 	],
 	'ebru-celebi' => [
@@ -606,7 +606,7 @@ $teamMembers = [
 			'employee' => 1,
 		],
 		'title' => [
-			'employee' => 'General Secretary and Donor Relations',
+			'employee' => getTeamTitleTranslation('general_secretary_and_donor_relations', $language),
 		],
 	],
 	'ecehan-bike-geckinli' => [
@@ -617,7 +617,7 @@ $teamMembers = [
 			'auditor' => 3,
 		],
 		'title' => [
-			'auditor' => 'Member',
+			'auditor' => getTeamTitleTranslation('member', $language),
 		],
 	],
 	'ibrahim-betil' => [
@@ -629,7 +629,7 @@ $teamMembers = [
 			'board' => 1, // Set the order number for board type
 		],
 		'title' => [
-			'board' => 'Chairman of the Board',
+			'board' => getTeamTitleTranslation('chairman_of_the_board', $language),
 		]
 	],
 	'jak-jabes' => [
@@ -672,7 +672,7 @@ $teamMembers = [
 			'auditor' => 1,
 		],
 		'title' => [
-			'auditor' => 'Chairman of the Board of Auditors',
+			'auditor' => getTeamTitleTranslation('chairman_of_the_board_of_auditor', $language),
 		],
 	],
 	'mustafa-ciper' => [
@@ -683,7 +683,7 @@ $teamMembers = [
 			'board' => 8,
 		],
 		'title' => [
-			'board' => 'Substitute Member',
+			'board' => getTeamTitleTranslation('substitute_member', $language),
 		],
 	],
 	'mutlu-sen' => [
@@ -694,7 +694,7 @@ $teamMembers = [
 			'auditor' => 5,
 		],
 		'title' => [
-			'auditor' => 'Substitute Member',
+			'auditor' => getTeamTitleTranslation('substitute_member', $language),
 		],
 	],
 	'nuh-hakan-oflazer' => [
@@ -705,7 +705,7 @@ $teamMembers = [
 			'board' => 2,
 		],
 		'title' => [
-			'board' => 'Vice Chairman of the Board',
+			'board' => getTeamTitleTranslation('vice_chairman_of_the_board', $language),
 		],
 	],
 	'samir-bayraktar' => [
@@ -724,7 +724,7 @@ $teamMembers = [
 			'board' => 5,
 		],
 		'title' => [
-			'board' => 'Member',
+			'board' => getTeamTitleTranslation('member', $language),
 		],
 	],
 	'sema-gumus' => [
@@ -735,7 +735,7 @@ $teamMembers = [
 			'board' => 9,
 		],
 		'title' => [
-			'board' => 'Substitute Member',
+			'board' => getTeamTitleTranslation('substitute_member', $language),
 		],
 	],
 	'tayyibe-gulek-domac' => [
@@ -762,7 +762,7 @@ $teamMembers = [
 			'employee' => 2,
 		],
 		'title' => [
-			'employee' => 'General Coordinator',
+			'employee' => getTeamTitleTranslation('general_coordinator', $language),
 		],
 	],
 	'turgut-derman' => [
@@ -781,7 +781,7 @@ $teamMembers = [
 			'auditor' => 2,
 		],
 		'title' => [
-			'auditor' => 'Member',
+			'auditor' => getTeamTitleTranslation('member', $language),
 		],
 	],
 ];
