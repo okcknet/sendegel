@@ -13,7 +13,7 @@
 	<?php include 'include/header.php' ?>
 
 	<?php
-	$teamMembersX = [
+	$teamMembers = [
 		'abdullah-hardura' => [
 			'name' => 'Abdullah Hardura',
 			'file' => 'abdullah-hardura.php',
@@ -568,7 +568,11 @@
 
 	</div>
 
+
+
+
 	<!-- Footer -->
+	<?php include 'include/footer.php' ?>
 </body>
 
 </html>
