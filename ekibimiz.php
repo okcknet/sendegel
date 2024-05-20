@@ -13,7 +13,7 @@
   <?php include 'include/header.php' ?>
 
   <?php
-  $teamMembers = [
+  $teamMembersY = [
     'abdullah-hardura' => [
       'name' => 'Abdullah Hardura',
       'file' => 'abdullah-hardura.php',
