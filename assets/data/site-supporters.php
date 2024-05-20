@@ -17,11 +17,6 @@ $supporters = array(
 					"link" => "",
 				),
 				array(
-					"title" => "İslam Kalkınma Bankası",
-					"image" => "/assets/images/content/destekcilerimiz/isd-bank.png",
-					"link" => "http://www.isdb.org/",
-				),
-				array(
 					"title" => "Mehmet Betil",
 					"image" => "/assets/images/content/destekcilerimiz/supporter.jpg",
 					"link" => "",
