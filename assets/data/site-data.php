@@ -1,7 +1,16 @@
 <?php
-$affectedPeople = "526.671";
+$affectedPeople = "535.000";
 
 # membership fees
+$membershipFees = array(
+	"entry_fee" => 500,
+	"annual_dues" => 500,
+	"legal_entity_entry_fee" => 5000,
+	"legal_entity_annual_dues" => 5000
+);
+
+/*
+# membership fees - backup
 $membershipFees = array(
 	"entry_fee" => 250,
 	"annual_dues" => 200,
@@ -10,10 +19,26 @@ $membershipFees = array(
 	"student_entry_fee" => 75,
 	"student_annual_dues" => 75
 );
+*/
+
+$membershipForms = array(
+	"individual" => "https://drive.google.com/file/d/1qTJIvbIKpcBtn_caskSxi2IbYAgfrSq7/view",
+	"legal_entity" => "https://drive.google.com/file/d/1PA_XJ33O9Ntg-cNyYgbc-e3FPm7Oi-19/view"
+);
 
 # reports
 $reports = array(
 	"independent_auditors_reports" => array(
+		"2023" => array(
+			"tr" => array(
+				"title" => "2023 Yılı Bağımsız Denetim Raporu",
+				"file" => "https://drive.google.com/file/d/1MIxmLxZMquqNlxN4-aW7SAnxIWdILP23/view"
+			),
+			"en" => array(
+				"title" => "2023 Independent Auditors' Report",
+				"file" => "https://drive.google.com/file/d/19S-mdWqnA4TBYzWkqxKmOqdld3kcSdqTG/view"
+			)
+		),
 		"2022" => array(
 			"tr" => array(
 				"title" => "2022 Yılı Bağımsız Denetim Raporu",
@@ -258,6 +283,10 @@ $reports = array(
 	"statements" => array(
 		"tr" => array(
 			array(
+				"title" => "SenDeGel 2023 Beyannamesi",
+				"file" => "https://drive.google.com/file/d/1Ldaw7OQgn2eJYrijw_4vSXgnxZBpkMHf/view"
+			),
+			array(
 				"title" => "SenDeGel 2022 Beyannamesi",
 				"file" => "https://drive.google.com/file/d/1OoIkZtOepv3Gqr4dygu5h0yF-m03yFvt/view"
 			),
@@ -312,67 +341,67 @@ $reports = array(
 #projects
 $projects = array(
 	"all_projects" => array(
-		"update_date" => "2023-09-10",
+		"update_date" => "2024-05-20",
 		"title" => "Tüm Projeler",
 		"title-en" => "All Projects",
 		"our-title" => "Projelerimiz",
 		"our-title-en" => "Our All Projects",
-		"file" => "https://drive.google.com/file/d/1ITJ2Vpxk2N5UA6IKArUv2o191vkIQXD1/preview",
-		"file-en" => "https://drive.google.com/file/d/1Wm5mEguZ3JLkzWpHtgSKhXYvCPw94HnA/preview"
+		"file" => "https://drive.google.com/file/d/1AhnS6hhp-DrwTenKOxZWNyHnTGMKLA2W/preview",
+		"file-en" => "https://drive.google.com/file/d/1wxCHdIpm9VFyMLd9xtY07TxqVQOaSyHJ/preview"
 	),
 	"livestock_projects" => array(
-		"update_date" => "2023-09-10",
+		"update_date" => "2024-05-20",
 		"title" => "Hayvancılık Projeleri",
 		"title-en" => "Livestock Projects",
 		"our-title" => "Hayvancılık Projelerimiz",
 		"our-title-en" => "Our Livestock Projects",
-		"file" => "https://drive.google.com/file/d/1qA4mTzCM7JjO9YOTtTBW0OvpedY0Lw-u/preview",
-		"file-en" => "https://drive.google.com/file/d/1JtVS8ZCa56nYfAUofAlWf-yvrU_8FxXB/preview"
+		"file" => "https://drive.google.com/file/d/1sMfveLzHSU85ThwKHoFoQvY7t4nERQCO/preview",
+		"file-en" => "https://drive.google.com/file/d/1t5deIvSWoATGcSTMscdQZuF7iPFUIN2c/preview"
 	),
 	"solar_panel_projects" => array(
-		"update_date" => "2023-09-10",
+		"update_date" => "2024-05-20",
 		"title" => "Güneş Enerjisi Projeleri",
 		"title-en" => "Solar Energy Projects",
 		"our-title" => "Güneş Enerjisi Projelerimiz",
 		"our-title-en" => "Our Solar Energy Projects",
-		"file" => "https://drive.google.com/file/d/1_czSsiozPaEHDUB4PN3LPX5EE-kA6hhi/preview",
-		"file-en" => "https://drive.google.com/file/d/1bG0Nje4pBpWL_1dhwRM3B0KtYPxNVASu/preview"
+		"file" => "https://drive.google.com/file/d/1_irV1xYHk1duPddfifsP6-d8Ajpp9WjX/preview",
+		"file-en" => "https://drive.google.com/file/d/1dLuXeoesiR99xkrODSEGRRIhMkX6Kjw0/preview"
 	),
 	"water_well_projects" => array(
-		"update_date" => "2023-09-10",
+		"update_date" => "2024-05-20",
 		"title" => "Su Kuyusu Projeleri",
 		"title-en" => "Water Well Projects",
 		"our-title" => "Su Kuyusu Projelerimiz",
 		"our-title-en" => "Our Water Well Projects",
-		"file" => "https://drive.google.com/file/d/1XZfWg7Q42udMzQthdO80cPypkwmijyPv/preview",
-		"file-en" => "https://drive.google.com/file/d/1TW4BSY4eBycl2HjyTTeDVrxrFGSSF0u3/preview"
+		"file" => "https://drive.google.com/file/d/1UJNe1ccL8xBDQN_9w3KAbzPb7TG5zk8v/preview",
+		"file-en" => "https://drive.google.com/file/d/12yUmgcrW9j3slTjuj_uGhReh-fnxvD-a/preview"
 	),
 	"mill_projects" => array(
-		"update_date" => "2023-01-01",
+		"update_date" => "2024-05-20",
 		"title" => "Değirmen Projeleri",
 		"title-en" => "Mill Projects",
 		"our-title" => "Değirmen Projelerimiz",
 		"our-title-en" => "Our Mill Projects",
-		"file" => "https://drive.google.com/file/d/1m9K1hec7YM-jdcA01TV4Lo61DWEhUb2G/preview",
-		"file-en" => "https://drive.google.com/file/d/1KiVlQjbWQ4W9y3UuWoNO12dzVveqIkRE/preview"
+		"file" => "https://drive.google.com/file/d/1PXCzh_7JRy0NKcyQNXFhgwzNMT2rGZUA/preview",
+		"file-en" => "https://drive.google.com/file/d/1lmU0mMGpGoorHQYkIBfL1A4NCuQFB8u7/preview"
 	),
 	"women_garden_projects" => array(
-		"update_date" => "2023-09-10",
+		"update_date" => "2024-05-20",
 		"title" => "Kadın Bahçeleri Projeleri",
 		"title-en" => "Women's Garden Projects",
 		"our-title" => "Kadın Bahçeleri Projelerimiz",
 		"our-title-en" => "Our Women's Garden Projects",
-		"file" => "https://drive.google.com/file/d/1bo-ohe_qpOymorJwx9kx-AIU_p9NGs71/preview",
-		"file-en" => "https://drive.google.com/file/d/1CmlP0KjgHheZqeog70t_-hA4fwlubQZZ/preview"
+		"file" => "https://drive.google.com/file/d/1PmbmaT6g_vPw9EQTlbW4Nmwu3WUnU94m/preview",
+		"file-en" => "https://drive.google.com/file/d/13q_IdOy5iHy93IZ-swg22nAiyNqK8XVc/preview"
 	),
 	"other_projects" => array(
-		"update_date" => "2023-01-01",
+		"update_date" => "2024-05-20",
 		"title" => "Diğer Projeler",
 		"title-en" => "Other Projects",
 		"our-title" => "Diğer Projelerimiz",
 		"our-title-en" => "Our Other Projects",
-		"file" => "https://drive.google.com/file/d/1wL0ReJCqlJz1fL87zFYMCV56jQNjfKrZ/preview",
-		"file-en" => "https://drive.google.com/file/d/1NqwwxTWtS1ck6M-3n4Lyf7ceKbqlVgP3/preview"
+		"file" => "https://drive.google.com/file/d/1kVkvVxR5YygT3BaH7nen1ZH2I4Wa359O/preview",
+		"file-en" => "https://drive.google.com/file/d/18RvObQYVDXUOeKnQR5yrMxRsOeaZMqwd/preview"
 	),
 	"waiting_for_support" => array(
 		"update_date" => "2023-09-10",
