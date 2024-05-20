@@ -491,7 +491,7 @@ $teamMembers = [
 			'board' => 7,
 		],
 		'title' => [
-			'board' => getTeamTitleTranslation('substitute_member', $languageCode),
+			'board' => getTeamTitleTranslation('substitute_member', 'tr'),
 		],
 	],
 	'asli-aysen-aydin' => [
