@@ -496,7 +496,7 @@ $teamMembers = [
 		'file' => 'abdullah-hardura.php',
 		'types' => ['board'],
 		'order' => [
-			'board' => 7,
+			'board' => 22,
 		],
 		'title' => [
 			'board' => getTeamTitleTranslation('substitute_member', $language),
@@ -513,12 +513,12 @@ $teamMembers = [
 	'aytul-tulay-balci' => [
 		'name' => 'Aytül Tülay Balcı',
 		'file' => 'aytul-tulay-balci.php',
-		'types' => ['auditor'],
+		'types' => ['board'],
 		'order' => [
-			'auditor' => 4,
+			'board' => 12,
 		],
 		'title' => [
-			'auditor' => getTeamTitleTranslation('member', $language),
+			'board' => getTeamTitleTranslation('member', $language),
 		],
 	],
 	'aziz-akgul' => [
@@ -542,7 +542,7 @@ $teamMembers = [
 		'file' => 'cem-aksehirlioglu.php',
 		'types' => ['board'],
 		'order' => [
-			'board' => 6,
+			'board' => 12,
 		],
 		'title' => [
 			'board' => getTeamTitleTranslation('member', $language),
@@ -569,10 +569,10 @@ $teamMembers = [
 		'file' => 'dara-aslan.php',
 		'types' => ['board'],
 		'order' => [
-			'board' => 3,
+			'board' => 23,
 		],
 		'title' => [
-			'board' => getTeamTitleTranslation('secretary', $language),
+			'board' => getTeamTitleTranslation('substitute_member', $language),
 		],
 	],
 	'derya-sel-bozkurt' => [
@@ -581,23 +581,23 @@ $teamMembers = [
 		'types' => ['founder', 'auditor'],
 		'order' => [
 			'founder' => 5,
-			'auditor' => 6,
+			'auditor' => 22,
 		],
 		'title' => [
 			'auditor' => getTeamTitleTranslation('substitute_member', $language),
 		],
 	],
-	'didem-unsur' => [
-		'name' => 'Didem Ünsür',
-		'file' => 'didem-unsur.php',
-		'types' => ['board'],
-		'order' => [
-			'board' => 4,
-		],
-		'title' => [
-			'board' => getTeamTitleTranslation('accountant', $language),
-		],
-	],
+	// 'didem-unsur' => [
+	// 	'name' => 'Didem Ünsür',
+	// 	'file' => 'didem-unsur.php',
+	// 	'types' => ['board'],
+	// 	'order' => [
+	// 		'board' => 4,
+	// 	],
+	// 	'title' => [
+	// 		'board' => getTeamTitleTranslation('accountant', $language),
+	// 	],
+	// ],
 	'ebru-celebi' => [
 		'name' => 'Ebru Çelebi',
 		'file' => 'ebru-celebi.php',
@@ -614,7 +614,7 @@ $teamMembers = [
 		'file' => 'ecehan-bike-geckinli.php',
 		'types' => ['auditor'],
 		'order' => [
-			'auditor' => 3,
+			'auditor' => 11,
 		],
 		'title' => [
 			'auditor' => getTeamTitleTranslation('member', $language),
@@ -643,9 +643,13 @@ $teamMembers = [
 	'kaddafi-bozkurt' => [
 		'name' => 'Kaddafi Bozkurt',
 		'file' => 'kaddafi-bozkurt.php',
-		'types' => ['founder'],
+		'types' => ['founder', 'auditor'],
 		'order' => [
 			'founder' => 7,
+			'auditor' => 12,
+		],
+		'title' => [
+			'auditor' => getTeamTitleTranslation('member', $language),
 		],
 	],
 	'kerim-uralli' => [
@@ -680,7 +684,7 @@ $teamMembers = [
 		'file' => 'mustafa-ciper.php',
 		'types' => ['board'],
 		'order' => [
-			'board' => 8,
+			'board' => 24,
 		],
 		'title' => [
 			'board' => getTeamTitleTranslation('substitute_member', $language),
@@ -691,7 +695,7 @@ $teamMembers = [
 		'file' => 'mutlu-sen.php',
 		'types' => ['auditor'],
 		'order' => [
-			'auditor' => 5,
+			'auditor' => 21,
 		],
 		'title' => [
 			'auditor' => getTeamTitleTranslation('substitute_member', $language),
@@ -702,10 +706,10 @@ $teamMembers = [
 		'file' => 'nuh-hakan-oflazer.php',
 		'types' => ['board'],
 		'order' => [
-			'board' => 2,
+			'board' => 21,
 		],
 		'title' => [
-			'board' => getTeamTitleTranslation('vice_chairman_of_the_board', $language),
+			'board' => getTeamTitleTranslation('substitute_member', $language),
 		],
 	],
 	'samir-bayraktar' => [
@@ -721,23 +725,23 @@ $teamMembers = [
 		'file' => 'sema-emek.php',
 		'types' => ['board'],
 		'order' => [
-			'board' => 5,
+			'board' => 11,
 		],
 		'title' => [
 			'board' => getTeamTitleTranslation('member', $language),
 		],
 	],
-	'sema-gumus' => [
-		'name' => 'Sema Gümüş',
-		'file' => 'sema-gumus.php',
-		'types' => ['board'],
-		'order' => [
-			'board' => 9,
-		],
-		'title' => [
-			'board' => getTeamTitleTranslation('substitute_member', $language),
-		],
-	],
+	// 'sema-gumus' => [
+	// 	'name' => 'Sema Gümüş',
+	// 	'file' => 'sema-gumus.php',
+	// 	'types' => ['board'],
+	// 	'order' => [
+	// 		'board' => 29,
+	// 	],
+	// 	'title' => [
+	// 		'board' => getTeamTitleTranslation('substitute_member', $language),
+	// 	],
+	// ],
 	'tayyibe-gulek-domac' => [
 		'name' => 'Tayyibe Gülek Domaç',
 		'file' => 'tayyibe-gulek-domac.php',
@@ -778,10 +782,43 @@ $teamMembers = [
 		'file' => 'zeynel-senan.php',
 		'types' => ['auditor'],
 		'order' => [
-			'auditor' => 2,
+			'auditor' => 13,
 		],
 		'title' => [
 			'auditor' => getTeamTitleTranslation('member', $language),
+		],
+	],
+	'can-senem-gurun' => [
+		'name' => 'Can Senem Gürün',
+		'file' => 'can-senem-gurun.php',
+		'types' => ['board'],
+		'order' => [
+			'board' => 13,
+		],
+		'title' => [
+			'board' => getTeamTitleTranslation('member', $language),
+		],
+	],
+	'yasemin-vargi-emirdag' => [
+		'name' => 'Yasemin Vargı Emirdağ',
+		'file' => 'yasemin-vargi-emirdag.php',
+		'types' => ['board'],
+		'order' => [
+			'board' => 14,
+		],
+		'title' => [
+			'board' => getTeamTitleTranslation('member', $language),
+		],
+	],
+	'neslihan-kayhaoglu' => [
+		'name' => 'Neslihan Kayhaoğlu',
+		'file' => 'neslihan-kayhaoglu.php',
+		'types' => ['board'],
+		'order' => [
+			'board' => 15,
+		],
+		'title' => [
+			'board' => getTeamTitleTranslation('member', $language),
 		],
 	],
 ];
