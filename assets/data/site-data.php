@@ -33,11 +33,11 @@ $reports = array(
 		"2023" => array(
 			"tr" => array(
 				"title" => "2023 Yılı Bağımsız Denetim Raporu",
-				"file" => "https://drive.google.com/file/d/19S-mdWqnA4TBYzWkqxKmOqdld3kcSdq/view"
+				"file" => "https://drive.google.com/file/d/1MIxmLxZMquqNlxN4-aW7SAnxIWdILP23/view"
 			),
 			"en" => array(
 				"title" => "2023 Independent Auditors' Report",
-				"file" => "https://drive.google.com/file/d/19S-mdWqnA4TBYzWkqxKmOqdld3kcSdqTG/view"
+				"file" => "https://drive.google.com/file/d/19S-mdWqnA4TBYzWkqxKmOqdld3kcSdqT/view"
 			)
 		),
 		"2022" => array(
