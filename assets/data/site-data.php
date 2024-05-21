@@ -22,8 +22,8 @@ $membershipFees = array(
 */
 
 $membershipForms = array(
-	"individual" => "https://drive.google.com/file/d/1qTJIvbIKpcBtn_caskSxi2IbYAgfrSq7/view",
-	"legal_entity" => "https://drive.google.com/file/d/1PA_XJ33O9Ntg-cNyYgbc-e3FPm7Oi-19/view"
+	"individual" => "https://drive.google.com/file/d/1iopbhscuPqtW_-V34Ew3e3Ld3fxNRqY_/view",
+	"legal_entity" => "https://drive.google.com/file/d/1XH4F5uWvh4fpLK6-lKMAenw9-kHVlIj0/view"
 );
 
 # reports
@@ -32,7 +32,7 @@ $reports = array(
 		"2023" => array(
 			"tr" => array(
 				"title" => "2023 Yılı Bağımsız Denetim Raporu",
-				"file" => "https://drive.google.com/file/d/1MIxmLxZMquqNlxN4-aW7SAnxIWdILP23/view"
+				"file" => "https://drive.google.com/file/d/19S-mdWqnA4TBYzWkqxKmOqdld3kcSdq/view"
 			),
 			"en" => array(
 				"title" => "2023 Independent Auditors' Report",
@@ -437,7 +437,7 @@ function getTeamTitleTranslation($key, $language)
 			'en' => 'Secretary'
 		],
 		'accountant' => [
-			'tr' => 'Muhasebeci',
+			'tr' => 'Sayman',
 			'en' => 'Accountant'
 		],
 		'member' => [
@@ -646,10 +646,10 @@ $teamMembers = [
 		'types' => ['founder', 'auditor'],
 		'order' => [
 			'founder' => 7,
-			'auditor' => 12,
+			'auditor' => 22,
 		],
 		'title' => [
-			'auditor' => getTeamTitleTranslation('member', $language),
+			'auditor' => getTeamTitleTranslation('substitute_member', $language),
 		],
 	],
 	'kerim-uralli' => [
@@ -720,9 +720,9 @@ $teamMembers = [
 			'founder' => 9,
 		],
 	],
-	'sema-emek' => [
-		'name' => 'Sema Emek',
-		'file' => 'sema-emek.php',
+	'sema-sezer' => [
+		'name' => 'Sema Sezer',
+		'file' => 'sema-sezer.php',
 		'types' => ['board'],
 		'order' => [
 			'board' => 11,
@@ -810,9 +810,9 @@ $teamMembers = [
 			'board' => getTeamTitleTranslation('vice_chairman_of_the_board', $language),
 		],
 	],
-	'neslihan-kayhaoglu' => [
-		'name' => 'Neslihan Kayhaoğlu',
-		'file' => 'neslihan-kayhaoglu.php',
+	'neslihan-kahyaoglu' => [
+		'name' => 'Neslihan Kahyaoğlu',
+		'file' => 'neslihan-kahyaoglu.php',
 		'types' => ['board'],
 		'order' => [
 			'board' => 25,

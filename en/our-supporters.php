@@ -72,7 +72,7 @@
 								if ($supporter_type != "other_supporters") {
 									echo '
 												<div class="col-md-12">
-													<h4 class="section7-title">' . $supporter_group["title"] . '</h4>
+													<h4 class="section7-title">' . $supporter_group["title-en"] . '</h4>
 												</div>
 											</div>
 											<div class="row">
@@ -148,7 +148,7 @@
 														<div class="section7-item">
 															<a href="' . $supporter["link"] . '" target="_blank" rel="nofollow">
 																<div class="img-wrapper"><img src="' . $supporter["image"] . '" alt="' . $supporter["title-en"] . '" width="' . $supporter["image_width"] . '" class="img-responsive center-block "></div>
-																<p>' . $supporter["title-en"] . '</p>
+																<p>' . $supporter["title"] . '</p>
 															</a>
 														</div>
 													</div>
@@ -158,7 +158,7 @@
 													<div class="' . $supporter_group["col-md"] . '">
 														<div class="section7-item">
 															<div class="img-wrapper"><img src="' . $supporter["image"] . '" alt="' . $supporter["title-en"] . '" width="' . $supporter["image_width"] . '" class="img-responsive center-block "></div>
-															<p>' . $supporter["title-en"] . '</p>
+															<p>' . $supporter["title"] . '</p>
 														</div>
 													</div>
 												';
