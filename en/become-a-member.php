@@ -74,21 +74,19 @@
 				<div class="col-md-8 col-md-offset-2">
 					<div class="section-container align-center">
 						<div class="module card card1">
-
 							<div class="card1-item">
-								<a href="https://drive.google.com/file/d/1_PpbrhDLIbyRDPrhCVrJbUftZbDxCU0K/view" target="_blank" title="SenDeGel Individual Membership Form">
+								<a href="<?php echo $membershipForms["individual"]; ?>" target="_blank" title="Individual Membership Form">
 									<i class="icon icon-paper-3"></i>
 									<h4 class="card1-title">Individual<br>Membership Form</h4>
+									DOWNLOAD
 								</a>
-								<a class="link-underline" href="https://drive.google.com/file/d/1_PpbrhDLIbyRDPrhCVrJbUftZbDxCU0K/view" target="_blank" title="SenDeGel Individual Membership Form">Download</a>
 							</div>
-
 							<div class="card1-item">
-								<a href="https://drive.google.com/file/d/1q0SaB7omI91BmPTtUpRAdhR3qnXpg7Z-/view" target="_blank" title="SenDeGel Corporate Membership Form">
+								<a href="<?php echo $membershipForms["legal_entity"]; ?>" target="_blank" title="Corporate Membership Form">
 									<i class="icon icon-paper-2"></i>
 									<h4 class="card1-title">Corporate<br>Membership Form</h4>
+									DOWNLOAD
 								</a>
-								<a class="link-underline" href="https://drive.google.com/file/d/1q0SaB7omI91BmPTtUpRAdhR3qnXpg7Z-/view" target="_blank" title="SenDeGel Corporate Membership Form">Download</a>
 							</div>
 						</div>
 					</div>

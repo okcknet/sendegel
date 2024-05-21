@@ -80,7 +80,7 @@
 								</a>
 							</div>
 							<div class="card1-item">
-								<a href="h<?php echo $membershipForms["legal_entity"]; ?>" target="_blank" title="Kurumsal Üyelik Formu">
+								<a href="<?php echo $membershipForms["legal_entity"]; ?>" target="_blank" title="Kurumsal Üyelik Formu">
 									<i class="icon icon-paper-2"></i>
 									<h4 class="card1-title">Kurumsal<br>Üyelik Formu</h4>
 									İNDİR
