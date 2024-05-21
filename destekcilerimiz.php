@@ -2105,7 +2105,7 @@
 
 															<p>Selin Süter</p>
 
-															<p>Sema Emek</p>
+															<p>Sema Sezer</p>
 
 															<p>Semih Dilmen</p>
 
@@ -2873,7 +2873,7 @@
 
 															<p>Shahram Khabbaz Tamimi</p>
 
-															<p>Sema Emek</p>
+															<p>Sema Sezer</p>
 
 														</div>
 
@@ -5013,7 +5013,7 @@
 
 															<p>Südar Dudu</p>
 
-															<p>Sema Emek</p>
+															<p>Sema Sezer</p>
 
 															<p>Şule Karabacak</p>
 

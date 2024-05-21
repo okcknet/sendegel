@@ -144,7 +144,7 @@ $supporters = array(
 			"title" => "Bireysel Bağışçılarımız",
 			"title-en" => "Individual Donors",
 			"col-md" => "col-md-6",
-			"supporters" => array("Ahmet Kabakçı", "Arda Altun", "Aytül Tülay Balcı", "Can Senem Gürün", "Deniz Emin", "Dilber Kanşay", "Emel Tincer", "Hazal Suzan Selçuk", "Hüseyin Kaya", "Hüznü Özyeğin", "Irene Hulst", "İbrahim Betil", "İskender Savaşlı", "Kavacık Resim Grubu", "Keriman Kolukısa", "Lütfi Öztürker", "Mehmet Çağlar Deniz", "Meryem İşliyen", "Mesut Kelle", "Mesut Talay", "Mustafa Ballı", "Necati Günel", "Nilüfer Sinanlı", "Oğuz Tutal", "Orhan Cazgır", "Orkun Koz", "Özge Karakale", "Sadıka İzci", "Seher Şimşek", "Sema Emek", "Sezer Sezer", "Şahin Olcay", "Şule Yıldırım", "Tahir Demirbaş", "Vildan Demirci")
+			"supporters" => array("Ahmet Kabakçı", "Arda Altun", "Aytül Tülay Balcı", "Can Senem Gürün", "Deniz Emin", "Dilber Kanşay", "Emel Tincer", "Hazal Suzan Selçuk", "Hüseyin Kaya", "Hüznü Özyeğin", "Irene Hulst", "İbrahim Betil", "İskender Savaşlı", "Kavacık Resim Grubu", "Keriman Kolukısa", "Lütfi Öztürker", "Mehmet Çağlar Deniz", "Meryem İşliyen", "Mesut Kelle", "Mesut Talay", "Mustafa Ballı", "Necati Günel", "Nilüfer Sinanlı", "Oğuz Tutal", "Orhan Cazgır", "Orkun Koz", "Özge Karakale", "Sadıka İzci", "Seher Şimşek", "Sema Sezer", "Sezer Sezer", "Şahin Olcay", "Şule Yıldırım", "Tahir Demirbaş", "Vildan Demirci")
 		),
 		"other_supporters" => array(
 			array(
@@ -390,7 +390,7 @@ $supporters = array(
 				"Betün Çakan",
 				"Necati Bice",
 				"Nesim Çelik",
-				"Sema Emek",
+				"Sema Sezer",
 				"Serkan İzci"
 			)
 		),

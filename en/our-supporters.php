@@ -1119,7 +1119,7 @@
 
 															<p>Selen Voskeriçyan</p>
 															<p>Selin Süter</p>
-															<p>Sema Emek</p>
+															<p>Sema Sezer</p>
 															<p>Semih Dilmen</p>
 															<p>Semih Dümdüz</p>
 															<p>Taha</p>
@@ -1504,7 +1504,7 @@
 													<div class="col-md-3">
 														<div class="section7-item">
 															<p>Shahram Khabbaz Tamimi</p>
-															<p>Sema Emek</p>
+															<p>Sema Sezer</p>
 														</div>
 													</div>
 													<div class="col-md-3">
@@ -2569,7 +2569,7 @@
 															<p>Pınar Falay</p>
 															<p>Selim Bilgiler</p>
 															<p>Südar Dudu</p>
-															<p>Sema Emek</p>
+															<p>Sema Sezer</p>
 															<p>Şule Karabacak</p>
 															<p>Talip Atabey</p>
 															<p>Umut Bağbaşlıoğlu</p>
