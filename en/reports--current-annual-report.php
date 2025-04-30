@@ -15,8 +15,8 @@
 		<div class="row">
 			<div class="col-md-12">
 				<div class="section-container align-center">
-					<h1 class="section-title"><?php echo $reports["annual_reports"]["current"]["our-title-en"]; ?></h3>
-					<iframe src="<?php echo $reports["annual_reports"]["current"]["file-en"]; ?>" width="100%" height="2000" allow="autoplay"></iframe>
+					<h1 class="section-title"><?php echo $reports["annual_reports"]["current"]["en"]["title"]; ?></h3>
+					<iframe src="<?php echo $reports["annual_reports"]["current"]["en"]["file"]; ?>" width="100%" height="2000" allow="autoplay"></iframe>
 				</div>
 			</div>
 		</div>
