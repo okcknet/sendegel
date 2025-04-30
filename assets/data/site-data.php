@@ -26,6 +26,17 @@ $membershipForms = array(
 	"legal_entity" => "https://drive.google.com/file/d/1XH4F5uWvh4fpLK6-lKMAenw9-kHVlIj0/view"
 );
 
+# current annual report
+$currentAnnualReport = array(
+	"tr" => array(
+		"title" => "Güncel Faaliyet Raporumuz",
+		"file" => "https://drive.google.com/file/d/1LufVbe_vTNIGI445IcGVTf01Jhlw2Ooi/preview"
+	),
+	"en" => array(
+		"title" => "Current Annual Report",
+		"file" => "https://drive.google.com/file/d/1LufVbe_vTNIGI445IcGVTf01Jhlw2Ooi/preview"
+	)
+);
 
 # reports
 $reports = array(
@@ -144,16 +155,6 @@ $reports = array(
 		)
 	),
 	"annual_reports" => array(
-		"current" => array(
-			"tr" => array(
-				"title" => "Güncel Faaliyet Raporumuz",
-				"file" => "https://drive.google.com/file/d/1LufVbe_vTNIGI445IcGVTf01Jhlw2Ooi/preview"
-			),
-			"en" => array(
-				"title" => "Current Annual Report",
-				"file" => "https://drive.google.com/file/d/1LufVbe_vTNIGI445IcGVTf01Jhlw2Ooi/preview"
-			)
-		),
 		"2023" => array(
 			"tr" => array(
 				"title" => "2023 Yılı Faaliyet Raporumuz",
