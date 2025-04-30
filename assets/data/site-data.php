@@ -144,6 +144,16 @@ $reports = array(
 		)
 	),
 	"annual_reports" => array(
+		"current" => array(
+			"tr" => array(
+				"title" => "Güncel Faaliyet Raporumuz",
+				"file" => "https://drive.google.com/file/d/1o8DRoDyn1rfHPbbxA5BfAWVDIT7JW-5i/view"
+			),
+			"en" => array(
+				"title" => "Current Annual Report",
+				"file" => "https://drive.google.com/file/d/1o8DRoDyn1rfHPbbxA5BfAWVDIT7JW-5i/view"
+			)
+		),
 		"2023" => array(
 			"tr" => array(
 				"title" => "2023 Yılı Faaliyet Raporumuz",
