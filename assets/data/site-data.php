@@ -41,6 +41,16 @@ $currentAnnualReport = array(
 # reports
 $reports = array(
 	"independent_auditors_reports" => array(
+		"2024" => array(
+			"tr" => array(
+				"title" => "2024 Yılı Bağımsız Denetim Raporu",
+				"file" => "https://drive.google.com/file/d/1czX9EF_24wonqFGg1LrjADuhgR4hcKfD/view"
+			),
+			"en" => array(
+				"title" => "2024 Independent Auditors' Report",
+				"file" => "https://drive.google.com/file/d/13SNKlEmM8_j3mKww6_jL9JpccClVAvnH/view"
+			)
+		),
 		"2023" => array(
 			"tr" => array(
 				"title" => "2023 Yılı Bağımsız Denetim Raporu",
