@@ -31,7 +31,7 @@
 		</div>
 	</div>
 </section>
-<section class="subpage section9">
+<!-- <section class="subpage section9">
 	<div class="container">
 		<div class="row">
 			<div class="col-md-8 col-md-offset-2">
@@ -50,7 +50,7 @@
 			</div>
 		</div>
 	</div>
-</section>
+</section> -->
 <!-- Footer -->
 <?php include 'include/footer.php' ?>
 </body>

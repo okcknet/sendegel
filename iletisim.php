@@ -63,45 +63,26 @@
 
 </section>
 
-<section class="subpage section9">
-
+<!-- <section class="subpage section9">
 	<div class="container">
-
 		<div class="row">
-
 			<div class="col-md-8 col-md-offset-2">
-
 				<h3 class="section-title align-center">Temsilcilikler</h3>
-
 				<div class="row">
-
 					<div class="col-md-12">
-
 						<div class="align-center">
-
 							<p><strong>Abdullah Hardura</strong></p>
-
 							<p>Adres: Tuna Mah. Dr. Tibet kızılcan sok.<br> No:48/A Karşıyaka / İZMİR<br>
-
 								Telefon: 0232 381 57 00<br>
-
 								E-Posta: <a href="mailto:izmirsendegel@gmail.com">izmirsendegel@gmail.com</a>
-
 							</p>
-
 						</div>
-
 					</div>
-
 				</div>
-
 			</div>
-
 		</div>
-
 	</div>
-
-</section>
+</section> -->
 
 <!-- Footer -->
 
