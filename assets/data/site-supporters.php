@@ -2,8 +2,150 @@
 
 # supporters
 $supporters = array(
-	"2023" => array(
+	"2024" => array(
 		"active" => true,
+		"title" => "2024 Yılı Destekçilerimiz",
+		"title-en" => "2024 Supporters",
+		"main-supporters" => array(
+			"title" => "Ana Destekçilerimiz",
+			"title-en" => "Main Supporters",
+			"col-md" => "col-md-4",
+			"supporters" => array(
+				array(
+					"title" => "İslam Kalkınma Bankası",
+					"image" => "/assets/images/content/destekcilerimiz/isd-bank.png",
+					"image_width" => "auto",
+					"link" => "https://www.isdb.org/",
+				),
+				array(
+					"title" => "Mehmet Betil",
+					"image" => "/assets/images/content/destekcilerimiz/supporter.jpg",
+					"image_width" => "auto",
+					"link" => "",
+				),
+				array(
+					"title" => "Nef Vakfı",
+					"image" => "/assets/images/content/destekcilerimiz/nef-vakfi.png",
+					"image_width" => "auto",
+					"link" => "https://www.nefvakfi.org.tr"
+				)
+			)
+		),
+		"project_supporters" => array(
+			"title" => "Proje Destekçilerimiz",
+			"title-en" => "Project Supporters",
+			"col-md" => "col-md-4",
+			"supporters" => array(
+				array(
+					"title" => "Cem Akşehirlioğlu",
+					"image" => "/assets/images/content/destekcilerimiz/supporter.jpg",
+					"image_width" => "auto",
+					"link" => "",
+				),
+				array(
+					"title" => "MV Holding",
+					"image" => "/assets/images/content/destekcilerimiz/mv-holding.png",
+					"image_width" => "auto",
+					"link" => "https://www.mvholding.com.tr"
+				),
+				array(
+					"title" => "Peter & Eleanor Kuniholm",
+					"image" => "/assets/images/content/destekcilerimiz/supporter.jpg",
+					"image_width" => "auto",
+					"link" => "",
+				)
+			)
+		),
+		"individual_supporters" => array(
+			"title" => "Bireysel Destekçilerimiz",
+			"title-en" => "Individual Supporters",
+			"col-md" => "col-md-12",
+			"supporters" => array(
+				"Çiğdem Magemizoğlu",
+				"Filiz İyidil",
+				"Hüznü Özyeğin",
+				"İbrahim Betil",
+				"Tamara Smith"
+			)
+		),
+		"corporate_donors" => array(
+			"title" => "Kurumsal Bağışçılarımız",
+			"title-en" => "Corporate Donors",
+			"col-md" => "col-md-3",
+			"supporters" => array(
+				array(
+					"title" => "KSV",
+					"image" => "/assets/images/content/destekcilerimiz/ksv.png",
+					"image_width" => "auto",
+					"link" => "https://www.ksvvakfi.org.tr",
+				),
+				array(
+					"title" => "Mudo Satış Mağazaları A.Ş.",
+					"image" => "/assets/images/content/destekcilerimiz/mudo.png",
+					"image_width" => "160",
+					"link" => "https://www.mudo.com.tr",
+				),
+				array(
+					"title" => "Sarkuysan Elektrolitik Bakır San ve Tic. A.Ş.",
+					"image" => "/assets/images/content/destekcilerimiz/sarkuysan.png",
+					"image_width" => "auto",
+					"link" => "https://www.sarkuysan.com",
+				)
+			)
+		),
+		"in_kind_donors" => array(
+			"title" => "Ayni Bağışçılarımız",
+			"title-en" => "In-kind Donors",
+			"col-md" => "col-md-4",
+			"supporters" => array(
+				array(
+					"title" => "Mazars Denge",
+					"image" => "/assets/images/content/destekcilerimiz/mazars-denge.png",
+					"image_width" => "auto",
+					"link" => "https://www.mazars.com.tr",
+				),
+				array(
+					"title" => "Turkish Philanthropy Fund",
+					"image" => "/assets/images/content/destekcilerimiz/turkish-philanthropy-fund.png",
+					"image_width" => "auto",
+					"link" => "https://www.tpfund.org",
+				),
+				array(
+					"title" => "Marjinal Porter Novelli",
+					"image" => "/assets/images/content/destekcilerimiz/supporter.jpg",
+					"image_width" => "auto",
+					"link" => "",
+				)
+			)
+		),
+		"individual_donors" => array(
+			"title" => "Bireysel Bağışçılarımız",
+			"title-en" => "Individual Donors",
+			"col-md" => "col-md-6",
+			"supporters" => array("Ahmet Kabakçı", "Ahmet Türker", "Arda Altun", "Asuman Bayrak", "Ayşegül Gurerk", "Ayşe Aydemir", "Başak Dal", "Burcu Şahbaz", "Burçak Gökçeer", "Can Senem Gürün", "Cem Akşehirlioğlu", "Cengiz Öntürk", "Derya Yanmış", "Dilek Yeşilbaş", "Elif Sağlam", "Engin Selcuk", "Enver Arsoy", "Fatma Nur Yaman", "Gamze Karacam", "Gözde Dalkıran", "Günay Ermergen", "Güzel Bozkurt", "Hazal Suzan Selçuk", "Hulusi Tok", "Hüseyin Kaya", "Irene Hulst", "İbrahim Betil", "Kazım Veysel Dolapçı", "Kerim Altınsoy", "Lütfi Öztürker", "Mehmet Dutar", "Mehmet Germeyanoğlu", "Mehmet Nurettin Pekarun", "Meryem İşliyen", "Mestan Özdemir", "Mesut Erol", "Mesut Kelle", "Mustafa Ballı", "Mücahit Gök", "Ozan Mahmudoğlu", "Ömer Özsakarya", "Rüveyda Şahin", "Seher Özkurt", "Seher Şimşek", "Sema Gümüş", "Semih Dilmen")
+		),
+		"other_supporters" => array(
+			array(
+				"title" => "Gönüllü Web Geliştirici",
+				"title-en" => "Volunteer Web Developer",
+				"supporter" => "Oğuz Kaan Çağatay Kılınç"
+			),
+			array(
+				"title" => "Gönüllü Faaliyet Raporu Tasarım",
+				"title-en" => "Volunteer Activity Report Design",
+				"supporter" => "B. Murat Toprak<br/>Marjinal Porter Novelli"
+			)
+		),
+		"secret_supporters" => array(
+			"title" => "Adının Açıklanmasını Tercih Etmeyen Bireysel ve Kurumsal Bağışçılarımız",
+			"title-en" => "Donors Prefferring not to Disclose Their Names",
+			"col-md" => "col-md-12",
+			"text" => "2024 Yılı Toplam: 390.050 TL",
+			"text-en" => "2024 Year Total: 413.350 TL"
+		)
+	),
+	"2023" => array(
+		"active" => false,
 		"title" => "2023 Yılı Destekçilerimiz",
 		"title-en" => "2023 Supporters",
 		"main_supporters" => array(
