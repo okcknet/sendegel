@@ -71,7 +71,7 @@ $supporters = array(
 		"corporate_donors" => array(
 			"title" => "Kurumsal Bağışçılarımız",
 			"title-en" => "Corporate Donors",
-			"col-md" => "col-md-3",
+			"col-md" => "col-md-4",
 			"supporters" => array(
 				array(
 					"title" => "KSV",
