@@ -30,11 +30,11 @@
                 <a href="../en/make-a-donation.php#section9" class="dropdown-toggle btn btn-secondary">Donate<i class="hidden-md hidden-lg icon icon-plus"></i></a>
               </li>
               <li><a href="/index.php">TR</a></li>
-              <li class="stk-logo">
+              <!-- <li class="stk-logo">
                 <a href="https://acikacik.org/stk/sivil-toplum-kurulusu/sosyal-ve--ekonomik-yasamda-nitelikli-degisim-ve-gelisime-destek-dernegi" target="_blank" title="Açık Açık NGO">
                   <img src="/assets/images/content/destekcilerimiz/acikacik.png" alt="Açık Açık"></a>
                 </a>
-              </li>
+              </li> -->
             </ul>
             <a href="javascript:;" class="navbar-nav-toggle hidden-md hidden-lg"><i class="icon icon-menu"></i></a>
           </div>
