@@ -91,11 +91,11 @@
 							<a class="link-underline" href="our-supporters.php" title="Our Supporters">Detailed Information</a>
 						</div>
 						<div class="card1-item">
-							<a href="https://drive.google.com/file/d/1dEoBdPEmqsoEyt5Wse1rudZe4nyKxHcU/view" title="Our Bylaws">
+							<a href="<?php echo $bylaws["en"]["file"]; ?>" target="_blank" title="<?php echo $bylaws["en"]["title"]; ?>">
 								<i class="icon icon-paper"></i>
-								<h4 class="card1-title">Our Bylaws</h4>
+								<h4 class="card1-title"><?php echo $bylaws["en"]["title"]; ?></h4>
 							</a>
-							<a class="link-underline" href="https://drive.google.com/file/d/1dEoBdPEmqsoEyt5Wse1rudZe4nyKxHcU/view" title="Our Bylaws">Detailed Information</a>
+							<a class="link-underline" href="<?php echo $bylaws["en"]["file"]; ?>" target="_blank" title="<?php echo $bylaws["en"]["title"]; ?>">Detailed Information</a>
 						</div>
 					</div>
 				</div>

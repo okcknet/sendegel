@@ -96,11 +96,11 @@
 							<a class="link-underline" href="/destekcilerimiz.php" title="Destekçilerimiz">Detaylı Bilgi</a>
 						</div>
 						<div class="card1-item">
-							<a href="https://drive.google.com/file/d/1Izeo8yBxrO9bON4AshGx23_6vp_HUzP8/view" target="_blank" title="Dernek Tüzüğümüz">
+							<a href="<?php echo $bylaws["tr"]["file"]; ?>" target="_blank" title="<?php echo $bylaws["tr"]["title"]; ?>">
 								<i class="icon icon-paper"></i>
-								<h4 class="card1-title">Dernek Tüzüğümüz</h4>
+								<h4 class="card1-title"><?php echo $bylaws["tr"]["title"]; ?></h4>
 							</a>
-							<a class="link-underline" href="https://drive.google.com/file/d/1Izeo8yBxrO9bON4AshGx23_6vp_HUzP8/view" target="_blank" title="Dernek Tüzüğümüz">Detaylı Bilgi</a>
+							<a class="link-underline" href="<?php echo $bylaws["tr"]["file"]; ?>" target="_blank" title="<?php echo $bylaws["tr"]["title"]; ?>">Detaylı Bilgi</a>
 						</div>
 					</div>
 				</div>
