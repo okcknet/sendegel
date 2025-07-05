@@ -382,52 +382,53 @@ $reports = array(
 	)
 );
 
+
 #projects
 $projects = array(
 	"all_projects" => array(
-		"update_date" => "2024-05-20",
+		"update_date" => "2025-07-05",
 		"title" => "Tüm Projeler",
 		"title-en" => "All Projects",
 		"our-title" => "Projelerimiz",
 		"our-title-en" => "Our All Projects",
-		"file" => "https://drive.google.com/file/d/1AhnS6hhp-DrwTenKOxZWNyHnTGMKLA2W/preview",
-		"file-en" => "https://drive.google.com/file/d/1wxCHdIpm9VFyMLd9xtY07TxqVQOaSyHJ/preview"
+		"file" => "https://drive.google.com/file/d/1xKz1WEvpPjljqiWrfwkWm8nqaDT7R4vy/preview",
+		"file-en" => "https://drive.google.com/file/d/1KgIVJdNDHWE9_Wr7sJL1cbqhLi3_66-3/preview"
 	),
 	"livestock_projects" => array(
-		"update_date" => "2024-05-20",
+		"update_date" => "2025-07-05",
 		"title" => "Hayvancılık Projeleri",
 		"title-en" => "Livestock Projects",
 		"our-title" => "Hayvancılık Projelerimiz",
 		"our-title-en" => "Our Livestock Projects",
-		"file" => "https://drive.google.com/file/d/1sMfveLzHSU85ThwKHoFoQvY7t4nERQCO/preview",
-		"file-en" => "https://drive.google.com/file/d/1t5deIvSWoATGcSTMscdQZuF7iPFUIN2c/preview"
+		"file" => "https://drive.google.com/file/d/12fc86HXAMznBW64GILhBsN87qdQm29ZZ/preview",
+		"file-en" => "https://drive.google.com/file/d/1XMXJijXDcw5wRb6NPBIREWcFqgs9ANRB/preview"
 	),
 	"solar_panel_projects" => array(
-		"update_date" => "2024-05-20",
+		"update_date" => "2025-07-05",
 		"title" => "Güneş Enerjisi Projeleri",
 		"title-en" => "Solar Energy Projects",
 		"our-title" => "Güneş Enerjisi Projelerimiz",
 		"our-title-en" => "Our Solar Energy Projects",
-		"file" => "https://drive.google.com/file/d/1_irV1xYHk1duPddfifsP6-d8Ajpp9WjX/preview",
-		"file-en" => "https://drive.google.com/file/d/1dLuXeoesiR99xkrODSEGRRIhMkX6Kjw0/preview"
+		"file" => "https://drive.google.com/file/d/1afTx1kZMTOfZ9iRIhHPhETaXxwvQSS_W/preview",
+		"file-en" => "https://drive.google.com/file/d/1nio9hQnVoNedSR0m7GrblXzI7cN2_UAQ/preview"
 	),
 	"water_well_projects" => array(
-		"update_date" => "2024-05-20",
+		"update_date" => "2025-07-05",
 		"title" => "Su Kuyusu Projeleri",
 		"title-en" => "Water Well Projects",
 		"our-title" => "Su Kuyusu Projelerimiz",
 		"our-title-en" => "Our Water Well Projects",
-		"file" => "https://drive.google.com/file/d/1UJNe1ccL8xBDQN_9w3KAbzPb7TG5zk8v/preview",
-		"file-en" => "https://drive.google.com/file/d/12yUmgcrW9j3slTjuj_uGhReh-fnxvD-a/preview"
+		"file" => "https://drive.google.com/file/d/1PUcRwXY79KCJoq8szLzV74ixq1hLHXhJ/preview",
+		"file-en" => "https://drive.google.com/file/d/1CMrvqWIulxZXefDQt_Vr9wO52EI9BuAq/preview"
 	),
 	"mill_projects" => array(
-		"update_date" => "2024-05-20",
+		"update_date" => "2025-07-05",
 		"title" => "Değirmen Projeleri",
 		"title-en" => "Mill Projects",
 		"our-title" => "Değirmen Projelerimiz",
 		"our-title-en" => "Our Mill Projects",
-		"file" => "https://drive.google.com/file/d/1PXCzh_7JRy0NKcyQNXFhgwzNMT2rGZUA/preview",
-		"file-en" => "https://drive.google.com/file/d/1lmU0mMGpGoorHQYkIBfL1A4NCuQFB8u7/preview"
+		"file" => "https://drive.google.com/file/d/1MO92leJMxHM3VlpN_8YJHKwtoXQ76Q1l/preview",
+		"file-en" => "https://drive.google.com/file/d/1pX0tvvEfjEM9O4T8Fwi9Hc1FWpSwrTXT/preview"
 	),
 	"women_garden_projects" => array(
 		"update_date" => "2024-05-20",
