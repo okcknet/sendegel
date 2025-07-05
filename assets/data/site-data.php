@@ -1,5 +1,5 @@
 <?php
-$affectedPeople = "535.000";
+$affectedPeople = "545.000";
 
 # membership fees
 $membershipFees = array(
@@ -24,6 +24,18 @@ $membershipFees = array(
 $membershipForms = array(
 	"individual" => "https://drive.google.com/file/d/1iopbhscuPqtW_-V34Ew3e3Ld3fxNRqY_/view",
 	"legal_entity" => "https://drive.google.com/file/d/1XH4F5uWvh4fpLK6-lKMAenw9-kHVlIj0/view"
+);
+
+# bylaws
+$bylaws = array(
+	"tr" => array(
+		"title" => "Dernek Tüzüğümüz",
+		"file" => "https://drive.google.com/file/d/1rKXcoBsR68qfOsm9x3Y2wURRhCPNfaBZ/view"
+	),
+	"en" => array(
+		"title" => "Our Bylaws",
+		"file" => "https://drive.google.com/file/d/1rDKCC38qZ-GBVTrNbAIj5mxTWcHyL2Ee/view"
+	)
 );
 
 # current annual report
